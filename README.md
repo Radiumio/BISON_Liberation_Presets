@@ -15,4 +15,4 @@
 Presets for the private BISON Liberation server are hosted here, for easily adding new presets and collaborating on existing ones.
 
 ## Want to Contribute Presets?
-~~*See our Wiki page for more information on how.*~~ ***UNDER CONSTRUCTION***
+See our Wiki page [here](https://github.com/TheRadiumDude/BISON_Liberation_Presets/wiki).
