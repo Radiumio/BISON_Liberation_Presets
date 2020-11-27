@@ -6,7 +6,7 @@
    <a href="https://github.com/TheRadiumDude/BISON_Liberation_Presets/issues">
     <img src="https://img.shields.io/github/issues/TheRadiumDude/BISON_Liberation_Presets?color=blue&style=for-the-badge" alt="BISON Issues">
   </a>
-    <img src="https://img.shields.io/github/forks/TheRadiumDude/BISON_Liberation_Presets?color=white&style=for-the-badge" alt="BISON Forks">
+    <img src="https://img.shields.io/github/forks/TheRadiumDude/BISON_Liberation_Presets?color=silver&style=for-the-badge" alt="BISON Forks">
   </a>
     <img src="https://img.shields.io/github/license/TheRadiumDude/BISON_Liberation_Presets?color=black&style=for-the-badge" alt="BISON License">
   </a>
