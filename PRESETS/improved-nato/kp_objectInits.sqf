@@ -133,7 +133,7 @@ KPLIB_objectInits = [
     // Change all built Nyx's to Olive instead of AAF digi
     [
         ["I_LT_01_AT_F", "I_LT_01_cannon_F", "I_LT_01_scout_F", "I_LT_01_AA_F"],
-        [_this,["Indep_Olive",1]] call BIS_fnc_initVehicle;}
+        {[_this,["Indep_Olive",1]] call BIS_fnc_initVehicle;}
     ],
     // Change all built Tarus, Taru Pods and Kajmans to Black instead of CSAT pattern
     [
@@ -144,6 +144,6 @@ KPLIB_objectInits = [
         "Land_Pod_Heli_Transport_04_repair_F",
         "Land_Pod_Heli_Transport_04_medevac_F",
         "Land_Pod_Heli_Transport_04_covered_F"],
-        [_this,["Black",1]] call BIS_fnc_initVehicle;}
+        {[_this,["Black",1]] call BIS_fnc_initVehicle;}
     ]
 ];
