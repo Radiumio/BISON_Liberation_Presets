@@ -160,7 +160,7 @@ air_vehicles = [
     ["O_T_Heli_Transport_04_bench_F",250,0,120],                        // Mi-290 Taru (Bench)
     ["O_T_Heli_Transport_04_box_F",250,0,120],                          // Mi-290 Taru (Cargo)
     ["O_T_Heli_Transport_04_fuel_F",200,0,320],                         // Mi-290 Taru (Fuel)
-    ["O_T_Heli_Transport_04_medevac_F",200,0,120],                      // Mi-290 Taru (Medical)
+    ["O_T_Heli_Transport_04_medevac_F",250,0,120],                      // Mi-290 Taru (Medical)
     ["O_T_Heli_Transport_04_repair_F",400,0,120],                       // Mi-290 Taru (Repair)
     ["O_T_Heli_Transport_04_covered_F",250,0,120],                      // Mi-290 Taru (Transport)
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
