@@ -145,7 +145,7 @@ KPLIB_objectInits = [
         "Land_Pod_Heli_Transport_04_medevac_ghex_F",
         "Land_Pod_Heli_Transport_04_covered_ghex_F"],
         [_this,["Black",1]] call BIS_fnc_initVehicle;}
-    ],
+    ]
 ];
 
 
