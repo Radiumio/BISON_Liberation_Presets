@@ -149,7 +149,7 @@ air_vehicles = [
     ["RHS_UH1Y_UNARMED",225,0,125],                                     // UH-1Y (Unarmed)
     ["RHS_UH1Y_GS",225,200,125],                                        // UH-1Y (Ground Suppression)
     ["B_Heli_Attack_01_dynamicLoadout_F",500,400,200],                  // AH-99 Blackfoot
-    ["O_T_Heli_Attack_02_dynamicLoadout_F",600,550,150],                // AH-99 Blackfoot
+    ["O_T_Heli_Attack_02_dynamicLoadout_F",600,550,150],                // Mi-48 Kajman
     ["RHS_AH1Z",500,500,200],                                           // AH-1Z (Multi-Role)
     ["RHS_AH64D_wd",750,750,250],                                       // AH-64D (Multi-Role)
     ["BWA3_Tiger_RMK_Universal",750,750,250],                           // UH Tiger RMK (Universal)
