@@ -156,12 +156,12 @@ air_vehicles = [
     ["B_Heli_Transport_01_F",250,80,150],                               // UH-80 Ghost Hawk
     ["B_Heli_Transport_01_camo_F",250,80,150],                          // UH-80 Ghost Hawk (Camo)
     ["O_T_Heli_Transport_04_F",200,0,120],                              // Mi-290 Taru
-    ["O_T_Heli_Transport_04_ammo_F",350,0,150],                         // Mi-290 Taru (Ammo)
-    ["O_T_Heli_Transport_04_bench_F",220,0,120],                        // Mi-290 Taru (Bench)
-    ["O_T_Heli_Transport_04_box_F",200,0,120],                          // Mi-290 Taru (Cargo)
-    ["O_T_Heli_Transport_04_fuel_F",200,0,300],                         // Mi-290 Taru (Fuel)
+    ["O_T_Heli_Transport_04_ammo_F",200,200,120],                       // Mi-290 Taru (Ammo)
+    ["O_T_Heli_Transport_04_bench_F",250,0,120],                        // Mi-290 Taru (Bench)
+    ["O_T_Heli_Transport_04_box_F",250,0,120],                          // Mi-290 Taru (Cargo)
+    ["O_T_Heli_Transport_04_fuel_F",200,0,320],                         // Mi-290 Taru (Fuel)
     ["O_T_Heli_Transport_04_medevac_F",200,0,120],                      // Mi-290 Taru (Medical)
-    ["O_T_Heli_Transport_04_repair_F",300,0,150],                       // Mi-290 Taru (Repair)
+    ["O_T_Heli_Transport_04_repair_F",400,0,120],                       // Mi-290 Taru (Repair)
     ["O_T_Heli_Transport_04_covered_F",250,0,120],                      // Mi-290 Taru (Transport)
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
