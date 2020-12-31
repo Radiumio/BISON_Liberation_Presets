@@ -432,7 +432,13 @@ support_vehicles = [
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
+    ["B_Slingload_01_Ammo_F",75,200,0],                                 // Huron Ammo
+    ["Land_Pod_Heli_Transport_04_ammo_F",0,200,0],                      // Taru Ammo Pod
+    ["Land_Pod_Heli_Transport_04_box_F",50,0,0],                        // Taru Cargo Pod
+    ["Land_Pod_Heli_Transport_04_fuel_F",0,0,200],                      // Taru Fuel Pod
+    ["Land_Pod_Heli_Transport_04_repair_F",200,0,0],                    // Taru Repair Pod
+    ["Land_Pod_Heli_Transport_04_medevac_ghex_F",50,0,0],               // Taru Medical Pod
+    ["Land_Pod_Heli_Transport_04_covered_ghex_F",50,0,0]                // Taru Transport Pod
 ];
 
 /*
