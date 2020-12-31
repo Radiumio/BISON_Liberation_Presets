@@ -1,10 +1,4 @@
 /*
-    NOTE: Please do NOT use this file! There are empty presets available in EMPTY_Presets.
-    These are just for example so you can see how it works.
-    - Radium
-*/
-
-/*
     --- Support classnames ---
     Each of these should be unique.
     The same classnames for different purposes may cause various unpredictable issues with player actions.
