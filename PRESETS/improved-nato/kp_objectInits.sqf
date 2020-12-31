@@ -138,13 +138,7 @@ KPLIB_objectInits = [
     
     // Change all built Tarus, Taru Pods and Kajmans to Black instead of CSAT pattern
     [
-        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "O_T_Heli_Attack_02_dynamicLoadout_F"
-        "Land_Pod_Heli_Transport_04_ammo_F",
-        "Land_Pod_Heli_Transport_04_box_F",
-        "Land_Pod_Heli_Transport_04_fuel_F",
-        "Land_Pod_Heli_Transport_04_repair_F",
-        "Land_Pod_Heli_Transport_04_medevac_F",
-        "Land_Pod_Heli_Transport_04_covered_F"],
+        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "O_T_Heli_Attack_02_dynamicLoadout_F", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F"],
         {[_this,["Black",1]] call BIS_fnc_initVehicle;}
     ]
 ];
