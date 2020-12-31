@@ -13,4 +13,4 @@
 | andre       | ✔              | ❌                | ❌            | ❌            | ❌         | ❌      |
 | Ryan        | ✔              | ✔                | ✔            | ❌            | ❌         | ✔      |
 
-*These perms have been last updated on `2020/12/31`.
+*These perms have been last updated on `2020/12/31`.*
