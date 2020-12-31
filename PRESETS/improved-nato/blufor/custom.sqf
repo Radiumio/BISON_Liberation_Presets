@@ -437,8 +437,8 @@ support_vehicles = [
     ["Land_Pod_Heli_Transport_04_box_F",50,0,0],                        // Taru Cargo Pod
     ["Land_Pod_Heli_Transport_04_fuel_F",0,0,200],                      // Taru Fuel Pod
     ["Land_Pod_Heli_Transport_04_repair_F",200,0,0],                    // Taru Repair Pod
-    ["Land_Pod_Heli_Transport_04_medevac_ghex_F",50,0,0],               // Taru Medical Pod
-    ["Land_Pod_Heli_Transport_04_covered_ghex_F",50,0,0]                // Taru Transport Pod
+    ["Land_Pod_Heli_Transport_04_medevac_F",50,0,0],               // Taru Medical Pod
+    ["Land_Pod_Heli_Transport_04_covered_F",50,0,0]                // Taru Transport Pod
 ];
 
 /*
