@@ -22,6 +22,9 @@ This version of the vanilla NATO faction expands upon their selection of decorat
 
 The stock Taru is made even more powerful logistics-wise with the **[XENO - Taru Pod Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=365549234)** as it can equip a wide range of mission-specific pods, allowing it to repair, refuel, rearm and provide medical facilities mid-field.
 
+## Decorations
+- 96 new decorative objects
+
 ## Object Inits
 - Nyx's now use the **Olive** paintjob instead of the **AAF** digi-camo.
 - Taru's and their respective pods, as well as the Kajman, are retextured to the **Black** paintjob to make it more faction-neutral.
