@@ -18,9 +18,10 @@ This version of the vanilla NATO faction expands upon their selection of decorat
 - Taru Fuel Pod
 - Taru Repair Pod
 - Taru Medical Pod
-- Taru Transport Pod
+- Taru Transport Pod **MOBILE RESPAWN**
+- Taru Bench Pod
 
-The stock Taru is made even more powerful logistics-wise with the **[XENO - Taru Pod Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=365549234)** as it can equip a wide range of mission-specific pods, allowing it to repair, refuel, rearm and provide medical facilities mid-field.
+The stock Taru is made even more powerful logistics-wise with the **[XENO - Taru Pod Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=365549234)** as it can equip a wide range of mission-specific pods, allowing it to repair, refuel, rearm, provide medical facilities and even a mobile respawn, mid-field.
 
 ## Decorations
 - 96 new decorative objects
