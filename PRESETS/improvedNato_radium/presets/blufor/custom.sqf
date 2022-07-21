@@ -110,7 +110,7 @@ heavy_vehicles = [
     ["rhsusf_m113_usarmy",200,40,100],                                  // M113A3 (M2)
     ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
-    ["I_LT_01_scout_F",200,0,125],                                      // AWC 302 Nyx (AA)
+    ["I_LT_01_scout_F",100,0,50],                                      // AWC 302 Nyx (Radar)
     ["B_APC_Wheeled_01_cannon_F",200,75,125],                           // AMV-7 Marshall
     ["I_APC_Wheeled_03_cannon_F",200,75,125],                           // AFV-4 Gorgon
     ["B_APC_Tracked_01_rcws_F",300,100,150],                            // IFV-6c Panther
