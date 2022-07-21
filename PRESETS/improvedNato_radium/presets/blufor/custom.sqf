@@ -119,9 +119,9 @@ heavy_vehicles = [
     ["BWA3_Puma_Fleck",300,225,150],                                    // IFV Puma
     ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
     ["B_APC_Tracked_01_AA_F",300,250,175],                              // IFV-6a Cheetah
-    ["I_LT_01_AA_F",300,250,175],                                       // AWC 302 Nyx (AA)
-    ["I_LT_01_AT_F",300,250,175],                                       // AWC 302 Nyx (AT)
-    ["I_LT_01_cannon_F",300,250,175],                                   // AWC 302 Nyx (Cannon)
+    ["I_LT_01_AA_F",100,100,50],                                        // AWC 302 Nyx (AA)
+    ["I_LT_01_AT_F",100,75,50],                                         // AWC 302 Nyx (AT)
+    ["I_LT_01_cannon_F",100,50,50],                                     // AWC 302 Nyx (Cannon)
     ["RHS_M6_wd",300,250,175],                                          // M6A2
     ["B_MBT_01_cannon_F",400,300,200],                                  // M2A1 Slammer
     ["CUP_B_Challenger2_NATO",400,300,200],                             // FV4034 Challenger 2
