@@ -167,6 +167,8 @@ air_vehicles = [
     ["O_T_Heli_Transport_04_medevac_F",250,0,120],                      // Mi-290 Taru (Medical)
     ["O_T_Heli_Transport_04_repair_F",400,0,120],                       // Mi-290 Taru (Repair)
     ["O_T_Heli_Transport_04_covered_F",250,0,120],                      // Mi-290 Taru (Transport)
+    ["O_T_VTOL_02_infantry_dynamicLoadout_F",300,250,100],              // Y-32 Xi'an (Infantry Transport)
+    ["O_T_VTOL_02_vehicle_dynamicLoadout_F",300,250,100],              // Y-32 Xi'an (Vehicle Transport)
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
     ["RHS_UH60M_MEV2",300,0,150],                                       // UH-60M MEV2
