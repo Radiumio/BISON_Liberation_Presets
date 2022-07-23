@@ -136,6 +136,8 @@ heavy_vehicles = [
     ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
     ["B_AFV_Wheeled_01_cannon_F",500,500,250],                          // Rhino MGS
     ["B_AFV_Wheeled_01_up_cannon_F",550,550,250],                       // Rhino MGS UP
+    ["O_T_MBT_04_cannon_F",600,450,300],                                // T-14 Armata
+    ["O_T_MBT_04_command_F",600,500,300],                               // T-14K Armata
     ["B_MBT_01_arty_F",600,1250,300],                                   // M4 Scorcher
     ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6
     ["B_MBT_01_mlrs_F",800,1750,400]                                    // M5 Sandstorm MLRS
@@ -168,7 +170,7 @@ air_vehicles = [
     ["O_T_Heli_Transport_04_repair_F",400,0,120],                       // Mi-290 Taru (Repair)
     ["O_T_Heli_Transport_04_covered_F",250,0,120],                      // Mi-290 Taru (Transport)
     ["O_T_VTOL_02_infantry_dynamicLoadout_F",300,250,100],              // Y-32 Xi'an (Infantry Transport)
-    ["O_T_VTOL_02_vehicle_dynamicLoadout_F",300,250,100],              // Y-32 Xi'an (Vehicle Transport)
+    ["O_T_VTOL_02_vehicle_dynamicLoadout_F",300,250,100],               // Y-32 Xi'an (Vehicle Transport)
     ["RHS_UH60M2",250,0,150],                                           // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                           // UH-60M
     ["RHS_UH60M_MEV2",300,0,150],                                       // UH-60M MEV2
@@ -228,6 +230,9 @@ buildings = [
     ["Land_Cargo_House_V1_F",0,0,0],
     ["Land_Cargo_Patrol_V1_F",0,0,0],
     ["Land_Cargo_Tower_V1_F",0,0,0],
+    ["Land_Airport_Tower_F",0,0,0],
+    ["Land_Airport_01_controlTower_F",0,0,0],
+    ["Land_Airport_02_controlTower_F",0,0,0],
     ["Flag_NATO_F",0,0,0],
     ["Flag_US_F",0,0,0],
     ["BWA3_Flag_Ger_F",0,0,0],
@@ -277,6 +282,9 @@ buildings = [
     ["Land_BagFence_Long_F",0,0,0],
     ["Land_BagFence_Corner_F",0,0,0],
     ["Land_BagFence_End_F",0,0,0],
+    ["Land_SandbagBarricade_01_half_F",0,0,0],
+    ["Land_SandbagBarricade_01_F",0,0,0],
+    ["Land_SandbagBarricade_01_hole_F",0,0,0],
     ["Land_BagBunker_Small_F",0,0,0],
     ["Land_BagBunker_Large_F",0,0,0],
     ["Land_BagBunker_Tower_F",0,0,0],
@@ -289,6 +297,14 @@ buildings = [
     ["Land_HBarrierWall_corner_F",0,0,0],
     ["Land_HBarrierWall_corridor_F",0,0,0],
     ["Land_HBarrierTower_F",0,0,0],
+    ["Land_Bunker_01_blocks_3_F",0,0,0],
+    ["Land_Bunker_01_blocks_1_F",0,0,0],
+    ["Land_Bunker_01_big_F",0,0,0],
+    ["Land_Bunker_01_HQ_F",0,0,0],
+    ["Land_Bunker_01_small_F",0,0,0],
+    ["Land_Bunker_01_tall_F",0,0,0],
+    ["Land_Dome_Small_F",0,0,0],
+    ["Land_Dome_Big_F",0,0,0],
     ["Land_CncBarrierMedium_F",0,0,0],
     ["Land_CncBarrierMedium4_F",0,0,0],
     ["Land_Concrete_SmallWall_4m_F",0,0,0],
@@ -296,6 +312,8 @@ buildings = [
     ["Land_CncShelter_F",0,0,0],
     ["Land_CncWall1_F",0,0,0],
     ["Land_CncWall4_F",0,0,0],
+    ["Land_Rail_ConcreteRamp_F",0,0,0],
+    ["Land_Pier_Box_F",0,0,0],
     ["Land_Sign_WarningMilitaryArea_F",0,0,0],
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
@@ -396,7 +414,10 @@ buildings = [
     ["Land_PortableLight_02_single_sand_F",0,0,0],
     ["Land_PortableLight_02_single_yellow_F",0,0,0],
     ["Land_TentLamp_01_standing_red_F",0,0,0],
-    ["Land_TentLamp_01_standing_F",0,0,0]
+    ["Land_TentLamp_01_standing_F",0,0,0],
+    ["Land_TentLamp_01_suspended_red_F",0,0,0],
+    ["Land_TentLamp_01_suspended_F",0,0,0],
+    ["Land_Camping_Light_F",0,0,0]
 ];
 
 support_vehicles = [
