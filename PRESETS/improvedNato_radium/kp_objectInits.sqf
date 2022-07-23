@@ -146,7 +146,7 @@ KPLIB_objectInits = [
     [
         ["O_T_VTOL_02_infantry_dynamicLoadout_F","O_T_VTOL_02_vehicle_dynamicLoadout_F"],
         {[_this,["Grey",1]] call BIS_fnc_initVehicle;}
-    ]
+    ],
 
     // Change all Armatas to Grey
     [
