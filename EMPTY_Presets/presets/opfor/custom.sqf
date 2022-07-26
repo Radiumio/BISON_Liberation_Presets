@@ -1,7 +1,9 @@
 /*
-    NOTE: Please do NOT use this file! There are empty presets available in EMPTY_Presets.
-    These are just for example so you can see how it works.
+    NOTE: Please use this file to make new presets, by copying it for editing in a new faction folder under PRESETS!
     - Radium
+
+    REQUIRED MODS:
+    - Fill this in!
 */
 
 // Enemy infantry classes
