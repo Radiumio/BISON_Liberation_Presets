@@ -78,7 +78,7 @@ opfor_vehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "rhssaf_army_o_m1025_olive_m2",
-    "rhssaf_army_o_m1025_olive_m2",
+    "rhssaf_army_o_m1025_olive_m2"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
