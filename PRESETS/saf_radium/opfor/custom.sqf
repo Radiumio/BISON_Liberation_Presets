@@ -46,6 +46,7 @@ militia_squad = [
     "rhssaf_army_o_m93_oakleaf_summer_crew",
     "rhssaf_army_o_m93_oakleaf_summer_crew",
     "rhssaf_army_o_m93_oakleaf_summer_crew",
+    "rhssaf_army_o_m93_oakleaf_summer_rifleman_at",
     "rhssaf_army_o_m93_oakleaf_summer_rifleman_m70",
     "rhssaf_army_o_m93_oakleaf_summer_rifleman_m70",
     "rhssaf_army_o_m93_oakleaf_summer_rifleman_m70",
@@ -87,6 +88,7 @@ opfor_battlegroup_vehicles = [
     "rhssaf_army_o_m1151_olive_pkm",
     "rhssaf_army_o_m1025_olive_m2",
     "rhssaf_airforce_o_l_18",
+    "rhssaf_airforce_o_l_18_101",
     "rhssaf_airforce_o_ht40",
     "rhssaf_airforce_o_ht48",
     "RHS_Mi24V_AT_vvsc"
@@ -111,12 +113,12 @@ opfor_troup_transports = [
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
     "rhssaf_airforce_o_ht40",
-    "rhssaf_airforce_o_ht48"
+    "rhssaf_airforce_o_ht48",
+    "RHS_Mi24V_AT_vvsc"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "rhssaf_airforce_o_l_18",
-    "rhssaf_airforce_o_l_18_101",
-    "RHS_Mi24V_AT_vvsc"
+    "rhssaf_airforce_o_l_18_101"
 ];
