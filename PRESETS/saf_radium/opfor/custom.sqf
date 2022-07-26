@@ -59,7 +59,8 @@ militia_vehicles = [
     "rhssaf_army_o_m1152_rsv_olive",
     "rhssaf_army_o_m1025_olive_m2",
     "rhssaf_army_o_m1025_olive_m2",
-    "rhssaf_army_o_m1025_olive_m2"
+    "rhssaf_army_o_m1025_olive_m2",
+    "rhs_btr80_msv"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -67,7 +68,10 @@ opfor_vehicles = [
     "rhssaf_army_o_t72s",
     "rhssaf_army_o_2s1",
     "rhssaf_army_o_m1151_olive_pkm",
-    "rhssaf_army_o_m1025_olive_m2"
+    "rhssaf_army_o_m1025_olive_m2",
+    "rhs_btr80a_msv",
+    "rhs_zsu234_aa",
+    "rhs_t90sab_tv"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -84,7 +88,8 @@ opfor_battlegroup_vehicles = [
     "rhssaf_army_o_m1025_olive_m2",
     "rhssaf_airforce_o_l_18",
     "rhssaf_airforce_o_ht40",
-    "rhssaf_airforce_o_ht48"
+    "rhssaf_airforce_o_ht48",
+    "RHS_Mi24V_AT_vvsc"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -112,5 +117,6 @@ opfor_choppers = [
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "rhssaf_airforce_o_l_18",
-    "rhssaf_airforce_o_l_18_101"
+    "rhssaf_airforce_o_l_18_101",
+    "RHS_Mi24V_AT_vvsc"
 ];
