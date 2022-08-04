@@ -224,7 +224,9 @@ static_vehicles = [
     ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
     ["RHS_M119_WD",100,200,0],                                          // M119A2
     ["B_SAM_System_03_F",250,500,0],                                    // MIM-145 Defender
-    ["B_AAA_System_01_F",250,500,0]                                     // Praetorian 1C
+    ["B_AAA_System_01_F",250,500,0],                                    // Praetorian 1C
+    ["B_SAM_System_01_F",250,500,0],                                    // Mk49 Spartan
+    ["B_SAM_System_02_F",250,500,0]                                     // Mk21 Centurion
 ];
 
 buildings = [
