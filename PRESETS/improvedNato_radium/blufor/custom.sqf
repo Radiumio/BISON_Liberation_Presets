@@ -140,7 +140,8 @@ heavy_vehicles = [
     ["O_T_MBT_04_command_F",600,500,300],                               // T-14K Armata
     ["B_MBT_01_arty_F",600,1250,300],                                   // M4 Scorcher
     ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6
-    ["B_MBT_01_mlrs_F",800,1750,400]                                    // M5 Sandstorm MLRS
+    ["B_MBT_01_mlrs_F",800,1750,400],                                   // M5 Sandstorm MLRS
+    ["B_Ship_MRLS_01_F",1000,2000,0]                                    // Mk 41 VLS
 ];
 
 air_vehicles = [
