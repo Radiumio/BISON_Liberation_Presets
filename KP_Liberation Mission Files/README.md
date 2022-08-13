@@ -1,0 +1,2 @@
+## ATTENTION
+This is a **DEVELOPMENT** folder for completed KP Liberation files. If you want to set up your own custom map, port KP_Liberation onto it and add it to this GitHub, please check out their official guide [here](https://github.com/KillahPotatoes/KP-Liberation/wiki/EN_Devkit).
