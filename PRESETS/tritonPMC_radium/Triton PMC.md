@@ -27,6 +27,7 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 ## Heavy Vehicles
 - AMV-7 Marshall (CV)
 - Otokar ARMA
+- UGV Uran RCWS **[ELITE LOCK]**
 - BTR-100 Bogatyr **[ELITE LOCK]**
 - BM-2T Stalker **[ELITE LOCK]**
 - Zamak MRL **[ELITE LOCK]**
@@ -40,6 +41,8 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - Mi-290 Taru
 - PO-30 Orca (UP)
 - Mi-48 Kajman **[ELITE LOCK]**
+- MQ-12 Falcon **[ELITE LOCK]**
+- Sokol 3T **[ELITE LOCK]**
 - Y-32 Xi'an (Infantry Transport) **[ELITE LOCK]**
 - Y-32 Xi'an (Vehicle Transport) **[ELITE LOCK]**
 - Yak-130 **[ELITE LOCK]**

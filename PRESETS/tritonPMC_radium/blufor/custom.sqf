@@ -70,6 +70,7 @@ light_vehicles = [
 heavy_vehicles = [
     ["B_ION_APC_Wheeled_01_command_lxWS",700,400,200],                    // AMV-7 Marshall (CV)
     ["O_T_APC_Wheeled_02_rcws_v2_ghex_F",750,500,250],                    // Otokar ARMA
+    ["O_R_UGV_01_rcws_F",650,450,150],                                    // UGV Uran RCWS
     ["O_R_APC_Wheeled_04_cannon_F",750,600,300],                          // BTR-100 Bogatyr
     ["O_R_APC_Tracked_02_cannon_F",800,750,450],                          // BM-2T Stalker
     ["O_T_Truck_02_MRL_F",1000,2000,100],                                 // Zamak MRL
@@ -83,6 +84,8 @@ air_vehicles = [
     ["O_T_Heli_Transport_04_F",350,0,300],                                // Mi-290 Taru  
     ["B_ION_Heli_Light_02_dynamicLoadout_lxWS",400,550,200],              // PO-30 Orca (UP)  
     ["O_R_Heli_Attack_02_dynamicLoadout_F",1000,800,500],                 // Mi-48 Kajman
+    ["B_UAV_03_dynamicLoadout_F",800,500,200],                            // MQ-12 Falcon
+    ["O_R_UAV_02_dynamicLoadout_F",850,450,250],                          // Sokol 3T
     ["O_T_VTOL_02_infantry_dynamicLoadout_F",1500,800,600],               // Y-32 Xi'an (Infantry Transport)
     ["O_T_VTOL_02_vehicle_dynamicLoadout_F",1500,800,600],                // Y-32 Xi'an (Vehicle Transport)
     ["O_R_Plane_CAS_02_dynamicLoadout_F",2000,3000,1500],                 // Yak-130
@@ -406,6 +409,7 @@ elite_vehicles = [
     "O_Raven_MRAP_02_HMG_F",
     "O_Raven_MRAP_02_GMG_F",
     "O_T_APC_Wheeled_02_rcws_v2_ghex_F",
+    "O_R_UGV_01_rcws_F"
     "O_R_APC_Wheeled_04_cannon_F",
     "O_R_APC_Tracked_02_cannon_F",
     "O_T_Truck_02_MRL_F",
@@ -414,5 +418,7 @@ elite_vehicles = [
     "O_T_VTOL_02_infantry_dynamicLoadout_F",
     "O_T_VTOL_02_vehicle_dynamicLoadout_F",
     "O_R_Plane_CAS_02_dynamicLoadout_F",
-    "O_R_Plane_Fighter_02_F"
+    "O_R_Plane_Fighter_02_F",
+    "B_UAV_03_dynamicLoadout_F",
+    "O_R_UAV_02_dynamicLoadout_F"
 ];

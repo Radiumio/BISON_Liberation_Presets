@@ -130,9 +130,9 @@ KPLIB_objectInits = [
         true
     ],
     
-    // Change all built Tarus, Taru Pods, Orcas, Quad Bikes and Little Birds to Black instead of CSAT pattern
+    // Change all built Tarus, Taru Pods, Orcas, Quad Bikes, Little Birds, Falcons to Black instead of CSAT pattern
     [
-        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "B_ION_Heli_Light_02_unarmed_lxWS","O_R_Heli_Attack_02_dynamicLoadout_F", "B_ION_Heli_Light_02_dynamicLoadout_lxWS", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_bench_F","B_Quadbike_01_F","B_Heli_Light_01_F","B_ION_APC_Wheeled_01_command_lxWS"],
+        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "B_ION_Heli_Light_02_unarmed_lxWS","O_R_Heli_Attack_02_dynamicLoadout_F", "B_ION_Heli_Light_02_dynamicLoadout_lxWS", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_bench_F","B_Quadbike_01_F","B_Heli_Light_01_F","B_ION_APC_Wheeled_01_command_lxWS","B_UAV_03_dynamicLoadout_F"],
         {[_this,["Black",1]] call BIS_fnc_initVehicle;}
     ],
 
@@ -154,9 +154,9 @@ KPLIB_objectInits = [
         {[_this,["Green",1],["HideAntenna",0,"HideSnorkel",0,"Hide_Shield",0,"Hide_Rail",0,"HideDoor1",0,"HideDoor2",0,"HideDoor3",0,"HideBackpacks",1,"HideBumper1",1,"HideBumper2",0,"HideConstruction",0]] call BIS_fnc_initVehicle;}
     ],
 
-    // Change all Typhoons and Galkins to Russia camo
+    // Change all Typhoons, Galkins and YABHON's to Russia camo
     [
-        ["O_R_Truck_03_covered_F","O_R_Truck_03_transport_F","O_R_Truck_03_repair_F","O_R_Truck_03_medical_F","O_R_Truck_03_fuel_F","O_R_Truck_03_ammo_F","O_Raven_MRAP_02_F","O_Raven_MRAP_02_GMG_F","O_Raven_MRAP_02_HMG_F"],
+        ["O_R_Truck_03_covered_F","O_R_Truck_03_transport_F","O_R_Truck_03_repair_F","O_R_Truck_03_medical_F","O_R_Truck_03_fuel_F","O_R_Truck_03_ammo_F","O_Raven_MRAP_02_F","O_Raven_MRAP_02_GMG_F","O_Raven_MRAP_02_HMG_F","B_UAV_02_dynamicLoadout_F"],
         {[_this,["Russia",1]] call BIS_fnc_initVehicle;}
     ],
 
