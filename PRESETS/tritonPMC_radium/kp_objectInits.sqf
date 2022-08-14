@@ -163,7 +163,13 @@ KPLIB_objectInits = [
     // Change ACE cargo for select vehicles
     [
         [O_T_Heli_Transport_04_covered_F, 36] call ace_cargo_fnc_setSpace;
+    ],
+   
+    [
         [O_T_VTOL_02_infantry_dynamicLoadout_F, 48] call ace_cargo_fnc_setSpace;
+    ],
+
+    [
         [O_T_VTOL_02_vehicle_dynamicLoadout_F, 72] call ace_cargo_fnc_setSpace;
-    ]
+    ]   
 ];
