@@ -409,7 +409,7 @@ elite_vehicles = [
     "O_Raven_MRAP_02_HMG_F",
     "O_Raven_MRAP_02_GMG_F",
     "O_T_APC_Wheeled_02_rcws_v2_ghex_F",
-    "O_R_UGV_01_rcws_F"
+    "O_R_UGV_01_rcws_F",
     "O_R_APC_Wheeled_04_cannon_F",
     "O_R_APC_Tracked_02_cannon_F",
     "O_T_Truck_02_MRL_F",
