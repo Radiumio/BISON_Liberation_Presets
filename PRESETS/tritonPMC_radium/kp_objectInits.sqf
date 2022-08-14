@@ -142,9 +142,9 @@ KPLIB_objectInits = [
         {[_this,["Grey",1]] call BIS_fnc_initVehicle;}
     ],
 
-    // Change all built Black Eagles, Zamak MRLs, Qilins, Radar and SAMs to Green
+    // Change all built Black Eagles, Zamak MRLs, Qilins, Radar, SAMs and UGV Uran's to Green
     [
-        ["O_T_MBT_02_cannon_ghex_F","O_T_APC_Wheeled_02_rcws_v2_ghex_F","O_R_APC_Tracked_02_cannon_F","O_R_APC_Wheeled_04_cannon_F","O_T_Truck_02_MRL_F","O_T_LSV_02_unarmed_F","O_T_LSV_02_armed_F","O_T_LSV_02_AT_F","O_T_Radar_System_02_F","O_T_SAM_System_04_F"],
+        ["O_T_MBT_02_cannon_ghex_F","O_T_APC_Wheeled_02_rcws_v2_ghex_F","O_R_APC_Tracked_02_cannon_F","O_R_APC_Wheeled_04_cannon_F","O_T_Truck_02_MRL_F","O_T_LSV_02_unarmed_F","O_T_LSV_02_armed_F","O_T_LSV_02_AT_F","O_T_Radar_System_02_F","O_T_SAM_System_04_F","O_R_UGV_01_rcws_F"],
         {[_this,["Green",1]] call BIS_fnc_initVehicle;}
     ],
 
@@ -154,9 +154,9 @@ KPLIB_objectInits = [
         {[_this,["Green",1],["HideAntenna",0,"HideSnorkel",0,"Hide_Shield",0,"Hide_Rail",0,"HideDoor1",0,"HideDoor2",0,"HideDoor3",0,"HideBackpacks",1,"HideBumper1",1,"HideBumper2",0,"HideConstruction",0]] call BIS_fnc_initVehicle;}
     ],
 
-    // Change all Typhoons, Galkins and YABHON's to Russia camo
+    // Change all Typhoons, Galkins and Sokol's to Russia camo
     [
-        ["O_R_Truck_03_covered_F","O_R_Truck_03_transport_F","O_R_Truck_03_repair_F","O_R_Truck_03_medical_F","O_R_Truck_03_fuel_F","O_R_Truck_03_ammo_F","O_Raven_MRAP_02_F","O_Raven_MRAP_02_GMG_F","O_Raven_MRAP_02_HMG_F","B_UAV_02_dynamicLoadout_F"],
+        ["O_R_Truck_03_covered_F","O_R_Truck_03_transport_F","O_R_Truck_03_repair_F","O_R_Truck_03_medical_F","O_R_Truck_03_fuel_F","O_R_Truck_03_ammo_F","O_Raven_MRAP_02_F","O_Raven_MRAP_02_GMG_F","O_Raven_MRAP_02_HMG_F","O_R_UAV_02_dynamicLoadout_F"],
         {[_this,["Russia",1]] call BIS_fnc_initVehicle;}
     ],
 
