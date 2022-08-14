@@ -1,5 +1,5 @@
 # Triton Private Military Corporation
-'Triton' is a Eastern-backed PMC notorious for its tendency to work for the highest bidder. While primarily sporting Russian gear, hundreds of elite operatives apart of Triton, known as 'Hunters', are given the best gear, and tasked with waging proxy wars on behalf of their benefactors.
+'Triton' is a Eastern-backed PMC notorious for its tendency to work for the highest bidder. While primarily sporting Russian gear, hundreds of elite operatives apart of Triton, known as 'Ravens', are given the best gear, and tasked with waging proxy wars on behalf of their benefactors.
 
 Although the PMC holds a pool of armored vehicles and armed attack helicopters, they are incredibly expensive to requisition, and as such the PMC often finds itself using 'hit-and-run' strike tactics, with cheap LSV's and helicopters at their disposal. 
 
