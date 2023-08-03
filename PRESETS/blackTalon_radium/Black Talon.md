@@ -24,10 +24,10 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - BT Damocles UP
 - BT Templar
 - BT Diceros UGV
-- BT Hammer
-- BT Shatter
-- BT Charybdis
-- BT Charybdis UP
+- BT Hammer **[ELITE LOCK]**
+- BT Shatter **[ELITE LOCK]**
+- BT Charybdis **[ELITE LOCK]**
+- BT Charybdis UP **[ELITE LOCK]**
 
 ## Air Vehicles
 - **RESPAWN VEHICLE:** BT Angel Transport
@@ -40,18 +40,18 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - BT Angel Cargo
 - AH-6M Little Bird
 - BT Taru Heavy Lift
-- BT HAV Icarus
-- BT HAC Death Bird
+- BT HAV Icarus **[ELITE LOCK]**
+- BT HAC Death Bird **[ELITE LOCK]**
 - MQ-12 Falcon
 - Sokol 3T
-- BT Guardian UCAV
-- BT Javelin UAV
+- BT Guardian UCAV **[ELITE LOCK]**
+- BT Javelin UAV **[ELITE LOCK]**
 - BT Orpheus Cargo
 - BT Orpheus Transport
 - BT Albatross Transport
 - BT Albatross Cargo
-- BT Demon Hunter
-- BT Inquisitor Fighter
+- BT Demon Hunter **[ELITE LOCK]**
+- BT Inquisitor Fighter **[ELITE LOCK]**
 
 ## Decorations
 - 184 free decorative objects

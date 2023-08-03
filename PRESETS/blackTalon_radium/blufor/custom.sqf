@@ -437,13 +437,8 @@ elite_vehicles = [
     "B_INTBlackTalon_BT_Charybdis_UP_01",
     "B_INTBlackTalon_BT_HAV_Icarus_01",
     "B_INTBlackTalon_BT_HAC_Death_Bird_01",
-    "O_R_UAV_02_dynamicLoadout_F",
     "B_INTBlackTalon_BT_Guardian_UCAV_01",
     "B_INTBlackTalon_BT_Javelin_UAV_01",
-    "B_INTBlackTalon_BT_Orpheus_Cargo_01",
-    "B_INTBlackTalon_BT_Orpheus_Transport_01",
-    "B_INTBlackTalon_BT_Albatross_Transport_01",
-    "B_INTBlackTalon_BT_Albatross_Cargo_01",
     "B_BINTBlackTalon_BT_Demon_Hunter_01",
     "B_INTBlackTalon_BT_Inquisitor_Fighter_01"
 ];
