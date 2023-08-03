@@ -48,7 +48,7 @@ infantry_units = [
     ["B_BINTBlackTalon_BT_Grenadier_01",25,0,0],                          // BT Grenadier
     ["B_INTBlackTalon_BT_Pilot_01",10,0,0],                               // BT Pilot
     ["B_INTBlackTalon_BT_Marksman_01",20,0,0],                            // BT Marksman
-    ["B_INTBlackTalon_BT_Combat_Medic_01",20,0,0]                         // BT Combat Medic
+    ["B_INTBlackTalon_BT_Combat_Medic_01",20,0,0],                        // BT Combat Medic
     ["B_INTBlackTalon_BT_Operator_01",10,0,0],                            // BT Operator
     ["B_INTBlackTalon_BT_Light_AT_01",30,0,0],                            // BT Light AT
     ["B_INTBlackTalon_BT_Fireteam_Leader_01",10,0,0],                     // BT Fireteam Leader
@@ -74,7 +74,7 @@ light_vehicles = [
     ["O_T_LSV_02_armed_F",300,500,95],                                    // Qilin M134
     ["O_T_LSV_02_AT_F",300,500,95],                                       // Qilin Metis
     ["B_INTBlackTalon_BT_Transport_Truck_01",300,0,150],                  // BT Transport Truck
-    ["B_INTBlackTalon_BT_Komodo_MRAP_01",600,300,100],                    // BT Komodo MRAP
+    ["B_INTBlackTalon_BT_Komodo_MRAP_01",600,300,100]                     // BT Komodo MRAP
 ];
 
 heavy_vehicles = [
