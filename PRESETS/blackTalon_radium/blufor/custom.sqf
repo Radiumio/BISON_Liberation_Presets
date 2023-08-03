@@ -27,7 +27,7 @@ KP_liberation_truck_classname = "B_INTBlackTalon_BT_Transport_Truck_01";  // The
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";       // A small storage area for resources. LEAVE AS IS.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";       // A large storage area for resources. LEAVE AS IS.
 KP_liberation_recycle_building = "Land_RepairDepot_01_civ_F";             // The building defined to unlock FOB recycling functionality.
-KP_liberation_air_vehicle_building = "O_T_Radar_System_02_F";             // The building defined to unlock FOB air vehicle functionality.
+KP_liberation_air_vehicle_building = "B_Radar_System_01_F";               // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";                // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";               // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate = "CargoNet_01_box_F";                         // This defines the supply crates, as in resources. LEAVE AS IS.
@@ -322,8 +322,8 @@ support_vehicles = [
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
     [KP_liberation_large_storage_building,0,0,0],                       // You can use this to adjust the price of a large storage area. Generally free.
     [KP_liberation_recycle_building,800,0,0],                           // You can use this to adjust the price of a recycling/maintenance building. 
-    [KP_liberation_air_vehicle_building,0,0,0],                      // You can use this to adjust the price of the Flight Control building.
-    [KP_liberation_heli_slot_building,0,0,0],                         // You can use this to adjust the price of a heli slot building.
+    [KP_liberation_air_vehicle_building,0,0,0],                         // You can use this to adjust the price of the Flight Control building.
+    [KP_liberation_heli_slot_building,0,0,0],                           // You can use this to adjust the price of a heli slot building.
     [KP_liberation_plane_slot_building,500,0,0],                        // You can use this to adjust the price of a plane slot building.
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
