@@ -132,7 +132,7 @@ KPLIB_objectInits = [
     
     // Change all built Tarus, Taru Pods, Orcas, Quad Bikes, Little Birds, Falcons to Black instead of CSAT pattern
     [
-        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "B_ION_Heli_Light_02_unarmed_lxWS","O_R_Heli_Attack_02_dynamicLoadout_F", "B_ION_Heli_Light_02_dynamicLoadout_lxWS", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_bench_F","B_Quadbike_01_F","B_Heli_Light_01_F","B_ION_APC_Wheeled_01_command_lxWS","B_UAV_03_dynamicLoadout_F"],
+        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "B_ION_Heli_Light_02_unarmed_lxWS","O_R_Heli_Attack_02_dynamicLoadout_F", "B_ION_Heli_Light_02_dynamicLoadout_lxWS", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_bench_F","B_Quadbike_01_F","B_Heli_Light_01_F","B_ION_APC_Wheeled_01_command_lxWS","B_UAV_03_dynamicLoadout_F","B_INTBlackTalon_BT_RAV_Angry_Bird_01","B_INTBlackTalon_BT_RIV_Little_Bird_01"],
         {[_this,["Black",1]] call BIS_fnc_initVehicle;}
     ],
 
@@ -174,5 +174,15 @@ KPLIB_objectInits = [
     [
         ["O_T_VTOL_02_vehicle_dynamicLoadout_F"],
         {[_this, 72] call ace_cargo_fnc_setSpace;}
-    ]   
+    ], 
+
+    [
+        ["B_INTBlackTalon_BT_Albatross_Cargo_01"],
+        {[_this, 72] call ace_cargo_fnc_setSpace;}
+    ], 
+
+    [
+        ["B_INTBlackTalon_BT_Albatross_Transport_01"],
+        {[_this, 72] call ace_cargo_fnc_setSpace;}
+    ] 
 ];
