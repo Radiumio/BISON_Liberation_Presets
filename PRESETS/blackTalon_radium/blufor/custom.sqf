@@ -101,7 +101,7 @@ air_vehicles = [
     ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Taru Heavy Lift
     ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT HAV Icarus
     ["B_INTBlackTalon_BT_HAC_Death_Bird_01",500,400,250],                 // BT HAC Death Bird
-    ["B_UAV_03_dynamicLoadout_F",400,250,100],                            // MQ-12 Falcon
+    ["B_T_UAV_03_dynamicLoadout_F",400,250,100],                            // MQ-12 Falcon
     ["O_R_UAV_02_dynamicLoadout_F",450,250,150],                          // Sokol 3T
     ["B_INTBlackTalon_BT_Guardian_UCAV_01",500,300,200],                  // BT Guardian UCAV
     ["B_INTBlackTalon_BT_Javelin_UAV_01",400,250,100],                    // BT Javelin UAV
@@ -131,9 +131,10 @@ buildings = [
     ["Land_MedicalTent_01_NATO_generic_open_F",0,0,0],
     ["Land_MedicalTent_01_NATO_generic_outer_F",0,0,0],
     ["Land_Cargo_Patrol_V2_F",0,0,0],
-    ["Land_GuardTower_01_F",0,0,0],
+    ["Land_Cargo_House_V3_F",0,0,0],
+    ["Land_Cargo_Patrol_V3_F",0,0,0],
+    ["Land_Cargo_Tower_V3_F",0,0,0],
     ["Land_ControlTower_01_F",0,0,0],
-    ["CargoPlaftorm_01_jungle_F",0,0,0],
     ["Flag_RedLion_F",0,0,0],
     ["Flag_Red_F",0,0,0],
     ["Flag_EnochLooters_F",0,0,0],
@@ -142,6 +143,7 @@ buildings = [
     ["CamoNet_BLUFOR_F",0,0,0],
     ["CamoNet_BLUFOR_open_F",0,0,0],
     ["CamoNet_BLUFOR_big_F",0,0,0],
+    ["Land_ConcreteHedgehog_01_F",0,0,0],
     ["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
     ["Land_HelipadCircle_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
@@ -441,5 +443,6 @@ elite_vehicles = [
     "B_INTBlackTalon_BT_Guardian_UCAV_01",
     "B_INTBlackTalon_BT_Javelin_UAV_01",
     "B_BINTBlackTalon_BT_Demon_Hunter_01",
-    "B_INTBlackTalon_BT_Inquisitor_Fighter_01"
+    "B_INTBlackTalon_BT_Inquisitor_Fighter_01",
+    "B_T_UAV_03_dynamicLoadout_F"
 ];
