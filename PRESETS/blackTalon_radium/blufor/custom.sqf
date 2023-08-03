@@ -96,6 +96,7 @@ air_vehicles = [
     ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD
     ["B_INTBlackTalon_BT_RAV_Angry_Bird_01",150,100,100],                 // BT RAV Angry Bird
     ["B_BINTBlackTalon_BT_Angel_Cargo_01",100,150,200],                   // BT Angel Cargo
+    ["B_INTBlackTalon_BT_FTV_Huron_01",100,150,200],                     // BT FTV Huron
     ["RHS_MELB_AH6M",150,100,100],                                        // AH-6M Little Bird 
     ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Taru Heavy Lift
     ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT HAV Icarus

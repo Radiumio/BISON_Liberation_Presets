@@ -165,6 +165,11 @@ KPLIB_objectInits = [
         ["O_T_Heli_Transport_04_covered_F"],
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
+
+    [
+        ["B_BINTBlackTalon_BT_Angel_Cargo_01"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
    
     [
         ["O_T_VTOL_02_infantry_dynamicLoadout_F"],
