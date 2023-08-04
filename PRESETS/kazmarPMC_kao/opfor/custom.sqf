@@ -8,9 +8,9 @@
 
 // Enemy infantry classes
 opfor_officer = "O_INTKAZMAR_343_Elite_Squadleader_URB_01";           // 343 Elite Squadleader                   
-opfor_squad_leader = "O_INTKAZMAR_TF_Horizon_Squadleader_URB_01";     // TF Horizon Squadleader                     
+opfor_squad_leader = "O_INTKAZMAR_343_Elite_Agent_URB_01";            // TF Horizon Squadleader                     
 opfor_team_leader = "O_INTKAZMAR_TF_Horizon_Squadleader_URB_01";      // TF Horizon Squadleader                  
-opfor_sentry = "";                 // TF Horizon Agent                        
+opfor_sentry = "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01";         // TF Horizon Sentry                        
 opfor_rifleman = "O_INTKAZMAR_TF_Horizon_Agent_URB_01";               // TF Horizon Agent      
 opfor_rpg = "O_INTKAZMAR_TF_Horizon_LAT_Agent_URB_01";                // TF Horizon LAT Agent                      
 opfor_grenadier = "O_INTKAZMAR_TF_Horizon_Grenadier_URB_01";          // TF Horizon Grenadier                    
@@ -18,12 +18,12 @@ opfor_machinegunner = "O_INTKAZMAR_TF_Horizon_Machinegunner_URB_01";  // TF Hori
 opfor_heavygunner = "O_INTKAZMAR_TF_Horizon_Bulldozer_URB_01";        // TF Horizon Bulldozer                           
 opfor_marksman = "O_INTKAZMAR_TF_Horizon_Agent_URB_01";               // TF Horizon Agent                       
 opfor_sharpshooter = "O_INTKAZMAR_343_Elite_Agent_URB_01";            // 343 Elite Agent                 
-opfor_sniper = "O_INTKAZMAR_343_Elite_Agent_URB_01";                  // 343 Elite Agent                                 
+opfor_sniper = "O_OINTKAZMARURB_Taskforce_Horizon_Sniper_01";         // TF Horizon Sniper                               
 opfor_at = "O_INTKAZMAR_TF_Horizon_AT_Specialist_URB_01";             // TF Horizon AT Specialist                   
 opfor_aa = "O_INTKAZMAR_TF_Horizon_AA_Specialist_URB_01";             // TF Horizon AA Specialist                              
 opfor_medic = "O_INTKAZMAR_TF_Horizon_Medic_URB_01";                  // TF Horizon Medic                            
-opfor_engineer = "";               // TF Horizon Agent                            
-opfor_paratrooper = "O_INTKAZMAR_TF_Horizon_Agent_URB_01";            // TF Horizon Agent        
+opfor_engineer = "O_OINTKAZMARURB_Taskforce_Horizon_Engineer_01";     // TF Horizon Engineer                            
+opfor_paratrooper = "O_INTKAZMAR_343_Elite_Agent_URB_01";             // 343 Elite Agent        
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "O_INTKAZMAR_K3V12_LPTV_URB_01";                         // K3V12 LPTV             
@@ -44,11 +44,11 @@ Therefore, adding the same value twice or three times means they are more likely
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
     "O_INTKAZMAR_TF_Horizon_Squadleader_URB_01",
-    "O_INTKAZMAR_TF_Horizon_Agent_URB_01",
-    "O_INTKAZMAR_TF_Horizon_Agent_URB_01",
-    "O_INTKAZMAR_TF_Horizon_Agent_URB_01",
-    "O_INTKAZMAR_TF_Horizon_Agent_URB_01",
-    "O_INTKAZMAR_TF_Horizon_Agent_URB_01",
+    "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01",
+    "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01",
+    "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01",
+    "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01",
+    "O_OINTKAZMARURB_Taskforce_Horizon_Sentry_01",
     "O_INTKAZMAR_TF_Horizon_LAT_Agent_URB_01"
 ];
 
@@ -65,7 +65,8 @@ opfor_vehicles = [
     "O_INTKAZMAR_K4V120_AITV_URB_01",
     "O_INTKAZMAR_K3V21_LPTV_AT_URB_01",
     "O_INTKAZMAR_K3V13_LPTV_MG_URB_01",
-    "O_INTKAZMAR_K9ADV_Gambit_URB_01"
+    "O_INTKAZMAR_K9ADV_Gambit_URB_01",
+    "O_OINTKAZMARURB_K13HVGAA_Avizandum_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -83,7 +84,8 @@ opfor_battlegroup_vehicles = [
     "O_INTKAZMAR_KTH_12P_Wasp_URB_01",
     "O_INTKAZMAR_KTH_21_Atlatl_URB_01",
     "O_INTKAZMAR_KTAV_101V3_Dragon_III_URB_01",
-    "O_INTKAZMAR_KTAV_65V2S_Queen_Bee_URB_01"
+    "O_INTKAZMAR_KTAV_65V2S_Queen_Bee_URB_01",
+    "O_OINTKAZMARURB_K13HVGAA_Avizandum_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
