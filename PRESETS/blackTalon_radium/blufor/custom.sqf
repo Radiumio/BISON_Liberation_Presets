@@ -96,19 +96,19 @@ air_vehicles = [
     ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD
     ["B_INTBlackTalon_BT_RAV_Angry_Bird_01",150,100,100],                 // BT RAV Angry Bird
     ["B_BINTBlackTalon_BT_Angel_Cargo_01",100,150,200],                   // BT Angel Cargo
-    ["B_INTBlackTalon_BT_FTV_Huron_01",100,150,200],                     // BT FTV Huron
+    ["B_INTBlackTalon_BT_FTV_Huron_01",100,150,200],                      // BT FTV Huron
     ["RHS_MELB_AH6M",150,100,100],                                        // AH-6M Little Bird 
     ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Taru Heavy Lift
     ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT HAV Icarus
     ["B_INTBlackTalon_BT_HAC_Death_Bird_01",500,400,250],                 // BT HAC Death Bird
-    ["B_T_UAV_03_dynamicLoadout_F",400,250,100],                            // MQ-12 Falcon
+    ["B_T_UAV_03_dynamicLoadout_F",400,250,100],                          // MQ-12 Falcon
     ["O_R_UAV_02_dynamicLoadout_F",450,250,150],                          // Sokol 3T
     ["B_INTBlackTalon_BT_Guardian_UCAV_01",500,300,200],                  // BT Guardian UCAV
     ["B_INTBlackTalon_BT_Javelin_UAV_01",400,250,100],                    // BT Javelin UAV
     ["B_INTBlackTalon_BT_Orpheus_Cargo_01",500,250,250],                  // BT Orpheus Cargo
     ["B_INTBlackTalon_BT_Orpheus_Transport_01",500,250,250],              // BT Orpheus Transport
-    ["B_INTBlackTalon_BT_Albatross_Transport_01",1000,0,300],             // BT Albatross Transport
-    ["B_INTBlackTalon_BT_Albatross_Cargo_01",1000,0,300],                 // BT Albatross Cargo
+    ["B_INTBlackTalon_BT_Albatross_Transport_01",0,0,0],                  // BT Albatross Transport
+    ["B_INTBlackTalon_BT_Albatross_Cargo_01",0,0,0],                      // BT Albatross Cargo
     ["B_BINTBlackTalon_BT_Demon_Hunter_01",2000,1500,450],                // BT Demon Hunter
     ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",3000,3000,1500]           // BT Inquisitor Fighter
 ];
@@ -326,7 +326,7 @@ support_vehicles = [
     [KP_liberation_recycle_building,800,0,0],                           // You can use this to adjust the price of a recycling/maintenance building. 
     [KP_liberation_air_vehicle_building,0,0,0],                         // You can use this to adjust the price of the Flight Control building.
     [KP_liberation_heli_slot_building,0,0,0],                           // You can use this to adjust the price of a heli slot building.
-    [KP_liberation_plane_slot_building,500,0,0],                        // You can use this to adjust the price of a plane slot building.
+    [KP_liberation_plane_slot_building,0,0,0],                          // You can use this to adjust the price of a plane slot building.
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
@@ -386,7 +386,8 @@ blufor_squad_inf = [
     "B_INTBlackTalon_BT_Heavy_AT_01",
     "B_INTBlackTalon_BT_Heavy_Machinegunner_01",
     "B_BINTBlackTalon_BT_Grenadier_01",
-    "B_INTBlackTalon_BT_Combat_Medic_01"
+    "B_INTBlackTalon_BT_Combat_Medic_01",
+    "B_INTBlackTalon_BTM_Juggernaut_01"
 ];
 
 // AT specialists squad.
