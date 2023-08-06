@@ -82,10 +82,11 @@ heavy_vehicles = [
     ["B_INTBlackTalon_BT_Damocles_UP_01",900,550,250],                    // BT Damocles UP
     ["B_INTBlackTalon_BT_Templar_01",650,450,150],                        // BT Templar
     ["B_INTBlackTalon_BT_Diceros_UGV_01",400,300,100],                    // BT Diceros UGV
+    ["B_INTBlackTalon_BT_Skybreaker_01",1800,2500,500],                   // BT Skybreaker
     ["B_INTBlackTalon_BT_Hammer_01",1000,2000,200],                       // BT Hammer
     ["B_INTBlackTalon_BT_Shatter_01",1500,3000,200],                      // BT Shatter
-    ["B_INTBlackTalon_BT_Charybdis_01",2000,1500,500],                    // BT Charybdis
-    ["B_INTBlackTalon_BT_Charybdis_UP_01",2000,2000,500]                  // BT Charybdis UP
+    ["B_INTBlackTalon_BT_Charybdis_01",2000,1500,800],                    // BT Charybdis
+    ["B_INTBlackTalon_BT_Charybdis_UP_01",2000,2000,800]                  // BT Charybdis UP
 ];
 
 air_vehicles = [
@@ -130,6 +131,7 @@ static_vehicles = [
 buildings = [
     ["Land_MedicalTent_01_NATO_generic_open_F",0,0,0],
     ["Land_MedicalTent_01_NATO_generic_outer_F",0,0,0],
+    ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Cargo_Patrol_V2_F",0,0,0],
     ["Land_Cargo_House_V3_F",0,0,0],
     ["Land_Cargo_Patrol_V3_F",0,0,0],
@@ -146,6 +148,7 @@ buildings = [
     ["Land_ConcreteHedgehog_01_F",0,0,0],
     ["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
+    ["Land_LampHalogen_F",0,0,0],
     ["Land_HelipadCircle_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
     ["Land_HelipadRescue_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
     ["PortableHelipadLight_01_blue_F",0,0,0],
