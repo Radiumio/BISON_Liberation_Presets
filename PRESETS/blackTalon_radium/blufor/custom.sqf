@@ -18,7 +18,7 @@ FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // Thi
 FOB_truck_typename = "O_T_Truck_03_device_ghex_F";                        // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "O_R_Truck_03_covered_F";                        // This is the mobile respawn (and medical) truck.
-huron_typename = "B_BINTBlackTalon_BT_Angel_Transport_01";                // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "B_INTBlackTalon_BT_FTV_Huron_01";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_INTBlackTalon_BT_Operator_01";                     // This defines the crew for vehicles.
 pilot_classname = "B_INTBlackTalon_BT_Pilot_01";                          // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "B_INTBlackTalon_BT_RIV_Little_Bird_01"; // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -60,8 +60,8 @@ infantry_units = [
     ["B_INTBlackTalon_BT_Specialist_AT_01",40,0,0],                       // BT Specialist AT
     ["B_INTBlackTalon_BTM_Juggernaut_01",100,0,0],                        // BT Juggernaut
     ["B_INTBlackTalon_BTM_Spec_Ops_Combat_Medic_01",15,0,0],              // BTM Spec-Ops Combat Medic
-    ["B_INTBlackTalon_BTM_Spec_Ops_Leader_01",100,0,0],                   // BTM Spec-Ops Leader
-    ["B_INTBlackTalon_BTM_Spec_Ops_Sniper_01",100,0,0],                   // BTM Spec-Ops Sniper
+    ["B_INTBlackTalon_BTM_Spec_Ops_Leader_01",15,0,0],                    // BTM Spec-Ops Leader
+    ["B_INTBlackTalon_BTM_Spec_Ops_Sniper_01",50,0,0],                    // BTM Spec-Ops Sniper
     ["B_INTBlackTalon_BTM_Spec_Ops_Operator_01",15,0,0]                   // BTM Spec-Ops Operator
 ];
 
@@ -83,8 +83,8 @@ heavy_vehicles = [
     ["B_INTBlackTalon_BT_Templar_01",650,450,150],                        // BT Templar
     ["B_INTBlackTalon_BT_Diceros_UGV_01",400,300,100],                    // BT Diceros UGV
     ["B_INTBlackTalon_BT_Skybreaker_01",1800,2500,500],                   // BT Skybreaker
-    ["B_INTBlackTalon_BT_Hammer_01",1000,2000,200],                       // BT Hammer
-    ["B_INTBlackTalon_BT_Shatter_01",1500,3000,200],                      // BT Shatter
+    ["B_INTBlackTalon_BT_Hammer_01",1000,2000,500],                       // BT Hammer
+    ["B_INTBlackTalon_BT_Shatter_01",1500,3000,500],                      // BT Shatter
     ["B_INTBlackTalon_BT_Charybdis_01",2000,1500,800],                    // BT Charybdis
     ["B_INTBlackTalon_BT_Charybdis_UP_01",2000,2000,800]                  // BT Charybdis UP
 ];
@@ -96,8 +96,8 @@ air_vehicles = [
     ["B_BINTBlackTalon_BT_Oracle_MRV_01",0,0,0],                          // BT Oracle MRV
     ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD
     ["B_INTBlackTalon_BT_RAV_Angry_Bird_01",150,100,100],                 // BT RAV Angry Bird
-    ["B_BINTBlackTalon_BT_Angel_Cargo_01",100,150,200],                   // BT Angel Cargo
-    ["B_INTBlackTalon_BT_FTV_Huron_01",100,150,200],                      // BT FTV Huron
+    ["B_BINTBlackTalon_BT_Angel_Cargo_01",200,100,200],                   // BT Angel Cargo
+    ["B_BINTBlackTalon_BT_Angel_Transport_01",100,100,200],               // BT Angel Transport
     ["RHS_MELB_AH6M",150,100,100],                                        // AH-6M Little Bird 
     ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Taru Heavy Lift
     ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT HAV Icarus
