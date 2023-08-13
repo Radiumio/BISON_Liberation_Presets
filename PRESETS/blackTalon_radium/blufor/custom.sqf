@@ -111,7 +111,7 @@ air_vehicles = [
     ["B_INTBlackTalon_BT_Albatross_Transport_01",0,0,0],                  // BT Albatross Transport
     ["B_INTBlackTalon_BT_Albatross_Cargo_01",0,0,0],                      // BT Albatross Cargo
     ["B_BINTBlackTalon_BT_Demon_Hunter_01",2000,1500,450],                // BT Demon Hunter
-    ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",3000,3000,1500]           // BT Inquisitor Fighter
+    ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",1500,1500,750]           // BT Inquisitor Fighter
 ];
 
 static_vehicles = [
