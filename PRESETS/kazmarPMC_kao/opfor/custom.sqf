@@ -66,43 +66,44 @@ opfor_vehicles = [
     "O_INTKAZMAR_K3V21_LPTV_AT_URB_01",
     "O_INTKAZMAR_K3V13_LPTV_MG_URB_01",
     "O_INTKAZMAR_K9ADV_Gambit_URB_01",
-    "O_OINTKAZMARURB_K13HVGAA_Avizandum_01"
+    "O_INTKAZMAR_KTH_12P_Wasp_URB_01",
+    "O_INTKAZMAR_K2V2_Vengeance_URB_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "O_INTKAZMAR_K3V13_LPTV_MG_URB_01"
+    "O_INTKAZMAR_K3V13_LPTV_MG_URB_01",
+    "O_INTKAZMAR_K3V12_LPTV_URB_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
     "O_INTKAZMAR_K2V3_Retribution_URB_01",
-    "O_INTKAZMAR_K2V2_Vengeance_URB_01",
     "O_INTKAZMAR_K7V3_Paladin_URB_01",
     "O_INTKAZMAR_K4V138_AHCITV_URB_02",
     "O_INTKAZMAR_K7V2_Knight_URB_01",
     "O_INTKAZMAR_KTH_12P_Wasp_URB_01",
     "O_INTKAZMAR_KTH_21_Atlatl_URB_01",
-    "O_INTKAZMAR_KTAV_101V3_Dragon_III_URB_01",
-    "O_INTKAZMAR_KTAV_65V2S_Queen_Bee_URB_01",
-    "O_OINTKAZMARURB_K13HVGAA_Avizandum_01"
+    "O_INTKAZMAR_K7ADV_Checkmate_URB_01",
+    "O_INTKAZMAR_KTH_50_Razorback_URB_01",
+    "O_INTKAZMAR_K2V2_Vengeance_URB_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "O_INTKAZMAR_K4V136_AHCITV_URB_01",
-    "O_INTKAZMAR_K7ADV_Checkmate_URB_01",
     "O_INTKAZMAR_K7V1_Rook_URB_01",
     "O_INTKAZMAR_K2V1_Karma_URB_01",
-    "O_INTKAZMAR_KTH_12P_Wasp_URB_01"
+    "O_INTKAZMAR_KTH_12P_Wasp_URB_01",
+    "O_INTKAZMAR_K2V1_Karma_URB_01"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
     "O_INTKAZMAR_K4V136_AHCITV_URB_01",
-    "O_INTKAZMAR_K4V136_AHCITV_URB_01",
-    "O_INTKAZMAR_K4V138_AHCITV_URB_02"
+    "O_INTKAZMAR_K4V138_AHCITV_URB_02",
+    "O_INTKAZMAR_KTH_50_Razorback_URB_01"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
