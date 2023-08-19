@@ -17,7 +17,8 @@ FOB_typename = "Land_Cargo_HQ_V3_F";                                      // Thi
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // This is the FOB as a container.
 FOB_truck_typename = "O_T_Truck_03_device_ghex_F";                        // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "O_R_Truck_03_covered_F";                        // This is the mobile respawn (and medical) truck.
+Respawn_truck_typename = ["B_BINTBlackTalon_BT_Marauder_Support_01","B_BINTBlackTalon_BT_Spectre_Support_01"];                        
+// This is the mobile respawn (and medical) truck.
 huron_typename = "B_INTBlackTalon_BT_FTV_Huron_01";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_INTBlackTalon_BT_Operator_01";                     // This defines the crew for vehicles.
 pilot_classname = "B_INTBlackTalon_BT_Pilot_01";                          // This defines the pilot for helicopters.
@@ -78,6 +79,9 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
+    ["B_BINTBlackTalon_BT_Marauder_HMG_01",300,150,100],                  // BT Marauder HMG 
+    ["B_BINTBlackTalon_BT_Templar_CV_01",350,200,150],                    // BT Templar CV 
+    ["B_BINTBlackTalon_BT_Templar_ATGM_01",350,500,150],                  // BT Templar ATGM
     ["B_INTBlackTalon_BT_Damocles_01",800,500,250],                       // BT Damocles
     ["B_INTBlackTalon_BT_Damocles_UP_01",900,550,250],                    // BT Damocles UP
     ["B_INTBlackTalon_BT_Templar_01",650,450,150],                        // BT Templar
@@ -91,7 +95,7 @@ heavy_vehicles = [
 
 air_vehicles = [
     ["RHS_MELB_MH6M",0,0,0],                                              // MH-6M Little Bird
-    ["B_INTBlackTalon_BT_FTV_Ghosthawk_01",0,0,0],                        // BT FTV Ghosthawk
+    ["B_INTBlackTalon_BT_FTV_Ghosthawk_01",0,0,0],                        // BT Spectre
     ["B_BINTBlackTalon_BT_Oracle_01",0,0,0],                              // BT Oracle  
     ["B_BINTBlackTalon_BT_Oracle_MRV_01",0,0,0],                          // BT Oracle MRV
     ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD
@@ -99,9 +103,9 @@ air_vehicles = [
     ["B_BINTBlackTalon_BT_Angel_Cargo_01",200,100,200],                   // BT Angel Cargo
     ["B_BINTBlackTalon_BT_Angel_Transport_01",100,100,200],               // BT Angel Transport
     ["RHS_MELB_AH6M",150,100,100],                                        // AH-6M Little Bird 
-    ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Taru Heavy Lift
-    ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT HAV Icarus
-    ["B_INTBlackTalon_BT_HAC_Death_Bird_01",500,400,250],                 // BT HAC Death Bird
+    ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Mercury Heavy Lift
+    ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT AH Icarus
+    ["B_INTBlackTalon_BT_HAC_Death_Bird_01",500,400,250],                 // BT AH Wraith
     ["B_T_UAV_03_dynamicLoadout_F",400,250,100],                          // MQ-12 Falcon
     ["O_R_UAV_02_dynamicLoadout_F",450,250,150],                          // Sokol 3T
     ["B_INTBlackTalon_BT_Guardian_UCAV_01",500,300,200],                  // BT Guardian UCAV
@@ -110,8 +114,8 @@ air_vehicles = [
     ["B_INTBlackTalon_BT_Orpheus_Transport_01",500,250,250],              // BT Orpheus Transport
     ["B_INTBlackTalon_BT_Albatross_Transport_01",0,0,0],                  // BT Albatross Transport
     ["B_INTBlackTalon_BT_Albatross_Cargo_01",0,0,0],                      // BT Albatross Cargo
-    ["B_BINTBlackTalon_BT_Demon_Hunter_01",2000,1500,450],                // BT Demon Hunter
-    ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",1500,1500,750]           // BT Inquisitor Fighter
+    ["B_BINTBlackTalon_BT_Demon_Hunter_01",1000,500,450],                 // BT Demon Hunter
+    ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",1200,800,900]             // BT Inquisitor Fighter
 ];
 
 static_vehicles = [
@@ -321,7 +325,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
-    [Respawn_truck_typename,200,0,150],                                 // You can use this to adjust the price of a respawn truck.
+    [(Respawn_truck_typename select 0),200,0,150],                      // You can use this to adjust the price of a respawn truck.
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
