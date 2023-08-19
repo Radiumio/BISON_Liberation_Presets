@@ -237,8 +237,7 @@ KPLIB_crates            = [KP_liberation_supply_crate, KP_liberation_ammo_crate,
 KPLIB_airSlots          = [KP_liberation_heli_slot_building, KP_liberation_plane_slot_building];
 KPLIB_storageBuildings  = [KP_liberation_small_storage_building, KP_liberation_large_storage_building];
 KPLIB_upgradeBuildings  = [KP_liberation_recycle_building, KP_liberation_air_vehicle_building, KP_liberation_heli_slot_building, KP_liberation_plane_slot_building];
-KPLIB_aiResupplySources append Respawn_truck_typename;
-KPLIB_aiResupplySources append [huron_typename, Arsenal_typename];
+KPLIB_aiResupplySources append [Respawn_truck_typename, huron_typename, Arsenal_typename]; 
 
 KPLIB_crates            = KPLIB_crates              apply {toLower _x};
 KPLIB_airSlots          = KPLIB_airSlots            apply {toLower _x};

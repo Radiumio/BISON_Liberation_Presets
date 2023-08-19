@@ -17,7 +17,7 @@ FOB_typename = "Land_Cargo_HQ_V3_F";                                      // Thi
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // This is the FOB as a container.
 FOB_truck_typename = "O_T_Truck_03_device_ghex_F";                        // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = ["B_BINTBlackTalon_BT_Marauder_Support_01","B_BINTBlackTalon_BT_Spectre_Support_01"];
+Respawn_truck_typename = "B_BINTBlackTalon_BT_Marauder_Support_01";
 huron_typename = "B_INTBlackTalon_BT_FTV_Huron_01";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_INTBlackTalon_BT_Operator_01";                     // This defines the crew for vehicles.
 pilot_classname = "B_INTBlackTalon_BT_Pilot_01";                          // This defines the pilot for helicopters.
@@ -324,7 +324,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
-    [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
+    [Respawn_truck_typename,0,0,0],                                     // You can use this to adjust the price of a respawn truck.
     ["B_BINTBlackTalon_BT_Spectre_Support_01",0,0,0],                   // BT Spectre Support - alt respawn helo
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.

@@ -49,7 +49,7 @@ while {true} do {
 
     // Is near a mobile respawn
     if (KP_liberation_mobilerespawn) then {
-        player setVariable ["KPLIB_isNearMobRespawn", !((player nearEntities [(Respawn_truck_typename + [huron_typename]), 10]) isEqualTo [])];
+        player setVariable ["KPLIB_isNearMobRespawn", !((player nearEntities [[Respawn_truck_typename, huron_typename], 10]) isEqualTo [])]; 
     };
 
     // Is near startbase
