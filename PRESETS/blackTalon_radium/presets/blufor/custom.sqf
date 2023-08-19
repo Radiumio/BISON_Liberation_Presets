@@ -96,6 +96,7 @@ heavy_vehicles = [
 air_vehicles = [
     ["RHS_MELB_MH6M",0,0,0],                                              // MH-6M Little Bird
     ["B_INTBlackTalon_BT_FTV_Ghosthawk_01",0,0,0],                        // BT Spectre
+    ["B_BINTBlackTalon_BT_Spectre_Support_01",200,0,150],                 // BT Spectre Support
     ["B_BINTBlackTalon_BT_Oracle_01",0,0,0],                              // BT Oracle  
     ["B_BINTBlackTalon_BT_Oracle_MRV_01",0,0,0],                          // BT Oracle MRV
     ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD

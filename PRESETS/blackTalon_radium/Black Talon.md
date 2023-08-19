@@ -20,6 +20,10 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - BT Komodo MRAP
 
 ## Heavy Vehicles
+- **RESPAWN VEHICLE:** BT Marauder Support
+- BT Marauder HMG
+- BT Templar CV
+- BT Templar ATGM
 - BT Damocles
 - BT Damocles UP
 - BT Templar
@@ -30,7 +34,8 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - BT Charybdis UP **[ELITE LOCK]**
 
 ## Air Vehicles
-- **RESPAWN VEHICLE:** BT Angel Transport
+- **RESPAWN VEHICLE:** BT Paladin Transport
+- **RESPAWN VEHICLE:** BT Spectre Support
 - BT RIV Little Bird
 - MH-6M Little Bird
 - BT Oracle
@@ -39,9 +44,9 @@ Vehicles with **[ELITE LOCK]** have a chance to be randomly locked by a military
 - BT RAV Angry Bird
 - BT Angel Cargo
 - AH-6M Little Bird
-- BT Taru Heavy Lift
-- BT HAV Icarus **[ELITE LOCK]**
-- BT HAC Death Bird **[ELITE LOCK]**
+- BT Mercury Heavy Lift
+- BT AH Icarus **[ELITE LOCK]**
+- BT AH Wraith **[ELITE LOCK]**
 - MQ-12 Falcon
 - Sokol 3T
 - BT Guardian UCAV **[ELITE LOCK]**
