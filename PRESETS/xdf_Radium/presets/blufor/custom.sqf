@@ -17,7 +17,7 @@ FOB_typename = "Land_Cargo_HQ_V3_F";                                      // Thi
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // This is the FOB as a container.
 FOB_truck_typename = "XDF_HEMTT_Box";                                     // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical"];
+Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical","XDF_Medusa_Medical_Pod"];
 huron_typename = "XDF_Medusa_Medical";                                    // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_XDF_Crew";                                         // This defines the crew for vehicles.
 pilot_classname = "B_XDF_Pilot";                                          // This defines the pilot for helicopters.
@@ -101,7 +101,9 @@ light_vehicles = [
     ["XDF_HEMTT_Mover",100,0,80],
     ["XDF_HEMTT_Cargo",150,0,80],
     ["XDF_HEMTT_Flatbed",150,0,80],
-    ["XDF_Mars",80,100,30]
+    ["XDF_Mars",80,100,30],
+    ["XDF_Trident",200,80,75],
+    ["XDF_RHIB",100,0,25]
 ];
 
 heavy_vehicles = [
@@ -111,7 +113,8 @@ heavy_vehicles = [
     ["XDF_Scorpion",300,100,150],
     ["XDF_Huntress",300,250,175],
     ["XDF_Kodiak",500,400,250],
-    ["XDF_Titan",3000,1500,1000]
+    ["XDF_Titan",3000,1500,1000],
+    ["XDF_Hurricane",800,1750,400]
 ];
 
 air_vehicles = [
@@ -472,5 +475,14 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
-
+    "XDF_Titan",
+    "XDF_Accipiter",
+    "XDF_Hurricane",
+    "XDF_Caiman",
+    "XDF_Comanche",
+    "XDF_Gemini",
+    "XDF_Vulture",
+    "XDF_Tusk",
+    "XDF_Retributor",
+    "XDF_Huntress"
 ];
