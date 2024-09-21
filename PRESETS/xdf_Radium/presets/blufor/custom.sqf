@@ -14,7 +14,7 @@
     Or not, just don't try!
 */
 FOB_typename = "Land_Cargo_HQ_V3_F";                                      // This is the main FOB HQ building.
-FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // This is the FOB as a container.
+FOB_box_typename = "XDF_Medusa_Cargo_Pod";                                // This is the FOB as a container.
 FOB_truck_typename = "XDF_HEMTT_Box";                                     // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical","XDF_Medusa_Medical_Pod"];
@@ -391,8 +391,7 @@ support_vehicles = [
     ["XDF_Medusa_Repair_Pod",200,0,0],                                  // Medusa Repair Pod
     ["XDF_Medusa_Medical_Pod",50,0,0],                                  // Medusa Medical Pod
     ["XDF_Medusa_Bench_Pod",50,0,0],                                    // Medusa Bench Pod
-    ["XDF_Medusa_Transport_Pod",50,0,0],                                // Medusa Transport Pod
-    ["XDF_Medusa_Cargo_Pod",100,0,0]                                    // Medusa Cargo Pod
+    ["XDF_Medusa_Transport_Pod",50,0,0]                                // Medusa Transport Pod
 ];
 
 /*
