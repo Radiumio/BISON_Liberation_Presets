@@ -15,21 +15,21 @@
 */
 FOB_typename = "Land_Cargo_HQ_V3_F";                                      // This is the main FOB HQ building.
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_F";                    // This is the FOB as a container.
-FOB_truck_typename = "O_T_Truck_03_device_ghex_F";                        // This is the FOB as a vehicle.
+FOB_truck_typename = "XDF_HEMTT_Box";                                     // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = ["B_BINTBlackTalon_BT_Marauder_Support_01","B_BINTBlackTalon_BT_Spectre_Support_01"];
-huron_typename = "B_INTBlackTalon_BT_FTV_Huron_01";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
-crewman_classname = "B_INTBlackTalon_BT_Operator_01";                     // This defines the crew for vehicles.
-pilot_classname = "B_INTBlackTalon_BT_Pilot_01";                          // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "B_INTBlackTalon_BT_RIV_Little_Bird_01"; // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_boat_classname = "B_INTBlackTalon_BT_Tsunami_01";           // These are the boats which spawn at the stern of the Freedom.
-KP_liberation_truck_classname = "B_INTBlackTalon_BT_Transport_Truck_01";  // These are the trucks which are used in the logistic convoy system.
+Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical"];
+huron_typename = "XDF_Medusa_Medical";                                    // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+crewman_classname = "B_XDF_Crew";                                         // This defines the crew for vehicles.
+pilot_classname = "B_XDF_Pilot";                                          // This defines the pilot for helicopters.
+KP_liberation_little_bird_classname = "XDF_Hornet";                       // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_boat_classname = "XDF_Trident";                             // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_truck_classname = "XDF_HEMTT_Cargo";                        // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";       // A small storage area for resources. LEAVE AS IS.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";       // A large storage area for resources. LEAVE AS IS.
-KP_liberation_recycle_building = "Land_RepairDepot_01_civ_F";             // The building defined to unlock FOB recycling functionality.
-KP_liberation_air_vehicle_building = "B_Radar_System_01_F";               // The building defined to unlock FOB air vehicle functionality.
+KP_liberation_recycle_building = "Land_RepairDepot_01_green_F";           // The building defined to unlock FOB recycling functionality.
+KP_liberation_air_vehicle_building = "Land_MobileRadar_01_radar_F";       // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";                // The helipad used to increase the GLOBAL rotary-wing cap.
-KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";               // The hangar used to increase the GLOBAL fixed-wing cap.
+KP_liberation_plane_slot_building = "Land_Airport_01_hangar_F";           // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate = "CargoNet_01_box_F";                         // This defines the supply crates, as in resources. LEAVE AS IS.
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                        // This defines the ammunition crates. LEAVE AS IS.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                       // This defines the fuel crates. LEAVE AS IS.
@@ -43,92 +43,112 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                       // Thi
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["B_INTBlackTalon_BT_Light_Machinegunner_01",15,0,0],                 // BT Light Machinegunner
-    ["B_BINTBlackTalon_BT_Engineer_01",20,0,0],                           // BT Engineer
-    ["B_BINTBlackTalon_BT_Grenadier_01",25,0,0],                          // BT Grenadier
-    ["B_INTBlackTalon_BT_Pilot_01",10,0,0],                               // BT Pilot
-    ["B_INTBlackTalon_BT_Marksman_01",20,0,0],                            // BT Marksman
-    ["B_INTBlackTalon_BT_Combat_Medic_01",20,0,0],                        // BT Combat Medic
-    ["B_INTBlackTalon_BT_Operator_01",10,0,0],                            // BT Operator
-    ["B_INTBlackTalon_BT_Light_AT_01",30,0,0],                            // BT Light AT
-    ["B_INTBlackTalon_BT_Fireteam_Leader_01",10,0,0],                     // BT Fireteam Leader
-    ["B_INTBlackTalon_BT_Explosive_Specialist_01",20,0,0],                // BT Explosive Specialist
-    ["B_INTBlackTalon_BT_Heavy_AT_01",40,0,0],                            // BT Heavy AT
-    ["B_INTBlackTalon_BT_Heavy_Machinegunner_01",30,0,0],                 // BT Heavy Machinegunner
-    ["B_INTBlackTalon_BT_JTAC_01",15,0,0],                                // BT JTAC
-    ["B_INTBlackTalon_BT_Specialist_AA_01",20,0,0],                       // BT Specialist AA
-    ["B_INTBlackTalon_BT_Specialist_AT_01",40,0,0],                       // BT Specialist AT
-    ["B_INTBlackTalon_BTM_Juggernaut_01",100,0,0],                        // BT Juggernaut
-    ["B_INTBlackTalon_BTM_Spec_Ops_Combat_Medic_01",15,0,0],              // BTM Spec-Ops Combat Medic
-    ["B_INTBlackTalon_BTM_Spec_Ops_Leader_01",15,0,0],                    // BTM Spec-Ops Leader
-    ["B_INTBlackTalon_BTM_Spec_Ops_Sniper_01",50,0,0],                    // BTM Spec-Ops Sniper
-    ["B_INTBlackTalon_BTM_Spec_Ops_Operator_01",15,0,0]                   // BTM Spec-Ops Operator
+    ["B_XDF_Autorifleman",15,0,0],                                       
+    ["B_XDF_Engineer",20,0,0],                                
+    ["B_XDF_Grenadier",25,0,0],                                
+    ["B_XDF_Marksman",20,0,0],                                
+    ["B_XDF_Medic",20,0,0],                                       
+    ["B_XDF_Operative",10,0,0],                               
+    ["B_XDF_Light_Operative",10,0,0],                         
+    ["B_XDF_HAT",30,0,0],                                     
+    ["B_XDF_MS_AA",10,0,0],                                          
+    ["B_XDF_MS_AT",20,0,0],                                               
+    ["B_XDF_Sniper",40,0,0],                                  
+    ["B_XDF_UAV",30,0,0],                                                
+    ["B_XDF_JTAC",15,0,0],                                
+    ["B_XDF_AX_Elite_Gunner",35,0,0],
+    ["B_XDF_AX_Elite_HAT",40,0,0],
+    ["B_XDF_AX_Elite_Hunter",50,0,0],
+    ["B_XDF_AX_Elite_JTAC",30,0,0],
+    ["B_XDF_AX_Elite_Medic",30,0,0],
+    ["B_XDF_AX_Elite_Operative",20,0,0],
+    ["B_XDF_AX_Elite_UAV",40,0,0],
+    ["B_XDF_AX_Gunner",20,0,0],
+    ["B_XDF_AX_HAT",35,0,0],
+    ["B_XDF_AX_Hunter",40,0,0],
+    ["B_XDF_AX_JTAC",25,0,0],
+    ["B_XDF_AX_Medic",25,0,0],
+    ["B_XDF_AX_Operative",15,0,0],
+    ["B_XDF_AX_UAV",25,0,0]
+    ["B_XDF_Crew",10,0,0],
+    ["B_XDF_Heli_Crew",10,0,0],
+    ["B_XDF_Pilot",10,0,0],
+    ["B_XDF_Jet_Pilot",10,0,0],
+    ["B_XDF_Xenohunter_Corpsman",65,0,0],
+    ["B_XDF_Xenohunter_Exterminator",75,0,0],
+    ["B_XDF_Xenohunter",50,0,0],
+    ["B_XDF_Xenohunter_Sharpshooter",60,0,0]
 ];
 
 light_vehicles = [
-    ["B_Quadbike_01_F",50,0,25],                                          // Quadbike
-    ["B_INTBlackTalon_BT_LSV_Nomad_01",300,0,95],                         // BT LSV Nomad
-    ["B_INTBlackTalon_BT_LSV_Nomad_AT_01",300,200,95],                    // BT LSV Nomad AT
-    ["B_INTBlackTalon_BT_LSV_Nomad_HMG_01",300,150,95],                   // BT LSV Nomad HMG
-    ["O_T_LSV_02_unarmed_F",300,0,95],                                    // Qilin Unarmed
-    ["O_T_LSV_02_armed_F",300,500,95],                                    // Qilin M134
-    ["O_T_LSV_02_AT_F",300,500,95],                                       // Qilin Metis
-    ["B_INTBlackTalon_BT_Transport_Truck_01",300,0,150],                  // BT Transport Truck
-    ["B_INTBlackTalon_BT_Komodo_MRAP_01",600,300,100]                     // BT Komodo MRAP
+    ["XDF_Quadbike",50,0,25],                                    
+    ["XDF_Jackal",300,0,95],                         
+    ["XDF_Jackal_AT",300,200,95],                   
+    ["XDF_Jackal_HMG",300,150,95],
+    ["XDF_Boar",0,0,0],
+    ["XDF_Boar_GMG",0,0,0],
+    ["XDF_Boar_HMG",0,0,0],
+    ["XDF_Offroad_Comms",0,0,0],
+    ["XDF_Offroad_Covered",0,0,0],
+    ["XDF_Puma",0,0,0],
+    ["XDF_Puma_GMG",0,0,0],
+    ["XDF_Puma_HMG",0,0,0],
+    ["XDF_Punisher",0,0,0],
+    ["XDF_Punisher_GMG",0,0,0],
+    ["XDF_Punisher_HMG",0,0,0],
+    ["XDF_Cyclone",0,0,0],
+    ["XDF_Cyclone_Covered",0,0,0],
+    ["XDF_HEMTT_Mover",0,0,0],
+    ["XDF_HEMTT_Cargo",0,0,0],
+    ["XDF_HEMTT_Flatbed",0,0,0],
+    ["XDF_Mars",0,0,0]
 ];
 
 heavy_vehicles = [
-    ["B_BINTBlackTalon_BT_Marauder_HMG_01",300,150,100],                  // BT Marauder HMG 
-    ["B_BINTBlackTalon_BT_Templar_CV_01",350,200,150],                    // BT Templar CV 
-    ["B_BINTBlackTalon_BT_Templar_ATGM_01",350,500,150],                  // BT Templar ATGM
-    ["B_INTBlackTalon_BT_Damocles_01",800,500,250],                       // BT Damocles
-    ["B_INTBlackTalon_BT_Damocles_UP_01",900,550,250],                    // BT Damocles UP
-    ["B_INTBlackTalon_BT_Templar_01",650,450,150],                        // BT Templar
-    ["B_INTBlackTalon_BT_Diceros_UGV_01",400,300,100],                    // BT Diceros UGV
-    ["B_INTBlackTalon_BT_Skybreaker_01",1800,2500,500],                   // BT Skybreaker
-    ["B_INTBlackTalon_BT_Hammer_01",1000,2000,500],                       // BT Hammer
-    ["B_INTBlackTalon_BT_Shatter_01",1500,3000,500],                      // BT Shatter
-    ["B_INTBlackTalon_BT_Charybdis_01",2000,1500,800],                    // BT Charybdis
-    ["B_INTBlackTalon_BT_Charybdis_UP_01",2000,2000,800]                  // BT Charybdis UP
+    ["XDF_Commando",0,0,0],
+    ["XDF_Dementer",0,0,0],
+    ["XDF_Odin",0,0,0],
+    ["XDF_Scorpion",0,0,0],
+    ["XDF_Huntress",0,0,0],
+    ["XDF_Kodiak",0,0,0],
+    ["XDF_Titan",0,0,0]
 ];
 
 air_vehicles = [
-    ["RHS_MELB_MH6M",0,0,0],                                              // MH-6M Little Bird
-    ["B_INTBlackTalon_BT_FTV_Ghosthawk_01",0,0,0],                        // BT Spectre
-    ["B_BINTBlackTalon_BT_Oracle_01",0,0,0],                              // BT Oracle  
-    ["B_BINTBlackTalon_BT_Oracle_MRV_01",0,0,0],                          // BT Oracle MRV
-    ["B_INTBlackTalon_BT_Manta_URD_01",0,0,0],                            // BT Manta URD
-    ["B_INTBlackTalon_BT_RAV_Angry_Bird_01",150,100,100],                 // BT RAV Angry Bird
-    ["B_BINTBlackTalon_BT_Angel_Cargo_01",200,100,200],                   // BT Angel Cargo
-    ["B_BINTBlackTalon_BT_Angel_Transport_01",100,100,200],               // BT Angel Transport
-    ["RHS_MELB_AH6M",150,100,100],                                        // AH-6M Little Bird 
-    ["B_INTBlackTalon_BT_Taru_Heavy_Lift_01",350,0,300],                  // BT Mercury Heavy Lift
-    ["B_INTBlackTalon_BT_HAV_Icarus_01",500,400,250],                     // BT AH Icarus
-    ["B_INTBlackTalon_BT_HAC_Death_Bird_01",500,400,250],                 // BT AH Wraith
-    ["B_T_UAV_03_dynamicLoadout_F",400,250,100],                          // MQ-12 Falcon
-    ["O_R_UAV_02_dynamicLoadout_F",450,250,150],                          // Sokol 3T
-    ["B_INTBlackTalon_BT_Guardian_UCAV_01",500,300,200],                  // BT Guardian UCAV
-    ["B_INTBlackTalon_BT_Javelin_UAV_01",400,250,100],                    // BT Javelin UAV
-    ["B_INTBlackTalon_BT_Orpheus_Cargo_01",500,250,250],                  // BT Orpheus Cargo
-    ["B_INTBlackTalon_BT_Orpheus_Transport_01",500,250,250],              // BT Orpheus Transport
-    ["B_INTBlackTalon_BT_Albatross_Transport_01",0,0,0],                  // BT Albatross Transport
-    ["B_INTBlackTalon_BT_Albatross_Cargo_01",0,0,0],                      // BT Albatross Cargo
-    ["B_BINTBlackTalon_BT_Demon_Hunter_01",1000,500,450],                 // BT Demon Hunter
-    ["B_INTBlackTalon_BT_Inquisitor_Fighter_01",1200,800,900]             // BT Inquisitor Fighter
+    ["XDF_Caiman",0,0,0],
+    ["XDF_Comanche",0,0,0],
+    ["XDF_Dragonfly",0,0,0],
+    ["XDF_Hornet_Armed",0,0,0],
+    ["XDF_Medusa",0,0,0],
+    ["XDF_Medusa_Ammo",0,0,0],
+    ["XDF_Medusa_Bench",0,0,0],
+    ["XDF_Medusa_Cargo",0,0,0],
+    ["XDF_Medusa_Fuel",0,0,0],
+    ["XDF_Medusa_Repair",0,0,0],
+    ["XDF_Medusa_Transport",0,0,0],
+    ["XDF_Skyhawk",0,0,0],
+    ["XDF_Guardian",0,0,0],
+    ["XDF_Kestrel",0,0,0],
+    ["XDF_Mosquito",0,0,0],
+    ["XDF_Tusk",0,0,0],
+    ["XDF_Vulture",0,0,0],
+    ["XDF_Gemini",0,0,0],
+    ["XDF_Wraith_IT",0,0,0],
+    ["XDF_Wraith_VT",0,0,0],
+    ["XDF_Accipiter",0,0,0],
+    ["XDF_Albatross_IT",0,0,0],
+    ["XDF_Albatross_VT",0,0,0],
+    ["XDF_Retributor",0,0,0]
 ];
 
 static_vehicles = [
-    ["O_R_Static_AA_F",50,100,0],                                         // Static Titan Launcher (AA)
-    ["O_R_Static_AT_F",50,100,0],                                         // Static Titan Launcher (AT)
-    ["rhs_KORD_VDV",25,40,0],                                             // KORD (6T7)
-    ["rhs_KORD_high_VDV",25,40,0],                                        // KORD (6U16)
-    ["RHS_NSV_TriPod_VDV",25,40,0],                                       // NSV (6T7)
-    ["O_R_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
-    ["O_R_GMG_01_high_F",200,250,0],                                      // XM307 (High)
-    ["O_R_GMG_01_F",200,250,0],                                           // XM307
-    ["O_R_HMG_01_high_F",200,150,0],                                      // XM312 (High)
-    ["O_R_HMG_01_F",200,150,0],                                           // XM312
-    ["O_T_SAM_System_04_F",800,1000,0]                                    // S-750 Rhea
+    ["B_static_AA_F",50,100,0],                                           // Static Titan Launcher (AA)
+    ["B_static_AT_F",50,100,0],                                           // Static Titan Launcher (AT)
+    ["B_Mortar_01_F",80,150,0],                                           // Mk6 Mortar
+    ["B_GMG_01_high_F",200,250,0],                                        // XM307 (High)
+    ["B_GMG_01_F",200,250,0],                                             // XM307
+    ["B_HMG_01_high_F",200,150,0],                                        // XM312 (High)
+    ["B_HMG_01_F",200,150,0]                                              // XM312
 ];
 
 buildings = [
@@ -328,8 +348,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
-    [(Respawn_truck_typename select 0),0,0,0],                                     // You can use this to adjust the price of a respawn truck.
-    ["B_BINTBlackTalon_BT_Spectre_Support_01",0,0,0],                   // BT Spectre Support - alt respawn helo
+    [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
@@ -358,17 +377,21 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39) [DO NOT CHANGE]
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82) [DO NOT CHANGE]
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor [DO NOT CHANGE]
-    ["B_T_APC_Tracked_01_CRV_F",500,300,350],                           // CRV-6e Bobcat
     ["Box_T_NATO_AmmoVeh_F",50,100,0],                                  // Vehicle Ammo [NATO]
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
-    ["O_R_Truck_03_repair_F",325,0,75],                                 // Typhoon Repair
-    ["O_R_Truck_03_fuel_F",125,0,275],                                  // Typhoon Fuel
-    ["O_R_Truck_03_ammo_F",125,200,75],                                 // Typhoon Ammo
-    ["Land_Pod_Heli_Transport_04_ammo_F",0,200,0],                      // Taru Ammo Pod
-    ["Land_Pod_Heli_Transport_04_fuel_F",0,0,200],                      // Taru Fuel Pod
-    ["Land_Pod_Heli_Transport_04_repair_F",200,0,0],                    // Taru Repair Pod
-    ["Land_Pod_Heli_Transport_04_medevac_F",50,0,0],                    // Taru Medical Pod
-    ["Land_Pod_Heli_Transport_04_bench_F",50,0,0]                       // Taru Bench Pod
+    ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
+    ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
+    ["XDF_Cyclone_Ammo",125,200,75],                                    // Cyclone Ammo
+    ["XDF_HEMTT_Repair",325,0,75],                                      // HEMTT Repair
+    ["XDF_HEMTT_Fuel",125,0,275],                                       // HEMTT Fuel
+    ["XDF_HEMTT_Ammo",125,200,75],                                      // HEMTT Ammo
+    ["XDF_Medusa_Ammo_Pod",0,200,0],                                    // Medusa Ammo Pod
+    ["XDF_Medusa_Fuel_Pod",0,0,200],                                    // Medusa Fuel Pod
+    ["XDF_Medusa_Repair_Pod",200,0,0],                                  // Medusa Repair Pod
+    ["XDF_Medusa_Medical_Pod",50,0,0],                                  // Medusa Medical Pod
+    ["XDF_Medusa_Bench_Pod",50,0,0],                                    // Medusa Bench Pod
+    ["XDF_Medusa_Transport_Pod",50,0,0],                                // Medusa Transport Pod
+    ["XDF_Medusa_Cargo_Pod",100,0,0]                                    // Medusa Cargo Pod
 ];
 
 /*
@@ -379,65 +402,68 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Light_Machinegunner_01",
-    "B_INTBlackTalon_BT_Light_AT_01",
-    "B_INTBlackTalon_BT_Combat_Medic_01"
+    "B_XDF_Operative",
+    "B_XDF_Medic",
+    "B_XDF_HAT",
+    "B_XDF_Marksman_F",
+    "B_XDF_Grenadier",
+    "B_XDF_Autorifleman_F",
+    "B_XDF_Operative_F",
+    "B_XDF_Medic"
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "B_INTBlackTalon_BT_Heavy_Machinegunner_01",
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_Combat_Medic_01",
-    "B_INTBlackTalon_BT_Light_AT_01",
-    "B_INTBlackTalon_BT_Heavy_AT_01",
-    "B_INTBlackTalon_BT_Heavy_Machinegunner_01",
-    "B_BINTBlackTalon_BT_Grenadier_01",
-    "B_INTBlackTalon_BT_Combat_Medic_01",
-    "B_INTBlackTalon_BTM_Juggernaut_01"
+    "B_XDF_AX_Elite_Operative",
+    "B_XDF_AX_Elite_Hunter",
+    "B_XDF_AX_Elite_Hunter",
+    "B_XDF_AX_Elite_Gunner_F",
+    "B_XDF_AX_Elite_Gunner",
+    "B_XDF_AX_Elite_HAT_F",
+    "B_XDF_AX_Elite_JTAC",
+    "B_XDF_AX_Elite_Medic"
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_Specialist_AT_01",
-    "B_INTBlackTalon_BT_Specialist_AT_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_BINTBlackTalon_BT_Grenadier_01"
+    "B_XDF_AX_Operative",
+    "B_XDF_MS_AT_F",
+    "B_XDF_MS_AT",
+    "B_XDF_AX_Medic",
+    "B_XDF_AX_Hunter",
+    "B_XDF_AX_Gunner"
 ];
 
 // AA specialists squad.
 blufor_squad_aa = [
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_Specialist_AA_01",
-    "B_INTBlackTalon_BT_Specialist_AA_01",
-    "B_INTBlackTalon_BT_JTAC_01",
-    "B_INTBlackTalon_BT_Operator_01"
+    "B_XDF_AX_Operative",
+    "B_XDF_MS_AA_F",
+    "B_XDF_MS_AA",
+    "B_XDF_AX_Medic",
+    "B_XDF_AX_Hunter",
+    "B_XDF_AX_Gunner"
 ];
 
 // Force recon squad.
 blufor_squad_recon = [
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_JTAC_01",
-    "B_INTBlackTalon_BT_Heavy_Machinegunner_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Marksman_01"
+    "B_XDF_AX_Elite_Operative",
+    "B_XDF_AX_Elite_UAV",
+    "B_XDF_AX_Elite_JTAC_F",
+    "B_XDF_AX_Elite_Hunter_F",
+    "B_XDF_AX_Elite_Hunter",
+    "B_XDF_AX_Elite_Gunner"
 ];
 
 // Paratroopers squad (The units of this squad will automatically get parachutes on build)
 blufor_squad_para = [
-    "B_INTBlackTalon_BT_Fireteam_Leader_01",
-    "B_INTBlackTalon_BT_Operator_01",    
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01",
-    "B_INTBlackTalon_BT_Operator_01"
+    "B_XDF_AX_Elite_Operative",
+    "B_XDF_AX_Operative",    
+    "B_XDF_AX_Operative",
+    "B_XDF_AX_Operative",
+    "B_XDF_AX_Operative",
+    "B_XDF_AX_Operative",
+    "B_XDF_AX_Operative",
+    "B_XDF_AX_Operative"
 ];
 
 /*
@@ -446,15 +472,5 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
-    "B_INTBlackTalon_BT_Hammer_01",
-    "B_INTBlackTalon_BT_Shatter_01",
-    "B_INTBlackTalon_BT_Charybdis_01",
-    "B_INTBlackTalon_BT_Charybdis_UP_01",
-    "B_INTBlackTalon_BT_HAV_Icarus_01",
-    "B_INTBlackTalon_BT_HAC_Death_Bird_01",
-    "B_INTBlackTalon_BT_Guardian_UCAV_01",
-    "B_INTBlackTalon_BT_Javelin_UAV_01",
-    "B_BINTBlackTalon_BT_Demon_Hunter_01",
-    "B_INTBlackTalon_BT_Inquisitor_Fighter_01",
-    "B_T_UAV_03_dynamicLoadout_F"
+
 ];
