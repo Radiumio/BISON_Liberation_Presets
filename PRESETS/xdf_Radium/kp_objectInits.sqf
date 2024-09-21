@@ -129,65 +129,35 @@ KPLIB_objectInits = [
         },
         true
     ],
-    
-    // Change all built Tarus, Taru Pods, Orcas, Quad Bikes, Little Birds, Falcons to Black instead of CSAT pattern
-    [
-        ["O_T_Heli_Transport_04_F", "O_T_Heli_Transport_04_ammo_F", "O_T_Heli_Transport_04_bench_F", "O_T_Heli_Transport_04_box_F", "O_T_Heli_Transport_04_fuel_F", "O_T_Heli_Transport_04_medevac_F", "O_T_Heli_Transport_04_repair_F", "O_T_Heli_Transport_04_covered_F", "B_ION_Heli_Light_02_unarmed_lxWS","O_R_Heli_Attack_02_dynamicLoadout_F", "B_ION_Heli_Light_02_dynamicLoadout_lxWS", "Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_repair_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_bench_F","B_Quadbike_01_F","B_Heli_Light_01_F","B_ION_APC_Wheeled_01_command_lxWS","B_UAV_03_dynamicLoadout_F","B_INTBlackTalon_BT_RAV_Angry_Bird_01","B_INTBlackTalon_BT_RIV_Little_Bird_01"],
-        {[_this,["Black",1]] call BIS_fnc_initVehicle;}
-    ],
-
-    // Change all built Xi'ans to Grey
-    [
-        ["O_T_VTOL_02_infantry_dynamicLoadout_F","O_T_VTOL_02_vehicle_dynamicLoadout_F"],
-        {[_this,["Grey",1]] call BIS_fnc_initVehicle;}
-    ],
-
-    // Change all built Black Eagles, Zamak MRLs, Qilins, Radar, SAMs and UGV Uran's to Green
-    [
-        ["O_T_MBT_02_cannon_ghex_F","O_T_APC_Wheeled_02_rcws_v2_ghex_F","O_R_APC_Tracked_02_cannon_F","O_R_APC_Wheeled_04_cannon_F","O_T_Truck_02_MRL_F","O_T_LSV_02_unarmed_F","O_T_LSV_02_armed_F","O_T_LSV_02_AT_F","O_T_Radar_System_02_F","O_T_SAM_System_04_F","O_R_UGV_01_rcws_F"],
-        {[_this,["Green",1]] call BIS_fnc_initVehicle;}
-    ],
-
-    // Change all Armed Offroads to f A N C Y
-    [
-        ["B_ION_Offroad_armed_lxWS","B_ION_Offroad_lxWS"],
-        {[_this,["Green",1],["HideAntenna",0,"HideSnorkel",0,"Hide_Shield",0,"Hide_Rail",0,"HideDoor1",0,"HideDoor2",0,"HideDoor3",0,"HideBackpacks",1,"HideBumper1",1,"HideBumper2",0,"HideConstruction",0]] call BIS_fnc_initVehicle;}
-    ],
-
-    // Change all Typhoons, Galkins and Sokol's to Russia camo
-    [
-        ["O_R_Truck_03_covered_F","O_R_Truck_03_transport_F","O_R_Truck_03_repair_F","O_R_Truck_03_medical_F","O_R_Truck_03_fuel_F","O_R_Truck_03_ammo_F","O_Raven_MRAP_02_F","O_Raven_MRAP_02_GMG_F","O_Raven_MRAP_02_HMG_F","O_R_UAV_02_dynamicLoadout_F"],
-        {[_this,["Russia",1]] call BIS_fnc_initVehicle;}
-    ],
 
     // Change ACE cargo for select vehicles
     [
-        ["O_T_Heli_Transport_04_covered_F"],
+        ["XDF_Medusa_Transport"],
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
 
     [
-        ["B_BINTBlackTalon_BT_Angel_Cargo_01"],
+        ["XDF_Skyhawk"],
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
    
     [
-        ["O_T_VTOL_02_infantry_dynamicLoadout_F"],
+        ["XDF_Wraith_IT"],
         {[_this, 48] call ace_cargo_fnc_setSpace;}
     ],
 
     [
-        ["O_T_VTOL_02_vehicle_dynamicLoadout_F"],
+        ["XDF_Wraith_VT"],
         {[_this, 72] call ace_cargo_fnc_setSpace;}
     ], 
 
     [
-        ["B_INTBlackTalon_BT_Albatross_Cargo_01"],
+        ["XDF_Albatross_IT"],
         {[_this, 72] call ace_cargo_fnc_setSpace;}
     ], 
 
     [
-        ["B_INTBlackTalon_BT_Albatross_Transport_01"],
+        ["XDF_Albatross_VT"],
         {[_this, 72] call ace_cargo_fnc_setSpace;}
     ] 
 ];
