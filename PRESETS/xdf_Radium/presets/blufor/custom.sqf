@@ -69,7 +69,7 @@ infantry_units = [
     ["B_XDF_AX_JTAC",25,0,0],
     ["B_XDF_AX_Medic",25,0,0],
     ["B_XDF_AX_Operative",15,0,0],
-    ["B_XDF_AX_UAV",25,0,0]
+    ["B_XDF_AX_UAV",25,0,0],
     ["B_XDF_Crew",10,0,0],
     ["B_XDF_Heli_Crew",10,0,0],
     ["B_XDF_Pilot",10,0,0],
