@@ -3,26 +3,26 @@
     - Radium
 
     REQUIRED MODS:
-    - Fill this in!
+    - Fill this in! (no)
 */
 
 // Enemy infantry classes
-opfor_officer = "";                                
-opfor_squad_leader = "";                           
-opfor_team_leader = "";                      
-opfor_sentry = "";                                 
-opfor_rifleman = "";                                 
-opfor_rpg = "";                                       
-opfor_grenadier = "";                                
-opfor_machinegunner = "";                                 
-opfor_heavygunner = "";                               
-opfor_marksman = "";                                     
-opfor_sharpshooter = "";                          
-opfor_sniper = "";                                 
-opfor_at = "";                                   
-opfor_aa = "";                                           
-opfor_medic = "";                                         
-opfor_engineer = "";                                      
+opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
+opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
+opfor_team_leader = "O_ETXENO_Xeno_Soldier_01";                      
+opfor_sentry = "O_ETXENO_Xeno_Soldier_01";                                 
+opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
+opfor_rpg = "O_ETXENO_Xeno_Demolisher_01";                                       
+opfor_grenadier = "O_ETXENO_Xeno_Slammer_01";                                
+opfor_machinegunner = "O_OETXENO_Xeno_Bulwark_01";                                 
+opfor_heavygunner = "O_ETXENO_Xeno_Needler_01";                               
+opfor_marksman = "O_ETXENO_Xeno_Soldier_01";                                     
+opfor_sharpshooter = "O_ETXENO_Xeno_Scout_01";                          
+opfor_sniper = "O_ETXENO_Xeno_Scout_01";                                 
+opfor_at = "O_ETXENO_Xeno_Demolisher_01";                                   
+opfor_aa = "O_ETXENO_Xeno_Seeker_01";                                           
+opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
+opfor_engineer = "O_ETXENO_Xeno_Soldier_01";                                      
 opfor_paratrooper = "";
 
 // Enemy vehicles used by secondary objectives.
@@ -43,46 +43,61 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-    ""
+    "O_ETXENO_Xeno_Soldier_01",
+    "O_OETXENO_Xeno_Healer_01",
+    "O_ETXENO_Xeno_Soldier_01",
+    "O_ETXENO_Xeno_Soldier_01",
+    "O_OETXENO_Xeno_Bulwark_01",
+    "O_ETXENO_Xeno_Soldier_01",
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    ""
+    "O_OETXENO_Xeno_T46_Ghost_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    ""
+    "O_OETXENO_Xeno_T46_Ghost_Needler_01",
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T52_Terminator_AA_01",
+    "O_OETXENO_Xeno_T26_Destroyer_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    ""
+    "O_OETXENO_Xeno_T46_Ghost_Needler_01",
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    ""
+    "O_OETXENO_Xeno_T26_Destroyer_01",
+    "O_OETXENO_Xeno_T26_Annihilator_01",
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    ""
+    "O_OETXENO_Xeno_T46_Ghost_01",
+    "O_OETXENO_Xeno_T46_Ghost_01",
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    ""
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    ""
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    ""
+    "O_OETXENO_Xeno_T26B_Revenant_01",
+    "O_OETXENO_Xeno_T26N_Revenant_01"
 ];
