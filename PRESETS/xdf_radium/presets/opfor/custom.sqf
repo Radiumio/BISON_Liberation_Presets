@@ -26,9 +26,9 @@ opfor_engineer = "O_ETXENO_Xeno_Soldier_01";
 opfor_paratrooper = "";
 
 // Enemy vehicles used by secondary objectives.
-opfor_mrap = "";                                             
-opfor_mrap_armed = "";                                   
-opfor_transport_helo = "";                   
+opfor_mrap = "O_OETXENO_Xeno_T46_Ghost_Needler_01";                                             
+opfor_mrap_armed = "O_OETXENO_Xeno_T46_Ghost_Ultra_01";                                   
+opfor_transport_helo = "O_OETXENO_Xeno_T25_Shade_Dropship_01";                   
 opfor_transport_truck = "";                         
 opfor_ammobox_transport = "";                     
 opfor_fuel_truck = "";                                                  
