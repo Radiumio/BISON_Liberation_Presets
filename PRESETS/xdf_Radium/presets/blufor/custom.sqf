@@ -96,11 +96,11 @@ light_vehicles = [
     ["XDF_Punisher",50,0,0],
     ["XDF_Punisher_GMG",100,60,50],
     ["XDF_Punisher_HMG",100,40,50],
-    ["XDF_Cyclone",150,0,80],
-    ["XDF_Cyclone_Covered",0,0,80],
-    ["XDF_HEMTT_Mover",100,0,80],
-    ["XDF_HEMTT_Cargo",150,0,80],
-    ["XDF_HEMTT_Flatbed",150,0,80],
+    ["XDF_Cyclone",125,0,75],
+    ["XDF_Cyclone_Covered",125,0,75],
+    ["XDF_HEMTT_Mover",100,0,75],
+    ["XDF_HEMTT_Cargo",125,0,75],
+    ["XDF_HEMTT_Flatbed",125,0,75],
     ["XDF_Mars",80,100,30],
     ["XDF_Trident",200,80,75],
     ["XDF_RHIB",100,0,25]
@@ -349,7 +349,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
-    [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
+    [(Respawn_truck_typename select 0),150,0,75],                          // You can use this to adjust the price of a respawn truck.
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
@@ -383,6 +383,7 @@ support_vehicles = [
     ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
     ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
     ["XDF_Cyclone_Ammo",125,200,75],                                    // Cyclone Ammo
+    ["XDF_Cyclone_Medical",150,0,75],                                   // Cyclone Medical
     ["XDF_HEMTT_Repair",325,0,75],                                      // HEMTT Repair
     ["XDF_HEMTT_Fuel",125,0,275],                                       // HEMTT Fuel
     ["XDF_HEMTT_Ammo",125,200,75],                                      // HEMTT Ammo
