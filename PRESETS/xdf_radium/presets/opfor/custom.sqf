@@ -70,8 +70,11 @@ militia_vehicles = [
 opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
     "O_OETXENO_Xeno_T52_Terminator_AA_01",
-    "O_OETXENO_Xeno_T26_Destroyer_01"
+    "O_OETXENO_Xeno_T26_Destroyer_01",
+    "IMS_Elite_Melee_2"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -86,7 +89,8 @@ opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "WBK_HaloHunter_2",
-    "WBK_HaloHunter_1"
+    "WBK_HaloHunter_1",
+    "IMS_Elite_Melee_2"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
