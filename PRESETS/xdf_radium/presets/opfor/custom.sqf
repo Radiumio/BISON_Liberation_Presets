@@ -7,8 +7,8 @@
 */
 
 // Enemy infantry classes
-opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
-opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
+opfor_officer = "IMS_Elite_Melee_2";                                
+opfor_squad_leader = "O_ETXENO_Xeno_Commander_01";                           
 opfor_team_leader = "O_ETXENO_Xeno_Soldier_01";                      
 opfor_sentry = "O_ETXENO_Xeno_Soldier_01";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
@@ -16,13 +16,13 @@ opfor_rpg = "O_ETXENO_Xeno_Demolisher_01";
 opfor_grenadier = "O_ETXENO_Xeno_Slammer_01";                                
 opfor_machinegunner = "O_OETXENO_Xeno_Bulwark_01";                                 
 opfor_heavygunner = "O_ETXENO_Xeno_Needler_01";                               
-opfor_marksman = "O_ETXENO_Xeno_Soldier_01";                                     
+opfor_marksman = "WBK_EliteMainWeap_2";                                     
 opfor_sharpshooter = "O_ETXENO_Xeno_Scout_01";                          
 opfor_sniper = "O_ETXENO_Xeno_Scout_01";                                 
 opfor_at = "O_ETXENO_Xeno_Demolisher_01";                                   
 opfor_aa = "O_ETXENO_Xeno_Seeker_01";                                           
 opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
-opfor_engineer = "O_ETXENO_Xeno_Soldier_01";                                      
+opfor_engineer = "WBK_EliteMainWeap_9";                                      
 opfor_paratrooper = "";
 
 // Enemy vehicles used by secondary objectives.
@@ -49,6 +49,11 @@ militia_squad = [
     "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Bulwark_01",
     "O_ETXENO_Xeno_Soldier_01",
+    "WBK_Grunt_2",
+    "WBK_Grunt_1",
+    "WBK_Grunt_5",
+    "WBK_Grunt_3",
+    "WBK_Grunt_4"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
@@ -74,7 +79,9 @@ opfor_vehicles_low_intensity = [
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Destroyer_01",
     "O_OETXENO_Xeno_T26_Annihilator_01",
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01",
+    "WBK_HaloHunter_2",
+    "WBK_HaloHunter_1"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
