@@ -135,6 +135,11 @@ KPLIB_objectInits = [
         ["XDF_Medusa_Transport"],
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
+    
+    [
+        ["XDF_Medusa_Transport_Pod"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
 
     [
         ["XDF_Skyhawk"],
