@@ -143,17 +143,17 @@ KPLIB_objectInits = [
 
     [
         ["XDF_Skyhawk"],
-        {[_this, 36] call ace_cargo_fnc_setSpace;}
+        {[_this, 48] call ace_cargo_fnc_setSpace;}
     ],
    
     [
         ["XDF_Wraith_IT"],
-        {[_this, 48] call ace_cargo_fnc_setSpace;}
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
 
     [
         ["XDF_Wraith_VT"],
-        {[_this, 72] call ace_cargo_fnc_setSpace;}
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
     ], 
 
     [
