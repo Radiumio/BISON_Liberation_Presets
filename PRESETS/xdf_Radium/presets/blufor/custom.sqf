@@ -49,9 +49,9 @@ infantry_units = [
     ["B_XDF_Marksman",20,0,0],                                
     ["B_XDF_Medic",20,0,0],                                       
     ["B_XDF_Operative",10,0,0],                               
-    ["B_XDF_Light_Operative",10,0,0],                         
+    ["B_XDF_Light_Operative",5,0,0],                         
     ["B_XDF_HAT",30,0,0],                                     
-    ["B_XDF_MS_AA",10,0,0],                                          
+    ["B_XDF_MS_AA",20,0,0],                                          
     ["B_XDF_MS_AT",20,0,0],                                               
     ["B_XDF_Sniper",40,0,0],                                  
     ["B_XDF_UAV",30,0,0],                                                
@@ -401,70 +401,72 @@ support_vehicles = [
     These shouldn't exceed 10 members.
 */
 
-// Light infantry squad.
+// Light infantry squad. Default cost 200, individual units = 150 supplies | 20% squad discount = 120
 blufor_squad_inf_light = [
-    "B_XDF_Operative",
-    "B_XDF_Medic",
-    "B_XDF_HAT",
-    "B_XDF_Marksman_F",
-    "B_XDF_Grenadier",
-    "B_XDF_Autorifleman_F",
-    "B_XDF_Operative_F",
-    "B_XDF_Medic"
+    "B_XDF_Operative", // 10
+    "B_XDF_Medic", // 20
+    "B_XDF_HAT", // 30
+    "B_XDF_Marksman_F", // 20
+    "B_XDF_Grenadier", // 25
+    "B_XDF_Autorifleman_F", // 15
+    "B_XDF_Operative_F", // 10
+    "B_XDF_Medic" // 20
 ];
 
-// Heavy infantry squad.
+// Heavy infantry squad. Default cost 300, individual units = 375 supplies | 40% squad discount = 225
 blufor_squad_inf = [
-    "B_XDF_AX_Elite_Operative",
-    "B_XDF_AX_Elite_Hunter",
-    "B_XDF_AX_Elite_Hunter",
-    "B_XDF_AX_Elite_Gunner_F",
-    "B_XDF_AX_Elite_Gunner",
-    "B_XDF_AX_Elite_HAT_F",
-    "B_XDF_AX_Elite_JTAC",
-    "B_XDF_AX_Elite_Medic"
+    "B_XDF_AX_Elite_Operative", // 20
+    "B_XDF_AX_Elite_Hunter", // 50
+    "B_XDF_AX_Elite_Hunter", // 50
+    "B_XDF_AX_Elite_Hunter", // 50
+    "B_XDF_AX_Elite_Gunner_F", // 35
+    "B_XDF_AX_Elite_Gunner_F", // 35
+    "B_XDF_AX_Elite_Gunner", // 35
+    "B_XDF_AX_Elite_HAT_F", // 40
+    "B_XDF_AX_Elite_JTAC", // 30
+    "B_XDF_AX_Elite_Medic" // 30
 ];
 
-// AT specialists squad.
+// AT specialists squad. Default cost 200, individual units = 160 supplies | 20% squad discount = 128
 blufor_squad_at = [
-    "B_XDF_AX_Operative",
-    "B_XDF_MS_AT_F",
-    "B_XDF_MS_AT",
-    "B_XDF_AX_Medic",
-    "B_XDF_AX_Hunter",
-    "B_XDF_AX_Gunner"
+    "B_XDF_AX_Operative", // 15
+    "B_XDF_MS_AT_F", // 20
+    "B_XDF_MS_AT", // 20
+    "B_XDF_AX_Medic", // 20
+    "B_XDF_AX_Hunter", // 50
+    "B_XDF_AX_Gunner" // 35
 ];
 
-// AA specialists squad.
+// AA specialists squad. Default cost 200, individual units = 160 supplies | 20% squad discount = 128
 blufor_squad_aa = [
-    "B_XDF_AX_Operative",
-    "B_XDF_MS_AA_F",
-    "B_XDF_MS_AA",
-    "B_XDF_AX_Medic",
-    "B_XDF_AX_Hunter",
-    "B_XDF_AX_Gunner"
+    "B_XDF_AX_Operative", // 15
+    "B_XDF_MS_AA_F", // 20
+    "B_XDF_MS_AA", // 20
+    "B_XDF_AX_Medic", // 20
+    "B_XDF_AX_Hunter", // 50
+    "B_XDF_AX_Gunner" // 35
 ];
 
-// Force recon squad.
+// Force recon squad. Default cost 250, individual units = 215 supplies | 20% squad discount = 172
 blufor_squad_recon = [
-    "B_XDF_AX_Elite_Operative",
-    "B_XDF_AX_Elite_UAV",
-    "B_XDF_AX_Elite_JTAC_F",
-    "B_XDF_AX_Elite_Hunter_F",
-    "B_XDF_AX_Elite_Hunter",
-    "B_XDF_AX_Elite_Gunner"
+    "B_XDF_AX_Elite_Operative", // 15
+    "B_XDF_AX_Elite_UAV", // 40
+    "B_XDF_AX_Elite_JTAC_F", // 25
+    "B_XDF_AX_Elite_Hunter_F", // 50
+    "B_XDF_AX_Elite_Hunter", // 50
+    "B_XDF_AX_Elite_Gunner" // 35
 ];
 
-// Paratroopers squad (The units of this squad will automatically get parachutes on build)
+// Paratroopers squad. Default cost 200, individual units = 90 supplies | 20% squad discount = 72
 blufor_squad_para = [
-    "B_XDF_AX_Elite_Operative",
-    "B_XDF_AX_Operative",    
-    "B_XDF_AX_Operative",
-    "B_XDF_AX_Operative",
-    "B_XDF_AX_Operative",
-    "B_XDF_AX_Operative",
-    "B_XDF_AX_Operative",
-    "B_XDF_AX_Operative"
+    "B_XDF_AX_Elite_Operative", // 20
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative", // 10
+    "B_XDF_AX_Operative"  // 10
 ];
 
 /*
