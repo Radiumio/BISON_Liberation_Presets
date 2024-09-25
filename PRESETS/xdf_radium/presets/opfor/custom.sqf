@@ -53,9 +53,7 @@ militia_squad = [
     "O_ETXENO_Xeno_Soldier_01",
     "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Bulwark_01",
-    "O_ETXENO_Xeno_Soldier_01",
-    "WBK_HaloHunter_1",
-    "IMS_Elite_Melee_2"
+    "O_ETXENO_Xeno_Soldier_01"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
