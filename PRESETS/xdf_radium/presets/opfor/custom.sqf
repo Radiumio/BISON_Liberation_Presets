@@ -53,13 +53,14 @@ militia_squad = [
     "O_ETXENO_Xeno_Soldier_01",
     "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Bulwark_01",
-    "O_ETXENO_Xeno_Soldier_01"
+    "O_ETXENO_Xeno_Soldier_01",
+    "WBK_HaloHunter_1",
+    "IMS_Elite_Melee_2"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "O_OETXENO_Xeno_T46_Ghost_01",
-    "WBK_HaloHunter_1"
+    "O_OETXENO_Xeno_T46_Ghost_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -69,9 +70,7 @@ opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
     "O_OETXENO_Xeno_T52_Terminator_AA_01",
-    "O_OETXENO_Xeno_T26_Destroyer_01",
-    "WBK_HaloHunter_1",
-    "IMS_Elite_Melee_2"
+    "O_OETXENO_Xeno_T26_Destroyer_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -84,10 +83,7 @@ opfor_vehicles_low_intensity = [
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Destroyer_01",
     "O_OETXENO_Xeno_T26_Annihilator_01",
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01",
-    "WBK_HaloHunter_2",
-    "WBK_HaloHunter_1",
-    "IMS_Elite_Melee_2"
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -95,8 +91,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_01",
     "O_OETXENO_Xeno_T46_Ghost_01",
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01",
-    "WBK_HaloHunter_1"
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
