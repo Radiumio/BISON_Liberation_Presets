@@ -358,6 +358,9 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,0,0,0],                         // You can use this to adjust the price of the Flight Control building.
     [KP_liberation_heli_slot_building,0,0,0],                           // You can use this to adjust the price of a heli slot building.
     [KP_liberation_plane_slot_building,0,0,0],                          // You can use this to adjust the price of a plane slot building.
+    ["XDF_Stratoseeker",300,0,0],                                       // XDF RDR-23 Stratoseeker
+    ["XDF_Patriot",300,200,0],                                          // XDF MIM-55 Patriot
+    ["XDF_Praetorian",150,200,0],                                       // XDF Praetorian CIWS
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
@@ -392,7 +395,17 @@ support_vehicles = [
     ["XDF_Medusa_Repair_Pod",200,0,0],                                  // Medusa Repair Pod
     ["XDF_Medusa_Medical_Pod",50,0,0],                                  // Medusa Medical Pod
     ["XDF_Medusa_Bench_Pod",50,0,0],                                    // Medusa Bench Pod
-    ["XDF_Medusa_Transport_Pod",50,0,0]                                // Medusa Transport Pod
+    ["XDF_Medusa_Transport_Pod",50,0,0],                                // Medusa Transport Pod
+    ["XDF_M2HMG",50,20,0],                                              // XDF M2 HMG .50
+    ["XDF_M2HMG_Raised",50,20,0],                                       // XDF M2 HMG .50 (Raised)
+    ["XDF_StaticSpear",50,20,0],                                        // XDF R-3 Spear (Static)
+    ["XDF_StaticLance",50,20,0],                                        // XDF R-4 Lance (Static)
+    ["XDF_XM307",50,20,0],                                              // XDF XM307 GMG
+    ["XDF_XM307A",50,20,0],                                             // XDF XM307 GMG Autonomous
+    ["XDF_XM307_Raised",50,20,0],                                       // XDF XM307 GMG (Raised)
+    ["XDF_XM312",50,20,0],                                              // XDF XM312 HMG
+    ["XDF_XM312A",50,20,0],                                             // XDF XM312 HMG Autonomous
+    ["XDF_XM312_Raised",50,20,0]                                        // XDF XM312 HMG (Raised)
 ];
 
 /*
