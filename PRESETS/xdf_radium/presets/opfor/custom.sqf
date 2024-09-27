@@ -23,7 +23,7 @@ opfor_at = "O_ETXENO_Xeno_Demolisher_01";
 opfor_aa = "O_ETXENO_Xeno_Seeker_01";                                           
 opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
 opfor_engineer = "O_OETXENO_Xeno_Healer_01";                                      
-opfor_paratrooper = "";
+opfor_paratrooper = "O_ETXENO_Xeno_Soldier_01";
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "O_OETXENO_Xeno_T46_Ghost_Needler_01";                                             
