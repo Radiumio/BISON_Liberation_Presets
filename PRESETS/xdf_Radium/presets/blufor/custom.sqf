@@ -100,6 +100,8 @@ light_vehicles = [
     ["XDF_Cyclone_Covered",125,0,75],
     ["XDF_HEMTT_Mover",100,0,75],
     ["XDF_HEMTT_Cargo",125,0,75],
+    ["XDF_HEMTT_Transport",125,0,75],
+    ["XDF_HEMTT_Transport_Covered",125,0,75],
     ["XDF_HEMTT_Flatbed",125,0,75],
     ["XDF_Mars",80,100,30],
     ["XDF_Trident",200,80,75],
@@ -107,20 +109,20 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-    ["XDF_Commando",200,75,125],
-    ["XDF_Dementer",200,75,125],
-    ["XDF_Odin",500,500,250],
-    ["XDF_Scorpion",300,100,150],
+    ["XDF_Commando",150,75,125],
+    ["XDF_Dementer",150,75,125],
+    ["XDF_Odin",450,500,250],
+    ["XDF_Scorpion",250,100,150],
     ["XDF_Huntress",300,250,175],
     ["XDF_Kodiak",500,400,250],
-    ["XDF_Titan",3000,1500,1000],
-    ["XDF_Hurricane",800,1750,400]
+    ["XDF_Titan",2500,1500,1000],
+    ["XDF_Hurricane",600,1500,200]
 ];
 
 air_vehicles = [
-    ["XDF_Caiman",550,350,200],
-    ["XDF_Comanche",500,400,200],
-    ["XDF_Dragonfly",250,80,150],
+    ["XDF_Caiman",450,350,150],
+    ["XDF_Comanche",350,400,150],
+    ["XDF_Dragonfly",150,80,50],
     ["XDF_Hornet_Armed",200,100,100],
     ["XDF_Medusa",250,0,150],
     ["XDF_Medusa_Ammo",250,200,150],
@@ -129,16 +131,16 @@ air_vehicles = [
     ["XDF_Medusa_Fuel",250,0,350],
     ["XDF_Medusa_Repair",450,0,150],
     ["XDF_Medusa_Transport",250,0,150],
-    ["XDF_Skyhawk",275,80,175],
+    ["XDF_Skyhawk",250,80,175],
     ["XDF_Guardian",500,500,200],
     ["XDF_Kestrel",450,500,250],
     ["XDF_Mosquito",75,0,25],
-    ["XDF_Tusk",1000,800,400],
-    ["XDF_Vulture",800,400,350],
+    ["XDF_Tusk",800,650,250],
+    ["XDF_Vulture",700,400,250],
     ["XDF_Gemini",1500,1750,450],
     ["XDF_Wraith_IT",500,350,200],
     ["XDF_Wraith_VT",500,350,200],
-    ["XDF_Accipiter",4000,3000,1500],
+    ["XDF_Accipiter",3500,2000,1500],
     ["XDF_Albatross_IT",750,0,500],
     ["XDF_Albatross_VT",750,0,500],
     ["XDF_Retributor",750,1500,500]
@@ -349,7 +351,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
-    [(Respawn_truck_typename select 0),150,0,75],                          // You can use this to adjust the price of a respawn truck.
+    [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
@@ -360,7 +362,7 @@ support_vehicles = [
     [KP_liberation_plane_slot_building,0,0,0],                          // You can use this to adjust the price of a plane slot building.
     ["XDF_Stratoseeker",300,0,0],                                       // XDF RDR-23 Stratoseeker
     ["XDF_Patriot",300,200,0],                                          // XDF MIM-55 Patriot
-    ["XDF_Praetorian",150,200,0],                                       // XDF Praetorian CIWS
+    ["XDF_Praetorian",50,200,0],                                        // XDF Praetorian CIWS
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
@@ -386,14 +388,14 @@ support_vehicles = [
     ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
     ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
     ["XDF_Cyclone_Ammo",125,200,75],                                    // Cyclone Ammo
-    ["XDF_Cyclone_Medical",150,0,75],                                   // Cyclone Medical
+    ["XDF_Cyclone_Medical",0,0,0],                                      // Cyclone Medical
     ["XDF_HEMTT_Repair",325,0,75],                                      // HEMTT Repair
     ["XDF_HEMTT_Fuel",125,0,275],                                       // HEMTT Fuel
     ["XDF_HEMTT_Ammo",125,200,75],                                      // HEMTT Ammo
     ["XDF_Medusa_Ammo_Pod",0,200,0],                                    // Medusa Ammo Pod
     ["XDF_Medusa_Fuel_Pod",0,0,200],                                    // Medusa Fuel Pod
     ["XDF_Medusa_Repair_Pod",200,0,0],                                  // Medusa Repair Pod
-    ["XDF_Medusa_Medical_Pod",50,0,0],                                  // Medusa Medical Pod
+    ["XDF_Medusa_Medical_Pod",0,0,0],                                   // Medusa Medical Pod
     ["XDF_Medusa_Bench_Pod",50,0,0],                                    // Medusa Bench Pod
     ["XDF_Medusa_Transport_Pod",50,0,0],                                // Medusa Transport Pod
     ["XDF_M2HMG",50,20,0],                                              // XDF M2 HMG .50
