@@ -116,7 +116,8 @@ heavy_vehicles = [
     ["XDF_Huntress",300,250,175],
     ["XDF_Kodiak",500,400,250],
     ["XDF_Titan",2500,1500,1000],
-    ["XDF_Hurricane",600,1500,200]
+    ["XDF_Hurricane",600,1500,200],
+    ["XDF_Scoria",700,2000,200]
 ];
 
 air_vehicles = [
@@ -363,6 +364,7 @@ support_vehicles = [
     ["XDF_Stratoseeker",300,0,0],                                       // XDF RDR-23 Stratoseeker
     ["XDF_Patriot",300,200,0],                                          // XDF MIM-55 Patriot
     ["XDF_Praetorian",50,200,0],                                        // XDF Praetorian CIWS
+    ["XDF_Typhon_VLS",200,2000,0],                                      // XDF Typhon VLS
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
@@ -385,6 +387,7 @@ support_vehicles = [
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor [DO NOT CHANGE]
     ["Box_T_NATO_AmmoVeh_F",50,100,0],                                  // Vehicle Ammo [NATO]
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
+    ["XDF_Onyx",450,350,100],                                           // CRV Onyx
     ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
     ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
     ["XDF_Cyclone_Ammo",125,200,75],                                    // Cyclone Ammo
@@ -499,5 +502,7 @@ elite_vehicles = [
     "XDF_Vulture",
     "XDF_Tusk",
     "XDF_Retributor",
-    "XDF_Huntress"
+    "XDF_Huntress",
+    "XDF_Typhon_VLS",
+    "XDF_Scoria"
 ];
