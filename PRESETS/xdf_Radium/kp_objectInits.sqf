@@ -135,6 +135,56 @@ KPLIB_objectInits = [
         ["XDF_Medusa_Transport"],
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
+
+    [
+        ["XDF_Scoria"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Hurricane"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Huntress"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Commando"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Onyx"],
+        {[_this, 20] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Dementer"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Odin"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Scorpion"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Kodiak"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Titan"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
     
     [
         ["XDF_Medusa_Transport_Pod"],
