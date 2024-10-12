@@ -124,6 +124,7 @@ KPLIB_objectInits = [
         {
             if (!(GRLIB_autodanger) && {(side _this) isEqualTo GRLIB_side_friendly}) then {
                 _this disableAI "AUTOCOMBAT";
+                _this setSkill 1;
             };
             _this allowFleeing 0;
         },
