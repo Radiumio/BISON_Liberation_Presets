@@ -198,6 +198,27 @@ KPLIB_objectInits = [
     ],
 
     [
+        ["XDF_HEMTT_Cargo"],
+        {[_this, 54] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_HEMTT_Transport_Covered"],
+        {[_this, 54] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_HEMTT_Flatbed"],
+        {[_this, 54] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_HEMTT_Transport"],
+        {[_this, 54] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
         ["XDF_Dragonfly"],
         {[_this, 18] call ace_cargo_fnc_setSpace;}
     ],
