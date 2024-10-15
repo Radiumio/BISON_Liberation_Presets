@@ -105,7 +105,8 @@ light_vehicles = [
     ["XDF_HEMTT_Flatbed",125,0,75],
     ["XDF_Mars",80,100,30],
     ["XDF_Trident",200,80,75],
-    ["XDF_RHIB",100,0,25]
+    ["XDF_RHIB",100,0,25],
+    ["XDF_SDV",50,0,15]
 ];
 
 heavy_vehicles = [
@@ -115,6 +116,8 @@ heavy_vehicles = [
     ["XDF_Scorpion",250,100,150],
     ["XDF_Huntress",300,250,175],
     ["XDF_Kodiak",500,400,250],
+    ["XDF_Minotaur",550,600,300],
+    ["XDF_Minotaur_CTWS",550,700,300],
     ["XDF_Titan",2500,1500,1000],
     ["XDF_Hurricane",600,1500,200],
     ["XDF_Scoria",700,2000,200]
@@ -133,6 +136,7 @@ air_vehicles = [
     ["XDF_Medusa_Repair",450,0,150],
     ["XDF_Medusa_Transport",250,0,150],
     ["XDF_Skyhawk",250,80,175],
+    ["XDF_Reaper",200,300,100],
     ["XDF_Guardian",500,500,200],
     ["XDF_Kestrel",450,500,250],
     ["XDF_Mosquito",75,0,25],
@@ -546,5 +550,7 @@ elite_vehicles = [
     "XDF_Retributor",
     "XDF_Huntress",
     "XDF_Typhon_VLS",
-    "XDF_Scoria"
+    "XDF_Scoria",
+    "XDF_Minotaur",
+    "XDF_Minotaur_CTWS"
 ];
