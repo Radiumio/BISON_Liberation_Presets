@@ -186,6 +186,16 @@ KPLIB_objectInits = [
         ["XDF_Titan"],
         {[_this, 16] call ace_cargo_fnc_setSpace;}
     ],
+
+    [
+        ["XDF_Minotaur"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Minotaur_CTWS"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
     
     [
         ["XDF_Medusa_Transport_Pod"],
