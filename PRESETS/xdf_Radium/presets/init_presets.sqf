@@ -314,7 +314,7 @@ KPLIB_typeAirClasses   = +KPLIB_b_air_classes;
 } forEach (KPLIB_b_support_classes + [toLower huron_typename]);
 
 // Military alphabet used for FOBs and convois
-military_alphabet = ["Triton", "Daedalus", "Mars", "Athena", "Artemis", "Zeus", "Neptune", "Jupiter", "Apollo", "Ares", "Hephaestus", "Titan", "Odysseus", "Achilles", "Orpheus", "Oracle", "Sabre", "Minotaur", "Cerberus", "Odin", "Abraxas", "Argo", "Atlas", "Griffin", "Hades", "Icarus"];
+military_alphabet = ["Icarus", "Manta", "Aurora", "Borealis", "Crimson", "Eclipse", "Hydra", "Mirage", "Varanus", "Obelisk", "Argent", "Talon", "Solstice", "Nova", "Inferno", "Judge", "Astraeus", "Osiris", "Hemera", "Chronos", "Templar", "Northstar", "Inquisitor", "Hoplite", "Golem", "Igneus"];
 
 // Misc variables
 markers_reset = [99999,99999,0];
