@@ -110,11 +110,14 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
+    ["XDF_Champion",100,75,50],
     ["XDF_Commando",150,75,125],
     ["XDF_Dementer",150,75,125],
     ["XDF_Odin",450,500,250],
     ["XDF_Scorpion",250,100,150],
     ["XDF_Huntress",300,250,175],
+    ["XDF_Basilisk",300,250,200],
+    ["XDF_Basilisk_LIC",350,300,200],
     ["XDF_Kodiak",500,400,250],
     ["XDF_Minotaur",550,600,300],
     ["XDF_Minotaur_CTWS",550,700,300],
