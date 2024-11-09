@@ -113,7 +113,7 @@ heavy_vehicles = [
     ["XDF_Champion",100,75,50],
     ["XDF_Commando",150,75,125],
     ["XDF_Dementer",150,75,125],
-    ["XDF_Odin",450,500,250],
+    ["XDF_Odin",250,400,100],
     ["XDF_Scorpion",250,100,150],
     ["XDF_Huntress",300,250,175],
     ["XDF_Basilisk",300,250,200],
@@ -122,8 +122,8 @@ heavy_vehicles = [
     ["XDF_Minotaur",550,600,300],
     ["XDF_Minotaur_CTWS",550,700,300],
     ["XDF_Titan",2500,1500,1000],
-    ["XDF_Hurricane",600,1500,200],
-    ["XDF_Scoria",700,2000,200]
+    ["XDF_Hurricane",600,2000,200],
+    ["XDF_Scoria",700,1500,200]
 ];
 
 air_vehicles = [
@@ -178,6 +178,17 @@ buildings = [
     ["Land_Cargo_Tower_V1_F",0,0,0],
     ["Land_ControlTower_01_F",0,0,0],
     ["Flag_XenoDefenceForce",0,0,0],
+    ["Flag_TaskForceArtificer",0,0,0],
+    ["Flag_TaskForceCeto",0,0,0],
+    ["Flag_TaskForceDamocles",0,0,0],
+    ["Flag_TaskForceIon",0,0,0],
+    ["Flag_TaskForceLotus",0,0,0],
+    ["Banner_XenoDefenceForce",0,0,0],
+    ["Banner_TaskForceArtificer",0,0,0],
+    ["Banner_TaskForceCeto",0,0,0],
+    ["Banner_TaskForceDamocles",0,0,0],
+    ["Banner_TaskForceIon",0,0,0],
+    ["Banner_TaskForceLotus",0,0,0],
     ["Land_MedicalTent_01_tropic_closed_F",0,0,0],
     ["Flag_RedCrystal_F",0,0,0],
     ["CamoNet_BLUFOR_F",0,0,0],
