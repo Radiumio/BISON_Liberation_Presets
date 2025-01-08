@@ -21,7 +21,7 @@ Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical","XDF_Medusa_
 huron_typename = "XDF_Medusa_Medical";                                    // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_XDF_Crew";                                         // This defines the crew for vehicles.
 pilot_classname = "B_XDF_Pilot";                                          // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "XDF_Hornet";                       // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "XDF_Mamba";                        // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "XDF_Trident";                             // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "XDF_HEMTT_Cargo";                        // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";       // A small storage area for resources. LEAVE AS IS.
@@ -88,6 +88,9 @@ light_vehicles = [
     ["XDF_Boar",50,0,25],
     ["XDF_Boar_GMG",100,60,50],
     ["XDF_Boar_HMG",100,40,50],
+    ["XDF_Boar_FSV",100,80,50],
+    ["XDF_Boar_AT",100,90,50],
+    ["XDF_Boar_LAAD",100,100,50],
     ["XDF_Offroad_Comms",50,0,15],
     ["XDF_Offroad_Covered",50,0,15],
     ["XDF_Puma",50,0,25],
@@ -128,9 +131,12 @@ heavy_vehicles = [
 
 air_vehicles = [
     ["XDF_Caiman",450,350,150],
-    ["XDF_Comanche",350,400,150],
+    ["XDF_Comanche",250,300,150],
+    ["XDF_Python",400,500,150],
     ["XDF_Dragonfly",150,80,50],
     ["XDF_Hornet_Armed",200,100,100],
+    ["XDF_Mamba_Unarmed",200,0,150],
+    ["XDF_Mamba_SOCAT",250,200,150],
     ["XDF_Medusa",250,0,150],
     ["XDF_Medusa_Ammo",250,200,150],
     ["XDF_Medusa_Bench",250,0,150],
