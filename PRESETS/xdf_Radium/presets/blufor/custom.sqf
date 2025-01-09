@@ -573,5 +573,6 @@ elite_vehicles = [
     "XDF_Typhon_VLS",
     "XDF_Scoria",
     "XDF_Minotaur",
-    "XDF_Minotaur_CTWS"
+    "XDF_Minotaur_CTWS",
+    "XDF_Python"
 ];
