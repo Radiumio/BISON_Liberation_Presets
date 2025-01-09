@@ -87,93 +87,100 @@ light_vehicles = [
     ["XDF_Marauder_MMG",0,0,0],
     ["XDF_Marauder_RCWS",0,0,0],
     ["XDF_Marauder_AA",0,0,0],
-    ["XDF_Jackal",75,0,50],                         
-    ["XDF_Jackal_AT",75,60,50],                   
-    ["XDF_Jackal_HMG",75,40,50],
-    ["XDF_Boar",50,0,25],
-    ["XDF_Boar_GMG",100,60,50],
-    ["XDF_Boar_HMG",100,40,50],
-    ["XDF_Boar_FSV",100,80,50],
-    ["XDF_Boar_AT",100,90,50],
-    ["XDF_Boar_LAAD",100,100,50],
-    ["XDF_Offroad_Comms",50,0,15],
-    ["XDF_Offroad_Covered",50,0,15],
-    ["XDF_Puma",50,0,25],
-    ["XDF_Puma_GMG",100,60,50],
-    ["XDF_Puma_HMG",100,40,50],
-    ["XDF_Punisher",50,0,0],
-    ["XDF_Punisher_GMG",100,60,50],
-    ["XDF_Punisher_HMG",100,40,50],
-    ["XDF_Cyclone",125,0,75],
-    ["XDF_Cyclone_Covered",125,0,75],
-    ["XDF_HEMTT_Mover",100,0,75],
-    ["XDF_HEMTT_Cargo",125,0,75],
-    ["XDF_HEMTT_Transport",125,0,75],
-    ["XDF_HEMTT_Transport_Covered",125,0,75],
-    ["XDF_HEMTT_Flatbed",125,0,75],
-    ["XDF_Mars",80,100,30],
-    ["XDF_Trident",200,80,75],
-    ["XDF_RHIB",100,0,25],
-    ["XDF_SDV",50,0,15]
+    ["XDF_Jackal",0,0,0],                         
+    ["XDF_Jackal_AT",0,0,0],                   
+    ["XDF_Jackal_HMG",0,0,0],
+    ["XDF_Boar",0,0,0],
+    ["XDF_Boar_GMG",50,60,25],
+    ["XDF_Boar_HMG",50,40,25],
+    ["XDF_Boar_FSV",50,80,25],
+    ["XDF_Boar_AT",50,90,25],
+    ["XDF_Boar_LAAD",50,80,25],
+    ["XDF_Offroad_Comms",0,0,0],
+    ["XDF_Offroad_Covered",0,0,0],
+    ["XDF_Puma",0,0,0],
+    ["XDF_Puma_GMG",50,60,25],
+    ["XDF_Puma_HMG",50,40,25],
+    ["XDF_Punisher",0,0,0],
+    ["XDF_Punisher_GMG",50,60,25],
+    ["XDF_Punisher_HMG",50,40,25],
+    ["XDF_Cyclone",0,0,0],
+    ["XDF_Cyclone_Covered",0,0,0],
+    ["XDF_HEMTT_Cargo",0,0,0],
+    ["XDF_HEMTT_Transport",0,0,0],
+    ["XDF_HEMTT_Transport_Covered",0,0,0],
+    ["XDF_HEMTT_Flatbed",0,0,0],
+    ["XDF_Mars",80,50,30],
+    ["XDF_Trident",100,40,30],
+    ["XDF_RHIB",0,0,0],
+    ["XDF_SDV",0,0,0]
 ];
 
 heavy_vehicles = [
-    ["XDF_Champion",100,75,50],
-    ["XDF_Commando",150,75,125],
-    ["XDF_Dementer",150,75,125],
-    ["XDF_Odin",250,400,100],
-    ["XDF_Scorpion",250,100,150],
-    ["XDF_Huntress",300,250,175],
-    ["XDF_Basilisk",300,250,200],
-    ["XDF_Basilisk_LIC",350,300,200],
-    ["XDF_Kodiak",500,400,250],
-    ["XDF_Minotaur",550,600,300],
-    ["XDF_Minotaur_CTWS",550,700,300],
-    ["XDF_Titan",2500,1500,1000],
-    ["XDF_TwinMortar",200,200,0],
-    ["XDF_Hurricane",600,2000,200],
-    ["XDF_Scoria",700,1500,200]
+    ["XDF_Champion",50,50,50],
+    ["XDF_Commando",75,50,60],
+    ["XDF_Dementer",75,50,60],
+    ["XDF_Odin",125,200,50],
+    ["XDF_Scorpion",125,50,80],
+    ["XDF_Huntress",150,125,80],
+    ["XDF_Basilisk",150,125,100],
+    ["XDF_Basilisk_LIC",175,150,100],
+    ["XDF_Kodiak",250,200,125],
+    ["XDF_Minotaur",275,300,150],
+    ["XDF_Minotaur_CTWS",275,300,150],
+    ["XDF_Titan",500,500,250],
+    ["XDF_Hurricane",300,1000,100],
+    ["XDF_Scoria",350,750,100]
 ];
 
 air_vehicles = [
-    ["XDF_Caiman",450,350,150],
-    ["XDF_Comanche",250,300,150],
-    ["XDF_Python",400,500,150],
-    ["XDF_Dragonfly",150,80,50],
-    ["XDF_Hornet_Armed",200,100,100],
-    ["XDF_Mamba_Unarmed",200,0,150],
-    ["XDF_Mamba_SOCAT",250,200,150],
-    ["XDF_Medusa",250,0,150],
-    ["XDF_Medusa_Ammo",250,200,150],
-    ["XDF_Medusa_Bench",250,0,150],
-    ["XDF_Medusa_Cargo",350,0,150],
-    ["XDF_Medusa_Fuel",250,0,350],
-    ["XDF_Medusa_Repair",450,0,150],
-    ["XDF_Medusa_Transport",250,0,150],
-    ["XDF_Skyhawk",250,80,175],
-    ["XDF_Reaper",200,300,100],
-    ["XDF_Guardian",500,500,200],
-    ["XDF_Kestrel",450,500,250],
-    ["XDF_Mosquito",75,0,25],
-    ["XDF_Tusk",800,650,250],
-    ["XDF_Vulture",700,400,250],
-    ["XDF_Gemini",1500,1750,450],
-    ["XDF_Wraith_IT",500,350,200],
-    ["XDF_Wraith_VT",500,350,200],
-    ["XDF_Accipiter",3500,2000,1500],
-    ["XDF_Albatross_IT",750,0,500],
-    ["XDF_Albatross_VT",750,0,500],
-    ["XDF_Retributor",750,1500,500]
+    ["XDF_Caiman",225,175,75],
+    ["XDF_Comanche",125,150,75],
+    ["XDF_Python",200,250,75],
+    ["XDF_Dragonfly",0,0,0],
+    ["XDF_Hornet_Armed",0,0,0],
+    ["XDF_Mamba_Unarmed",0,0,0],
+    ["XDF_Mamba_SOCAT",125,100,75],
+    ["XDF_Medusa",0,0,0],
+    ["XDF_Medusa_Ammo",0,100,0],
+    ["XDF_Medusa_Bench",0,0,0],
+    ["XDF_Medusa_Cargo",0,0,0],
+    ["XDF_Medusa_Fuel",0,0,100],
+    ["XDF_Medusa_Repair",100,0,0],
+    ["XDF_Medusa_Transport",0,0,0],
+    ["XDF_Skyhawk",0,0,0],
+    ["XDF_Reaper",100,150,50],
+    ["XDF_Guardian",250,250,100],
+    ["XDF_Kestrel",225,250,125],
+    ["XDF_Mosquito",0,0,0],
+    ["XDF_Tusk",400,325,125],
+    ["XDF_Vulture",350,200,125],
+    ["XDF_Gemini",750,875,225],
+    ["XDF_Wraith_IT",250,175,100],
+    ["XDF_Wraith_VT",250,175,100],
+    ["XDF_Accipiter",1750,1000,750],
+    ["XDF_Albatross_IT",375,0,250],
+    ["XDF_Albatross_VT",375,0,250],
+    ["XDF_Retributor",375,750,250]
 ];
 
 static_vehicles = [
-    ["B_static_AA_F",50,100,0],                                           // Static Titan Launcher (AA)
-    ["B_static_AT_F",50,100,0],                                           // Static Titan Launcher (AT)
-    ["B_Mortar_01_F",80,150,0],                                           // Mk6 Mortar
-    ["B_GMG_01_high_F",200,250,0],                                        // XM307 (High)
-    ["B_GMG_01_F",200,250,0],                                             // XM307
-    ["B_HMG_01_high_F",200,150,0],                                        // XM312 (High)
-    ["B_HMG_01_F",200,150,0]                                              // XM312
+    ["B_Mortar_01_F",0,0,0],                                            // Mk6 Mortar
+    ["XDF_M2HMG",0,0,0],                                                // XDF M2 HMG .50
+    ["XDF_M2HMG_Raised",0,0,0],                                         // XDF M2 HMG .50 (Raised)
+    ["XDF_StaticSpear",0,0,0],                                          // XDF R-3 Spear (Static)
+    ["XDF_StaticLance",0,0,0],                                          // XDF R-4 Lance (Static)
+    ["XDF_XM307",0,0,0],                                                // XDF XM307 GMG
+    ["XDF_XM307A",0,0,0],                                               // XDF XM307 GMG Autonomous
+    ["XDF_XM307_Raised",0,0,0],                                         // XDF XM307 GMG (Raised)
+    ["XDF_XM312",0,0,0],                                                // XDF XM312 HMG
+    ["XDF_XM312A",0,0,0],                                               // XDF XM312 HMG Autonomous
+    ["XDF_XM312_Raised",0,0,0],                                         // XDF XM312 HMG (Raised)
+    ["XDF_Stratoseeker",125,0,0],                                       // XDF RDR-23 Stratoseeker
+    ["XDF_Patriot",125,100,0],                                          // XDF MIM-55 Patriot
+    ["XDF_Praetorian",25,100,0],                                        // XDF Praetorian CIWS
+    ["XDF_TwinMortar",200,200,0],                                       // XDF Harbinger Mortar
+    ["XDF_Typhon_VLS",100,1000,0]                                       // XDF Typhon VLS
 ];
 
 buildings = [
@@ -423,20 +430,16 @@ buildings = [
 ];
 
 support_vehicles = [
-    [Arsenal_typename,100,200,0],                                       // You can use this to adjust the price of an arsenal box.
+    [Arsenal_typename,0,0,0],                                           // You can use this to adjust the price of an arsenal box.
     [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
     [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
     [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
     [KP_liberation_large_storage_building,0,0,0],                       // You can use this to adjust the price of a large storage area. Generally free.
-    [KP_liberation_recycle_building,800,0,0],                           // You can use this to adjust the price of a recycling/maintenance building. 
+    [KP_liberation_recycle_building,0,0,0],                             // You can use this to adjust the price of a recycling/maintenance building. 
     [KP_liberation_air_vehicle_building,0,0,0],                         // You can use this to adjust the price of the Flight Control building.
     [KP_liberation_heli_slot_building,0,0,0],                           // You can use this to adjust the price of a heli slot building.
     [KP_liberation_plane_slot_building,0,0,0],                          // You can use this to adjust the price of a plane slot building.
-    ["XDF_Stratoseeker",300,0,0],                                       // XDF RDR-23 Stratoseeker
-    ["XDF_Patriot",300,200,0],                                          // XDF MIM-55 Patriot
-    ["XDF_Praetorian",50,200,0],                                        // XDF Praetorian CIWS
-    ["XDF_Typhon_VLS",200,2000,0],                                      // XDF Typhon VLS
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
@@ -461,30 +464,20 @@ support_vehicles = [
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
     ["XDF_Marauder_Fuel",0,0,50],
     ["XDF_Marauder_Repair",50,0,0],
-    ["XDF_Onyx",450,350,100],                                           // CRV Onyx
-    ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
-    ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
-    ["XDF_Cyclone_Ammo",125,200,75],                                    // Cyclone Ammo
+    ["XDF_Onyx",225,175,50],                                            // CRV Onyx
+    ["XDF_Cyclone_Repair",100,0,0],                                     // Cyclone Repair
+    ["XDF_Cyclone_Fuel",0,0,100],                                       // Cyclone Fuel
+    ["XDF_Cyclone_Ammo",0,100,0],                                       // Cyclone Ammo
     ["XDF_Cyclone_Medical",0,0,0],                                      // Cyclone Medical
-    ["XDF_HEMTT_Repair",325,0,75],                                      // HEMTT Repair
-    ["XDF_HEMTT_Fuel",125,0,275],                                       // HEMTT Fuel
-    ["XDF_HEMTT_Ammo",125,200,75],                                      // HEMTT Ammo
-    ["XDF_Medusa_Ammo_Pod",0,200,0],                                    // Medusa Ammo Pod
-    ["XDF_Medusa_Fuel_Pod",0,0,200],                                    // Medusa Fuel Pod
-    ["XDF_Medusa_Repair_Pod",200,0,0],                                  // Medusa Repair Pod
+    ["XDF_HEMTT_Repair",100,0,0],                                       // HEMTT Repair
+    ["XDF_HEMTT_Fuel",0,0,100],                                         // HEMTT Fuel
+    ["XDF_HEMTT_Ammo",0,100,0],                                         // HEMTT Ammo
+    ["XDF_Medusa_Ammo_Pod",0,100,0],                                    // Medusa Ammo Pod
+    ["XDF_Medusa_Fuel_Pod",0,0,100],                                    // Medusa Fuel Pod
+    ["XDF_Medusa_Repair_Pod",100,0,0],                                  // Medusa Repair Pod
     ["XDF_Medusa_Medical_Pod",0,0,0],                                   // Medusa Medical Pod
-    ["XDF_Medusa_Bench_Pod",50,0,0],                                    // Medusa Bench Pod
-    ["XDF_Medusa_Transport_Pod",50,0,0],                                // Medusa Transport Pod
-    ["XDF_M2HMG",50,20,0],                                              // XDF M2 HMG .50
-    ["XDF_M2HMG_Raised",50,20,0],                                       // XDF M2 HMG .50 (Raised)
-    ["XDF_StaticSpear",50,20,0],                                        // XDF R-3 Spear (Static)
-    ["XDF_StaticLance",50,20,0],                                        // XDF R-4 Lance (Static)
-    ["XDF_XM307",50,20,0],                                              // XDF XM307 GMG
-    ["XDF_XM307A",50,20,0],                                             // XDF XM307 GMG Autonomous
-    ["XDF_XM307_Raised",50,20,0],                                       // XDF XM307 GMG (Raised)
-    ["XDF_XM312",50,20,0],                                              // XDF XM312 HMG
-    ["XDF_XM312A",50,20,0],                                             // XDF XM312 HMG Autonomous
-    ["XDF_XM312_Raised",50,20,0]                                        // XDF XM312 HMG (Raised)
+    ["XDF_Medusa_Bench_Pod",0,0,0],                                     // Medusa Bench Pod
+    ["XDF_Medusa_Transport_Pod",0,0,0]                                  // Medusa Transport Pod
 ];
 
 /*
