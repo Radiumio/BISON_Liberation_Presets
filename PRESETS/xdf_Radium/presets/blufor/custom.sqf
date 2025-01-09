@@ -130,6 +130,7 @@ heavy_vehicles = [
     ["XDF_Minotaur",550,600,300],
     ["XDF_Minotaur_CTWS",550,700,300],
     ["XDF_Titan",2500,1500,1000],
+    ["XDF_TwinMortar",200,200,0],
     ["XDF_Hurricane",600,2000,200],
     ["XDF_Scoria",700,1500,200]
 ];
