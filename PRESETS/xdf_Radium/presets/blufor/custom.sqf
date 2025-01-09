@@ -81,7 +81,12 @@ infantry_units = [
 ];
 
 light_vehicles = [
-    ["XDF_Quadbike",0,0,0],                                    
+    ["XDF_Quadbike",0,0,0],
+    ["XDF_Marauder",0,0,0],
+    ["XDF_Marauder_Comms",0,0,0],
+    ["XDF_Marauder_MMG",0,0,0],
+    ["XDF_Marauder_RCWS",0,0,0],
+    ["XDF_Marauder_AA",0,0,0],
     ["XDF_Jackal",75,0,50],                         
     ["XDF_Jackal_AT",75,60,50],                   
     ["XDF_Jackal_HMG",75,40,50],
@@ -453,6 +458,8 @@ support_vehicles = [
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor [DO NOT CHANGE]
     ["Box_T_NATO_AmmoVeh_F",50,100,0],                                  // Vehicle Ammo [NATO]
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
+    ["XDF_Marauder_Fuel",0,0,50],
+    ["XDF_Marauder_Repair",50,0,0],
     ["XDF_Onyx",450,350,100],                                           // CRV Onyx
     ["XDF_Cyclone_Repair",325,0,75],                                    // Cyclone Repair
     ["XDF_Cyclone_Fuel",125,0,275],                                     // Cyclone Fuel
