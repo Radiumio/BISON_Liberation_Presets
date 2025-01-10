@@ -111,6 +111,7 @@ light_vehicles = [
     ["XDF_HEMTT_Transport_Covered",0,0,0],
     ["XDF_HEMTT_Flatbed",0,0,0],
     ["XDF_Mars",80,50,30],
+    ["XDF_Ripsaw",100,80,30],
     ["XDF_Trident",100,40,30],
     ["XDF_RHIB",0,0,0],
     ["XDF_SDV",0,0,0]
