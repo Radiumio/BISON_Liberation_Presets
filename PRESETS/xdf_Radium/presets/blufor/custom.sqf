@@ -150,7 +150,7 @@ air_vehicles = [
     ["XDF_Medusa_Repair",100,0,0],
     ["XDF_Medusa_Transport",0,0,0],
     ["XDF_Skyhawk",0,0,0],
-    ["XDF_Reaper",100,150,50],
+    ["XDF_Reaper",20,50,0],
     ["XDF_Guardian",250,250,100],
     ["XDF_Kestrel",225,250,125],
     ["XDF_Mosquito",0,0,0],
