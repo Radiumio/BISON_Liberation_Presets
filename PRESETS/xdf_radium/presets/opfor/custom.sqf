@@ -65,28 +65,24 @@ militia_vehicles = [
 opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
-    "O_OETXENO_Xeno_T52_Terminator_AA_01",
     "O_OETXENO_Xeno_T26_Destroyer_01"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "O_OETXENO_Xeno_T46_Ghost_Needler_01",
-    "O_OETXENO_Xeno_T46_Ghost_Ultra_01"
+    "O_OETXENO_Xeno_T46_Ghost_01",
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Destroyer_01",
-    "O_OETXENO_Xeno_T26_Annihilator_01",
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
+    "O_OETXENO_Xeno_T26_Annihilator_01"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_01",
-    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
