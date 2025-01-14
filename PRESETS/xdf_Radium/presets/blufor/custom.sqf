@@ -466,6 +466,7 @@ support_vehicles = [
     ["XDF_Marauder_Fuel",0,0,50],
     ["XDF_Marauder_Repair",50,0,0],
     ["XDF_Onyx",225,175,50],                                            // CRV Onyx
+    ["Land_FuelStation_01_pump_malevil_F",0,0,100],                     // Fuel Pump
     ["XDF_Cyclone_Repair",100,0,0],                                     // Cyclone Repair
     ["XDF_Cyclone_Fuel",0,0,100],                                       // Cyclone Fuel
     ["XDF_Cyclone_Ammo",0,100,0],                                       // Cyclone Ammo
