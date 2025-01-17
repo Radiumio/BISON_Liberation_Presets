@@ -140,6 +140,7 @@ air_vehicles = [
     ["XDF_Python",200,250,75],
     ["XDF_Dragonfly",0,0,0],
     ["XDF_Hornet_Armed",0,0,0],
+    ["XDF_Mamba",0,0,0],
     ["XDF_Mamba_Unarmed",0,0,0],
     ["XDF_Mamba_SOCAT",125,100,75],
     ["XDF_Medusa",0,0,0],
