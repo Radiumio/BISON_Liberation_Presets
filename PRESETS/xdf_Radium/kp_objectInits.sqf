@@ -245,7 +245,7 @@ KPLIB_objectInits = [
 
     [
         ["XDF_Medusa_Cargo"],
-        {[_this, 48] call ace_cargo_fnc_setSpace;}
+        {[_this, 72] call ace_cargo_fnc_setSpace;}
     ],
    
     [
