@@ -135,7 +135,7 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["XDF_Caiman",225,175,75],
+    ["XDF_Caiman",200,175,75],
     ["XDF_Comanche",125,150,75],
     ["XDF_Python",200,250,75],
     ["XDF_Dragonfly",0,0,0],
