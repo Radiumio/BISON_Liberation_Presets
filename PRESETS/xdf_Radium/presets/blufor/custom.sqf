@@ -17,7 +17,7 @@ FOB_typename = "Land_Cargo_HQ_V3_F";                                      // Thi
 FOB_box_typename = "XDF_Medusa_Cargo_Pod";                                // This is the FOB as a container.
 FOB_truck_typename = "XDF_HEMTT_Box";                                     // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                     // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical","XDF_Medusa_Medical_Pod","XDF_Dragonfly","XDF_Mamba_Unarmed"];
+Respawn_truck_typename = ["XDF_HEMTT_Medical","XDF_Cyclone_Medical","XDF_Medusa_Medical_Pod","XDF_Dragonfly","XDF_Mamba_Unarmed","XDF_AAV9_Barracuda","XDF_AAV9_50mm_Barracuda","XDF_Achelois_Unarmed","XDF_Achelois_HMG","XDF_Achelois_ATGM"];
 huron_typename = "XDF_Medusa_Medical";                                    // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_XDF_Crew";                                         // This defines the crew for vehicles.
 pilot_classname = "B_XDF_Pilot";                                          // This defines the pilot for helicopters.
@@ -112,15 +112,24 @@ light_vehicles = [
     ["XDF_HEMTT_Flatbed",0,0,0],
     ["XDF_Mars",80,50,30],
     ["XDF_Ripsaw",100,80,30],
-    ["XDF_Trident",100,40,30],
+    ["XDF_Trident",50,40,30],
+    ["XDF_Achelois_Unarmed",0,0,0],
+    ["XDF_Achelois_HMG",100,50,30],
+    ["XDF_Achelois_ATGM",100,80,30],
     ["XDF_RHIB",0,0,0],
     ["XDF_SDV",0,0,0]
 ];
 
 heavy_vehicles = [
+    ["XDF_Ocelot_Radar",0,0,0],
+    ["XDF_Ocelot_ATGM",20,50,25],
+    ["XDF_Ocelot_Cannon",20,80,25],
+    ["XDF_Ocelot_AA",20,50,25],
     ["XDF_Champion",50,50,50],
     ["XDF_Commando",75,50,60],
     ["XDF_Dementer",75,50,60],
+    ["XDF_AAV9_Barracuda",80,50,60],
+    ["XDF_AAV9_50mm_Barracuda",80,80,60],
     ["XDF_Odin",125,200,50],
     ["XDF_Scorpion",125,50,80],
     ["XDF_Huntress",150,125,80],
