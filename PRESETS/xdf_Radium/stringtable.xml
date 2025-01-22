@@ -932,7 +932,7 @@
             <Czech>SEKTOR ZABRÁN</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_SECTORCAPTURED_TEXT">
-            <Original>Our forces have captured %1.</Original>
+            <Original>The XDF has captured %1.</Original>
             <French>Nos forces ont capturé %1.</French>
             <German>Unsere Truppen haben %1 eingenommen.</German>
             <Spanish>Nuestras fuerzas han capturado %1</Spanish>
@@ -960,7 +960,7 @@
             <Czech>SEKTOR POD ÚTOKEM</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_SECTORATTACKED_TEXT">
-            <Original>Hostiles forces are attacking %1!</Original>
+            <Original>Alien forces are attacking %1!</Original>
             <French>Des forces hostiles attaquent %1!</French>
             <German>Gegnerische Truppen greifen %1 an!</German>
             <Spanish>Fuerzas hostiles están atacando %1</Spanish>
@@ -1140,7 +1140,7 @@
             <Czech>FOB %1 bylo zničeno</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_BATTLEGROUP_TITLE">
-            <Original>HOSTILE FORCES INCOMING</Original>
+            <Original>Elite alien forces inbound</Original>
             <French>FORCES HOSTILES EN APPROCHE</French>
             <German>GEGNERISCHE TRUPPEN TREFFEN EIN</German>
             <Spanish>FUERZAS HOSTILES ACERCÁNDOSE</Spanish>
@@ -1154,7 +1154,7 @@
             <Czech>NEPŘÁTELSKÉ JEDNOTKY PŘICHÁZEJÍ</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_BATTLEGROUP_TEXT">
-            <Original>Hostile forces spotted near %1.</Original>
+            <Original>Elite alien forces spotted near %1.</Original>
             <French>Forces hostiles repérées près de %1.</French>
             <German>Gegnerische Truppen nahe %1 gesichtet.</German>
             <Spanish>Fuerzas hosstiles avistadas cerca de %1</Spanish>
@@ -1182,7 +1182,7 @@
             <Czech>NOVÉ INFORMACE</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_FOB_TEXT">
-            <Original>Hostile FOB near %1.</Original>
+            <Original>Abandoned FOB controlled by the xeno threat located near %1.</Original>
             <French>FOB hostile près de %1.</French>
             <German>Gegnerische FOB nahe %1.</German>
             <Spanish>FOB hostil cerca de %1</Spanish>
@@ -1238,7 +1238,7 @@
             <Czech>VEDLEJŠÍ ÚKOL</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_SECONDARY_TEXT">
-            <Original>Hostile FOB destroyed</Original>
+            <Original>Alien-controlled FOB destroyed</Original>
             <French>FOB hostile détruite.</French>
             <German>Gegnerische FOB zerstört.</German>
             <Spanish>FOB hostil destruída</Spanish>
@@ -1252,7 +1252,7 @@
             <Czech>Nepřátelské FOB zničeno.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_REINFORCEMENTS_TITLE">
-            <Original>HOSTILE REINFORCEMENTS</Original>
+            <Original>ALIEN REINFORCEMENTS</Original>
             <French>RENFORTS HOSTILES</French>
             <German>GEGNERISCHER NACHSCHUB</German>
             <Spanish>REFUERZOS HOSTILES</Spanish>
@@ -1266,7 +1266,7 @@
             <Czech>NEPŘÁTELSKÉ POSILY</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_REINFORCEMENTS_TEXT">
-            <Original>Hostile forces reinforcing %1.</Original>
+            <Original>Alien forces reinforcing %1.</Original>
             <French>Forces hostiles en renfort à %1.</French>
             <German>Gegnerische Truppen verstärken %1.</German>
             <Spanish>Fuerzas hostiles reforzando %1</Spanish>
@@ -2924,7 +2924,7 @@
             <Czech>Povoleno - Použijte pouze pokud jste upravily whitelist.sqf!</Czech>
         </Key>
         <Key ID="STR_BUILD_ENEMIES_NEARBY">
-            <Original>Cannot build: hostile forces nearby.</Original>
+            <Original>Cannot build: alien forces nearby.</Original>
             <French>Impossible de construire: forces hostiles à proximité.</French>
             <German>Kann nicht gebaut werden: Feindkräfte in der Nähe</German>
             <Spanish>No se puede construir: fuerzas hostiles cercanas</Spanish>
@@ -3106,7 +3106,7 @@
             <Czech>Lokace pro výsadek:</Czech>
         </Key>
         <Key ID="STR_AGGRESSIVITY_PARAM">
-            <Original>OPFOR aggressivity</Original>
+            <Original>Alien aggressivity</Original>
             <French>Aggressivité de l'OPFOR</French>
             <German>OPFOR Aggressivität</German>
             <Spanish>Agresividad del OPFOR</Spanish>
@@ -3400,7 +3400,7 @@
             <Czech>Vedlejší mise již probíhá</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_INCOMING_TEXT">
-            <Original>Hostile forces are heading towards %1.</Original>
+            <Original>Alien forces are heading towards %1.</Original>
             <French>Les forces hostiles se dirigent vers %1.</French>
             <German>Feindliche Streitkräfte bewegen sich auf %1 zu.</German>
             <Spanish>Fuerzas hostiles acercándose a %1.</Spanish>
@@ -3414,7 +3414,7 @@
             <Czech>Nepřátelské jednotky míří k %1.</Czech>
         </Key>
         <Key ID="STR_SECONDARY_CSAT_CONVOY">
-            <Original>OPFOR Convoy</Original>
+            <Original>Alien Convoy</Original>
             <French>Convoi OPFOR</French>
             <German>OPFOR Konvoi</German>
             <Spanish>Convoy OPFOR</Spanish>
@@ -3442,7 +3442,7 @@
             <Czech>Průjezdní bod</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CONVOY_DESTROYED_TEXT">
-            <Original>OPFOR Convoy neutralized.</Original>
+            <Original>Alien Convoy neutralized.</Original>
             <French>Convoi OPFOR neutralisé.</French>
             <German>OPFOR Konvoi neutralisiert.</German>
             <Spanish>Convoy OPFOR neutralizado</Spanish>
@@ -3456,7 +3456,7 @@
             <Czech>OPFOR Konvoj zneškodněn.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CONVOY_SPOTTED_TEXT">
-            <Original>OPFOR Convoy near %1.</Original>
+            <Original>Alien Convoy near %1.</Original>
             <French>Convoi OPFOR près de %1.</French>
             <German>OPFOR Konvoi nahe %1.</German>
             <Spanish>Convoy OPFOR cerca de 1%</Spanish>
@@ -3526,7 +3526,7 @@
             <Czech>Hon na FOB</Czech>
         </Key>
         <Key ID="STR_SECONDARY_BRIEFING0">
-            <Original>&lt;t size='1.3' color='#ffa000'&gt;FOB HUNTING&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;OPFOR forces use an array of small logistic bases situated behind the front lines. Destroying those assets would greatly disrupt the OPFOR supply lines and impair their capacity to react to our actions.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to destroy all supply assets (trucks, containers) at the objective by any means at your disposal. Unfortunately our intelligence is not able to provide you with a precise position for the base, you will have to locate the objective in the red zone on your map.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: OPFOR alert level reduced by 40%&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Original>
+            <Original>&lt;t size='1.3' color='#ffa000'&gt;FOB HUNTING&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Alien forces have captured an array of abandoned logistic bases situated behind the front lines. Destroying those assets would greatly disrupt the alien's ability to study human munitions and equipment.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to destroy all supply assets (trucks, containers) at the objective by any means at your disposal. Unfortunately our intelligence is not able to provide you with a precise position for the base, you will have to locate the objective in the red zone on your map.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: Alien alert level reduced by 40%&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Original>
             <French>&lt;t size='1.3' color='#ffa000'&gt;CHASSE A LA FOB&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Les forces de l'OPFOR utilisent des bases logistiques situées derrière la ligne de front. Détruire ces objectifs pertubera les lignes d'approvisionnement de l'OPFOR et les empêchera de réagir efficacement à nos actions.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Votre mission est de détruire tous les équipements logistiques (camions, containers) présents sur l'objectif. Malheureusement nos renseignements ne permettent pas de vous donner la position précise de la base, vous devrez la chercher dans la zone rouge visible sur votre carte.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Coût: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Récompense: niveau d'alerte de l'OPFOR réduit de 40%&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</French>
             <German>&lt;t size='1.3' color='#ffa000'&gt;FOB JAGD&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Die OPFOR Streitkräfte benutzen ein Netzwerk von kleineren Nachschubbasen hinter den Frontlinien. Diese zu zerstören würden die OPFOR Nachschublinien und ihre Reaktionsmöglichkeiten stark einschränken.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Ihr Auftrag ist es alle Nachschubkapazitäten (Container und Trucks) zu zerstören. Leider ist unser Geheimdienst nicht in der Lage, Ihnen die genaue Position des Ortes mitzuteilen. Sie werden das Ziel innerhalb der makierten roten Zone auf der Karte suchen müssen.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Kosten: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Belohnung: OPFOR Alarmstatus wird um 40% reduziert&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</German>
             <Spanish>&lt;t size='1.3' color='#ffa000'&gt;CAZA DE FOB&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Las fuerzas del OPFOR utilizan una red de bases logísticas situadas tras las líneas enemigas. Destruir estos recursos interrunpira las líneas de abastecimiento del enemigo y entorpecerán su capacidad para responder a tus acciones.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Tu misión consiste en destruir todos los recursos (camiones, containers) en el objetivo por cualquier medio que esté en tus manos. Desafortunadamente nuestra inteligencia no permite obtener una localización precisa de la base, deberás encontrarla dentro de la zona marcada en rojo en el mapa.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: nivel de alerta del OPFOR reducido en un 40%&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Spanish>
@@ -3554,7 +3554,7 @@
             <Czech>Přepadení Konvoje</Czech>
         </Key>
         <Key ID="STR_SECONDARY_BRIEFING1">
-            <Original>&lt;t size='1.3' color='#ffa000'&gt;CONVOY HIJACK&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;OPFOR forces use road convoys to resupply their defensive positions. Intercepting one of these convoys would effectively disrupt their supply lines, and we could use the occasion to retrieve an hefty amount of ammunition.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to stop the OPFOR convoy by any means necessary. You can destroy it, or hijack it to retrieve all the ammunition you can grab. The target will be spotted on your map.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: OPFOR alert level reduced by 15%&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Side reward: All the ammunition you can retrieve.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Original>
+            <Original>&lt;t size='1.3' color='#ffa000'&gt;CONVOY HIJACK&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Alien forces hijack human convoys to retrieve munitions for study and developing countermeasures to us. Intercepting one of these convoys would effectively disrupt their ability to do this, and we could use the occasion to retrieve an hefty amount of ammunition.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to stop the alien convoy by any means necessary. You can destroy it, or hijack it to retrieve all the ammunition you can grab. The target will be spotted on your map.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: Alien alert level reduced by 15%&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Side reward: All the ammunition you can retrieve.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Original>
             <French>&lt;t size='1.3' color='#ffa000'&gt;INTERCEPTION DE CONVOI&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Les forces de l'OPFOR utilisent des convois routiers pour réaprovisionner leurs positions. Intercepter un de ces convois pertuberait leurs lignes d'approvisionnement, et nous pourrions utiliser l'occasion pour récupérer une grande quantité de munitions.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Votre mission est de stopper le convoi de l'OPFOR par tous les moyens nécessaires. Vous pouvez le détruire, ou le stopper pour récupérer un maximum de munitions. La cible sera marquée sur votre carte.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Coût: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Récompense: niveau d'alerte de l'OPFOR réduit de 15%&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Récompense secondaire: toutes les munitions que vous pourrez récupérer.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</French>
             <German>&lt;t size='1.3' color='#ffa000'&gt;KONVOI HINTERHALT&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Die OPFOR Streitkräfte benutzen Straßenkonvois um ihre Verteidigungspositionen zu versorgen. Diese Konvois abzufangen würden ihre Nachschublinien effektiv unterbrechen und außerdem könnten wir die Möglichkeit nutzen, um selbst eine große Menge an Munition zu erbeuten.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Ihr Auftrag ist es, den OPFOR Konvoi auf jede erdenkliche Weise zu stoppen. Sie können ihn zerstören oder übernehmen, um soviel Munition wie möglich zu erbeuten. Das Ziel wird auf Ihrer Karte aufgeklärt.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Kosten: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Belohnung: OPFOR Alarmstatus wird um 15% reduziert&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Weitere Belohnung: Soviel Munition wie Sie erbeuten können.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</German>
             <Spanish>&lt;t size='1.3' color='#ffa000'&gt;INTERCEPTAR EL CONVOY&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Las fuerzas OPFOR utilizan convoys de carretera para reabastecer sus posiciones defensivas. Interceptar uno de estos convoy rompería de forma efectiva sus líneas de suministro, y podríamos aprovechar la ocasión para obtener una buena cantidad de munición.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Tu misión consiste en parar ese convoy por cualquier medio. Puedes destruirlo o capturarlo para capturar toda la munición que sea posible. El objetivo aparecerá marcado en el mapa.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Coste: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: Nivel de alerta OPFOR reducido 15%&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa secundaria: Toda la munición que puedas traer.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Spanish>
@@ -5786,7 +5786,7 @@
             <Czech>Civilní Reputace</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_INFORMANT_START">
-            <Original>A civilian from %1 says he has some information for us.</Original>
+            <Original>A refugee from %1 is requesting rescue, and claims to have intel on the xeno-threat.</Original>
             <German>Ein Zivilist aus %1 sagt, er hätte Informationen für uns.</German>
             <Spanish>Un civil de %1 dice que tiene información para nosotros.</Spanish>
             <Russian>Гражданский из %1 говорит, что у него есть информация для нас.</Russian>
@@ -5799,7 +5799,7 @@
             <Czech>Civilista z %1, říká že má pro nás nějakou informaci.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_INFORMANT_SUCCESS">
-            <Original>The civilian gave us some important information.</Original>
+            <Original>The refugee provided details on xeno-threat movements and positions.</Original>
             <German>Der Zivilist gab uns wichtige Informationen.</German>
             <Spanish>Un civil nos ha dado información importante.</Spanish>
             <Russian>Гражданский передал нам важную информацию.</Russian>
@@ -5812,7 +5812,7 @@
             <Czech>Civilista nám dal nějaké důležité informace.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_INFORMANT_FAIL">
-            <Original>The civilian has disappeared.</Original>
+            <Original>The refugee has been abducted.</Original>
             <German>Der Zivilist ist wieder untergetaucht.</German>
             <Spanish>El civil ha desaparecido.</Spanish>
             <Russian>Гражданский пропал.</Russian>
@@ -5825,7 +5825,7 @@
             <Czech>Civilista odešel.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_INFORMANT_DEATH">
-            <Original>The civilian died.</Original>
+            <Original>The refugee has been killed.</Original>
             <German>Der Zivilist wurde getötet.</German>
             <Spanish>El civil ha muerto.</Spanish>
             <Russian>Гражданский умер.</Russian>
@@ -5961,7 +5961,7 @@
             <Czech>Potřebuješ ošetřit.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_HVT_START">
-            <Original>There is a high ranked officer near %1.</Original>
+            <Original>There is a xeno commander near %1.</Original>
             <German>Ein hochrangiger Offizier befindet sich in der Nähe von %1.</German>
             <Spanish>Hay un oficial de alto mando cerca de %1.</Spanish>
             <Russian>Высокопоставленный офицер находится около %1.</Russian>
@@ -5973,7 +5973,7 @@
             <Czech>Důstojník s vysokou hodností poblíž %1.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_HVT_SUCCESS">
-            <Original>The officer was successfully killed.</Original>
+            <Original>The xeno commander was successfully killed.</Original>
             <German>Der Offizier konnte erfolgreich getötet werden.</German>
             <Spanish>El oficial fue eliminado.</Spanish>
             <Russian>Офицер успешно убит.</Russian>
@@ -5985,7 +5985,7 @@
             <Czech>Důstojník úspěšně zabit.</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_HVT_FAIL">
-            <Original>The officer has moved on.</Original>
+            <Original>The xeno commander has relocated.</Original>
             <German>Der Offizier ist weitergezogen.</German>
             <Spanish>El oficial se ha ido.</Spanish>
             <Russian>Офицер ушел.</Russian>
@@ -6021,7 +6021,7 @@
             <Czech>Zbývá %1 minut na mobilní respawn.</Czech>
         </Key>
         <Key ID="STR_CR_RESISTANCE_KILLMSG">
-            <Original>An allied resistance fighter named %1 was killed!</Original>
+            <Original>An allied militia fighter named %1 was killed!</Original>
             <German>Ein verbündeter Widerstandskämpfer mit Namen %1 wurde getötet!</German>
             <Spanish>Un aliado de la resistencia llamado %1 ha sido asesinado!</Spanish>
             <Russian>Союзный боец сопротивления %1 был убит!</Russian>
@@ -6110,7 +6110,7 @@
             <Czech>-- Snížit</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_GUER_INC_TITLE">
-            <Original>Guerilla forces on the way.</Original>
+            <Original>Guerilla forces inbound</Original>
             <German>Widerstandskämpfer sind unterwegs.</German>
             <Spanish>Fuerzas de guerrilla en camino.</Spanish>
             <Russian>Партизанские силы в пути.</Russian>
@@ -6224,7 +6224,7 @@
             <Czech>CAMPAIGN KOMPLET</Czech>
         </Key>
         <Key ID="STR_VICTORY_TEXT">
-            <Original>You have liberated the area from the enemy oppression.</Original>
+            <Original>You have liberated the area from the xeno threat.</Original>
             <German>Du hast das Gebiet von der feindlichen Unterdrückung befreit.</German>
             <Spanish>Haz liberado el área de la oposión enemiga.</Spanish>
             <Russian>Вы освободили территорию от угнетения врага.</Russian>
@@ -6240,7 +6240,7 @@
             <Czech>Doba hraní: % 1 dny, % 2 hodiny, % 3 minuty a % 4 sekund</Czech>
         </Key>
         <Key ID="STR_STATS_OPFOR_K_INF">
-            <Original>OPFOR infantry killed: %1</Original>
+            <Original>Alien infantry killed: %1</Original>
             <French>Infanterie OPFOR tuée: %1</French>
             <German>OPFOR Infanterie getötet: %1</German>
             <Spanish>Infantería OPFOR eliminada: %1</Spanish>
@@ -6254,7 +6254,7 @@
             <Czech>Pěchota OPFOR zabila: %1</Czech>
         </Key>
         <Key ID="STR_STATS_OPFOR_K_INF_PL">
-            <Original>OPFOR infantry killed by players: %1</Original>
+            <Original>Alien infantry killed by players: %1</Original>
             <French>Infanterie OPFOR tuée par les joueurs: %1</French>
             <German>OPFOR Infanterie von Spielern getötet: %1</German>
             <Spanish>Infantería OPFOR eliminada por jugadores: %1</Spanish>
@@ -6268,7 +6268,7 @@
             <Czech>Pěchota OPFOR zabitá hráči: %1</Czech>
         </Key>
         <Key ID="STR_STATS_OPFOR_K_VEH">
-            <Original>OPFOR vehicles destroyed: %1</Original>
+            <Original>Alien vehicles destroyed: %1</Original>
             <French>Vehicules OPFOR détruits: %1</French>
             <German>OPFOR Fahrzeuge zerstört: %1</German>
             <Spanish>Vehículos OPFOR destruídos: %1</Spanish>
@@ -6282,7 +6282,7 @@
             <Czech>Vozidla OPFOR byla zničena: %1</Czech>
         </Key>
         <Key ID="STR_STATS_OPFOR_K_VEH_PL">
-            <Original>OPFOR vehicles destroyed by players: %1</Original>
+            <Original>Alien vehicles destroyed by players: %1</Original>
             <French>Vehicules OPFOR détruits par les joueurs: %1</French>
             <German>OPFOR Fahrzeuge von Spielern zerstört: %1</German>
             <Spanish>Vehículos OPFOR destruídos por jugadores: %1</Spanish>
@@ -6296,7 +6296,7 @@
             <Czech>Vozidla OPFOR zničená hráči: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BLUFOR_B_INF">
-            <Original>BLUFOR soldiers recruited: %1</Original>
+            <Original>XDF soldiers recruited: %1</Original>
             <French>Soldats BLUFOR recrutés: %1</French>
             <German>BLUFOR Soldaten rekrutiert: %1</German>
             <Spanish>Soldados BLUFOR reclutados: %1</Spanish>
@@ -6310,7 +6310,7 @@
             <Czech>Nábor vojáků BLUFOR: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BLUFOR_K_INF">
-            <Original>BLUFOR infantry killed: %1</Original>
+            <Original>XDF infantry killed: %1</Original>
             <French>Infanterie BLUFOR tuée: %1</French>
             <German>BLUFOR Infanterie getötet: %1</German>
             <Spanish>Infantería BLUFOR eliminada: %1</Spanish>
@@ -6324,7 +6324,7 @@
             <Czech>BLUFOR zabila: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BLUFOR_B_VEH">
-            <Original>BLUFOR vehicles built: %1</Original>
+            <Original>XDF vehicles built: %1</Original>
             <French>Vehicules BLUFOR construits: %1</French>
             <German>BLUFOR Fahrzeuge gebaut: %1</German>
             <Spanish>Vehículos BLUFOR construidos: %1</Spanish>
@@ -6338,7 +6338,7 @@
             <Czech>Postavena vozidla BLUFOR: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BLUFOR_K_VEH">
-            <Original>BLUFOR vehicles destroyed: %1</Original>
+            <Original>XDF vehicles destroyed: %1</Original>
             <French>Vehicules BLUFOR détruits: %1</French>
             <German>BLUFOR Fahrzeuge zerstört: %1</German>
             <Spanish>Vehículos BLUFOR destruídos: %1</Spanish>
@@ -6366,7 +6366,7 @@
             <Czech>Úmrtí hráčů: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BLUFOR_TK">
-            <Original>BLUFOR friendly fire incidents: %1</Original>
+            <Original>XDF friendly fire incidents: %1</Original>
             <French>Tirs fratricides BLUFOR: %1</French>
             <German>BLUFOR Eigenbeschuss: %1</German>
             <Spanish>Incidentes de fuego amigo en BLUFOR: %1</Spanish>
@@ -6618,7 +6618,7 @@
             <Czech>Vězni zajati: %1</Czech>
         </Key>
         <Key ID="STR_STATS_BATTLEGROUPS">
-            <Original>Hostile battlegroups called: %1</Original>
+            <Original>Alien battlegroups called: %1</Original>
             <French>Battlegroups hostiles appelés: %1</French>
             <German>Feindliche Kampfgruppen ausgerückt: %1</German>
             <Spanish>Grupos hostiles de combate llamados: %1</Spanish>
@@ -6632,7 +6632,7 @@
             <Czech>Nepřátelské bojové skupiny nazvané: %1</Czech>
         </Key>
         <Key ID="STR_STATS_REINFORCEMENTS">
-            <Original>Hostile reinforcements called: %1</Original>
+            <Original>Alien reinforcements called: %1</Original>
             <French>Renforts hostiles appelés: %1</French>
             <German>Feindliche Verstärkungen ausgerückt: %1</German>
             <Spanish>Refuerzos hostiles llamados: %1</Spanish>
@@ -6674,7 +6674,7 @@
             <Czech>Výbuch miny: %1</Czech>
         </Key>
         <Key ID="STR_STATS_POTATO">
-            <Original>Number of Potato 01 losses: %1</Original>
+            <Original>Number of Medusa 01 losses: %1</Original>
             <French>Pertes de Potato 01: %1</French>
             <German>Verluste von Potato 01: %1</German>
             <Spanish>Número de pérdidas de Potato 01: %1</Spanish>
