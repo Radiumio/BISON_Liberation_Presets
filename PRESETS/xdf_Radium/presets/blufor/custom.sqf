@@ -116,6 +116,8 @@ light_vehicles = [
     ["XDF_Achelois_Unarmed",0,0,0],
     ["XDF_Achelois_HMG",100,50,30],
     ["XDF_Achelois_ATGM",100,80,30],
+    ["XDF_Bactrian_LCC",0,0,0],
+    ["XDF_Bactrian_LCC_SideLoad",0,0,0],
     ["XDF_RHIB",0,0,0],
     ["XDF_SDV",0,0,0]
 ];
