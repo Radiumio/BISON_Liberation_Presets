@@ -8,7 +8,7 @@
 
 // Enemy infantry classes
 opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
-opfor_squad_leader = "O_ETXENO_Xeno_Commander_01";                           
+opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
 opfor_team_leader = "O_ETXENO_Xeno_Soldier_01";                      
 opfor_sentry = "O_ETXENO_Xeno_Soldier_01";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
