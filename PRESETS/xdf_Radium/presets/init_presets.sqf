@@ -314,12 +314,12 @@ KPLIB_typeAirClasses   = +KPLIB_b_air_classes;
 } forEach (KPLIB_b_support_classes + [toLower huron_typename]);
 
 // Military alphabet used for FOBs and convois
-military_alphabet = ["Icarus", "Manta", "Aurora", "Borealis", "Crimson", "Eclipse", "Hydra", "Mirage", "Varanus", "Obelisk", "Argent", "Talon", "Solstice", "Nova", "Inferno", "Judge", "Astraeus", "Osiris", "Hemera", "Chronos", "Templar", "Northstar", "Inquisitor", "Hoplite", "Golem", "Igneus"];
+military_alphabet = ["Obelisk", "Golem", "Hoplite", "Inquisitor", "Northstar", "Templar", "Argent", "Talon", "Solstice", "Nova", "Inferno", "Judge", "Astraeus", "Osiris", "Hemera", "Chronos", "Eridanus", "Epsilon", "Talitsa", "Iota", "Atlas", "Tau", "Cygnus", "Ixion", "Procyon", "Serpent"];
 
 // Misc variables
 markers_reset = [99999,99999,0];
 zeropos = [0,0,0];
-KPLIB_sarWreck = "Land_Wreck_Heli_Attack_01_F";
+KPLIB_sarWreck = "Land_Heli_EC_01_wreck_RF";
 KPLIB_sarFire = "test_EmptyObjectForFireBig";
 
 KPLIB_initPresets = true;
