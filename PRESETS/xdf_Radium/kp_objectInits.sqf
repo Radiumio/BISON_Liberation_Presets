@@ -173,6 +173,29 @@ KPLIB_objectInits = [
     ],
 
     [
+        ["XDF_Ocelot_Radar"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_Ocelot_ATGM"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
+        ["XDF_Ocelot_Cannon"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
+        ["XDF_Ocelot_AA"],
+        {[_this, 8] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
         ["XDF_Scorpion"],
         {[_this, 16] call ace_cargo_fnc_setSpace;}
     ],
@@ -194,6 +217,16 @@ KPLIB_objectInits = [
 
     [
         ["XDF_Minotaur_CTWS"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_AAV9_Barracuda"],
+        {[_this, 16] call ace_cargo_fnc_setSpace;}
+    ],
+
+    [
+        ["XDF_AAV9_50mm_Barracuda"],
         {[_this, 16] call ace_cargo_fnc_setSpace;}
     ],
     
@@ -240,7 +273,7 @@ KPLIB_objectInits = [
 
     [
         ["XDF_Dragonfly"],
-        {[_this, 18] call ace_cargo_fnc_setSpace;}
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
 
     [
