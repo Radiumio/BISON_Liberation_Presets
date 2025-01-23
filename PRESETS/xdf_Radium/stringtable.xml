@@ -5786,7 +5786,7 @@
             <Czech>Civilní Reputace</Czech>
         </Key>
         <Key ID="STR_NOTIFICATION_CIV_INFORMANT_START">
-            <Original>A refugee from %1 is requesting rescue, and claims to have intel on the xeno-threat.</Original>
+            <Original>A refugee from %1 is requesting rescue in exchange for xeno-threat intel.</Original>
             <German>Ein Zivilist aus %1 sagt, er hätte Informationen für uns.</German>
             <Spanish>Un civil de %1 dice que tiene información para nosotros.</Spanish>
             <Russian>Гражданский из %1 говорит, что у него есть информация для нас.</Russian>
