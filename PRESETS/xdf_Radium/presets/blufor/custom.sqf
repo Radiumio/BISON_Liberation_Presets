@@ -453,12 +453,12 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,0,0,0],                         // You can use this to adjust the price of the Flight Control building.
     [KP_liberation_heli_slot_building,0,0,0],                           // You can use this to adjust the price of a heli slot building.
     [KP_liberation_plane_slot_building,0,0,0],                          // You can use this to adjust the price of a plane slot building.
-    ["ACE_medicalSupplyCrate_advanced",50,0,0],                         // [DO NOT CHANGE]
-    ["ACE_Box_82mm_Mo_HE",50,40,0],                                     // [DO NOT CHANGE]
-    ["ACE_Box_82mm_Mo_Smoke",50,10,0],                                  // [DO NOT CHANGE]
-    ["ACE_Box_82mm_Mo_Illum",50,10,0],                                  // [DO NOT CHANGE]
-    ["ACE_Wheel",10,0,0],                                               // [DO NOT CHANGE]
-    ["ACE_Track",10,0,0],                                               // [DO NOT CHANGE]
+    ["ACE_medicalSupplyCrate_advanced",0,0,0],                          // [DO NOT CHANGE]
+    ["ACE_Box_82mm_Mo_HE",0,0,0],                                       // [DO NOT CHANGE]
+    ["ACE_Box_82mm_Mo_Smoke",0,0,0],                                    // [DO NOT CHANGE]
+    ["ACE_Box_82mm_Mo_Illum",0,0,0],                                    // [DO NOT CHANGE]
+    ["ACE_Wheel",0,0,0],                                                // [DO NOT CHANGE]
+    ["ACE_Track",0,0,0],                                                // [DO NOT CHANGE]
     ["USAF_missileCart_W_AGM114",50,150,0],                             // Missile Cart (AGM-114) [DO NOT CHANGE]
     ["USAF_missileCart_AGMMix",50,150,0],                               // Missile Cart (AGM-65 Mix) [DO NOT CHANGE]
     ["USAF_missileCart_AGM1",50,150,0],                                 // Missile Cart (AGM-65D) [DO NOT CHANGE]
@@ -473,7 +473,7 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39) [DO NOT CHANGE]
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82) [DO NOT CHANGE]
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor [DO NOT CHANGE]
-    ["Box_T_NATO_AmmoVeh_F",50,100,0],                                  // Vehicle Ammo [NATO]
+    ["Box_T_NATO_AmmoVeh_F",0,20,0],                                    // Vehicle Ammo [NATO]
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
     ["XDF_Marauder_Fuel",0,0,50],
     ["XDF_Marauder_Repair",50,0,0],
