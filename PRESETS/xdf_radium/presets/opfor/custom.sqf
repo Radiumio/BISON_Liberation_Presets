@@ -53,9 +53,7 @@ militia_squad = [
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
-militia_vehicles = [
-    "O_OETXENO_Xeno_T46_Ghost_01"
-];
+militia_vehicles = [];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
@@ -69,7 +67,6 @@ opfor_vehicles_low_intensity = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "O_OETXENO_Xeno_T52_Terminator_AA_01",
     "O_OETXENO_Xeno_T46_Ghost_01"
 ];
 
