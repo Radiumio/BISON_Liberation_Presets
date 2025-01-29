@@ -148,7 +148,7 @@ heavy_vehicles = [
     ["XDF_Minotaur",275,300,150],
     ["XDF_Minotaur_CTWS",275,300,150],
     ["XDF_Titan",500,500,250],
-    ["XDF_Hurricane",300,1000,100],
+    ["XDF_Hurricane",300,800,100],
     ["XDF_Scoria",350,750,100]
 ];
 
@@ -191,7 +191,7 @@ air_vehicles = [
     ["XDF_Accipiter",1200,600,450],
     ["XDF_Albatross_IT",375,0,250],
     ["XDF_Albatross_VT",375,0,250],
-    ["XDF_Retributor",375,750,250]
+    ["XDF_Retributor",375,550,250]
 ];
 
 static_vehicles = [
