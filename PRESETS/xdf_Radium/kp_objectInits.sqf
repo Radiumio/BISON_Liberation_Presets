@@ -281,6 +281,30 @@ KPLIB_objectInits = [
         {[_this, 36] call ace_cargo_fnc_setSpace;}
     ],
 
+
+    [
+        ["XDF_Mako_Unarmed"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
+        ["XDF_Mako_UP_Unarmed"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
+        ["XDF_Lynx_Unarmed"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
+
+
+    [
+        ["XDF_Lynx_Navy_Unarmed"],
+        {[_this, 36] call ace_cargo_fnc_setSpace;}
+    ],
+
     [
         ["XDF_Medusa_Cargo"],
         {[_this, 72] call ace_cargo_fnc_setSpace;}
