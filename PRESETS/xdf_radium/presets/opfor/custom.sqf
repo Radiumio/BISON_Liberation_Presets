@@ -29,12 +29,12 @@ opfor_paratrooper = "O_ETXENO_Xeno_Soldier_01";
 opfor_mrap = "O_OETXENO_Xeno_T46_Ghost_01";                                             
 opfor_mrap_armed = "O_OETXENO_Xeno_T46_Ghost_01";                                   
 opfor_transport_helo = "O_OETXENO_Xeno_T25_Shade_Dropship_01";                   
-opfor_transport_truck = "";                         
-opfor_ammobox_transport = "";                     
-opfor_fuel_truck = "";                                                  
-opfor_ammo_truck = "";                             
-opfor_fuel_container = "";
-opfor_ammo_container = "";
+opfor_transport_truck = "B_Truck_01_transport_F";                         
+opfor_ammobox_transport = "B_Truck_01_transport_F";                     
+opfor_fuel_truck = "B_Truck_01_fuel_F";                                                  
+opfor_ammo_truck = "B_Truck_01_ammo_F";                             
+opfor_fuel_container = "B_Slingload_01_Fuel_F";
+opfor_ammo_container = "B_Slingload_01_Ammo_F";
 opfor_flag = "";                                             
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
