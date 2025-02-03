@@ -214,9 +214,8 @@ static_vehicles = [
 ];
 
 buildings = [
-    ["Land_MedicalTent_01_NATO_generic_open_F",0,0,0],
-    ["Land_MedicalTent_01_NATO_generic_outer_F",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
+    ["Land_Medevac_HQ_V1_F",0,0,0],
     ["Land_Research_house_V1_F",0,0,0],
     ["Land_Research_HQ_F",0,0,0],
     ["Land_Cargo_HQ_V3_F",0,0,0],
@@ -236,6 +235,8 @@ buildings = [
     ["Land_ConnectorTent_01_XDF_open",0,0,0],
     ["Land_DeconTent_01_XDF",0,0,0],
     ["Land_MedicalTent_01_XDF_Closed",0,0,0],
+    ["Land_MedicalTent_01_floor_dark_F",0,0,0],
+    ["Land_MedicalTent_01_floor_light_F",0,0,0],
     ["Land_XDF_IRMaskingCover_01",0,0,0],
     ["Land_XDF_IRMaskingCover_02",0,0,0],
     ["Land_ControlTower_01_F",0,0,0],
@@ -251,8 +252,9 @@ buildings = [
     ["Banner_TaskForceDamocles",0,0,0],
     ["Banner_TaskForceIon",0,0,0],
     ["Banner_TaskForceLotus",0,0,0],
-    ["Land_MedicalTent_01_tropic_closed_F",0,0,0],
     ["Flag_RedCrystal_F",0,0,0],
+    ["Land_MedicalTent_01_NATO_generic_open_F",0,0,0],
+    ["Land_MedicalTent_01_NATO_generic_outer_F",0,0,0],
     ["CamoNet_BLUFOR_F",0,0,0],
     ["CamoNet_BLUFOR_open_F",0,0,0],
     ["CamoNet_BLUFOR_big_F",0,0,0],
