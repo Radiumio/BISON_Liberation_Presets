@@ -82,6 +82,9 @@ infantry_units = [
 
 light_vehicles = [
     ["XDF_Quadbike",0,0,0],
+    ["XDF_Van_Ambulance",0,0,0],
+    ["XDF_Van_Cargo",0,0,0],
+    ["XDF_Van_Transport",0,0,0],
     ["XDF_Marauder",0,0,0],
     ["XDF_Marauder_Comms",0,0,0],
     ["XDF_Marauder_MMG",0,0,0],
@@ -509,6 +512,7 @@ support_vehicles = [
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
     ["XDF_Marauder_Fuel",0,0,50],
     ["XDF_Marauder_Repair",50,0,0],
+    ["XDF_Van_Service",50,0,0],
     ["XDF_Onyx",225,175,50],                                            // CRV Onyx
     ["Land_FuelStation_01_pump_malevil_F",0,0,100],                     // Fuel Pump
     ["XDF_Cyclone_Repair",100,0,0],                                     // Cyclone Repair
