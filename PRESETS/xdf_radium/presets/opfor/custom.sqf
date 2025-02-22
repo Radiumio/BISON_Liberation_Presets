@@ -9,21 +9,21 @@
 // Enemy infantry classes
 opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
 opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
-opfor_team_leader = "O_ETXENO_Xeno_Soldier_01";                      
-opfor_sentry = "O_ETXENO_Xeno_Soldier_01";                                 
+opfor_team_leader = "O_PXLA_Defector";                      
+opfor_sentry = "O_PXLA_Grunt";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
 opfor_rpg = "O_ETXENO_Xeno_Slammer_01";                                       
 opfor_grenadier = "O_ETXENO_Xeno_Grenadier_01";                                
 opfor_machinegunner = "O_OETXENO_Xeno_Bulwark_01";                                 
 opfor_heavygunner = "O_ETXENO_Xeno_Needler_01";                               
-opfor_marksman = "O_ETXENO_Xeno_Scout_01";                                     
+opfor_marksman = "O_PXLA_Marksman";                                     
 opfor_sharpshooter = "O_ETXENO_Xeno_Scout_01";                          
-opfor_sniper = "O_ETXENO_Xeno_Scout_01";                                 
-opfor_at = "O_ETXENO_Xeno_Demolisher_01";                                   
-opfor_aa = "O_ETXENO_Xeno_Seeker_01";                                           
+opfor_sniper = "O_PXLA_Infiltrator";                                 
+opfor_at = "O_PXLA_AT_Grunt";                                   
+opfor_aa = "O_PXLA_AA_Grunt";                                           
 opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
-opfor_engineer = "O_OETXENO_Xeno_Healer_01";                                      
-opfor_paratrooper = "O_ETXENO_Xeno_Soldier_01";
+opfor_engineer = "O_PXLA_Machinegunner";                                      
+opfor_paratrooper = "O_PXLA_Rifleman";
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "O_OETXENO_Xeno_T46_Ghost_01";                                             
@@ -49,46 +49,80 @@ militia_squad = [
     "O_ETXENO_Xeno_Soldier_01",
     "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Bulwark_01",
-    "O_ETXENO_Xeno_Soldier_01"
+    "O_ETXENO_Xeno_Soldier_01",
+    "O_PXLA_Defector",
+    "O_PXLA_Defector",
+    "O_PXLA_Grenadier",
+    "O_PXLA_Grenadier",
+    "O_PXLA_Grunt",
+    "O_PXLA_Grunt",
+    "O_PXLA_Grunt",
+    "O_PXLA_Grunt",
+    "O_PXLA_Grunt",
+    "O_PXLA_HeavyGunner",
+    "O_PXLA_Machinegunner",
+    "O_PXLA_Marksman",
+    "O_PXLA_Rifleman",
+    "O_PXLA_Rifleman",
+    "O_PXLA_Medic"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
-militia_vehicles = [];
+militia_vehicles = [
+    "PXLA_Jeep_LMG"
+];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_01"
+    "PXLA_Jeep_LMG",
+    "PXLA_Jeep_SPG"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "O_OETXENO_Xeno_T46_Ghost_01"
+    "O_OETXENO_Xeno_T46_Ghost_01",
+    "PXLA_Jeep_LMG",
+    "PXLA_Offroad_HMG",
+    "PXLA_Offroad_HMG"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "O_OETXENO_Xeno_T46_Ghost_01"
+    "O_OETXENO_Xeno_T26_Annihilator_01",
+    "O_OETXENO_Xeno_T46_Ghost_01",
+    "PXLA_Jeep_LMG",
+    "PXLA_Jeep_SPG",
+    "PXLA_Dementer",
+    "PXLA_Offroad_HMG",
+    "PXLA_Offroad_HMG",
+    "PXLA_Offroad_HMG",
+    "PXLA_Offroad_AT"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
-    "O_OETXENO_Xeno_T46_Ghost_01"
+    "PXLA_Offroad_AT",
+    "PXLA_Offroad_HMG",
+    "PXLA_Jeep_LMG"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01",
+    "PXLA_Hornet"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "O_OETXENO_Xeno_T25_Shade_Dropship_01"
+    "O_OETXENO_Xeno_T25_Shade_Dropship_01",
+    "PXLA_Hornet_Armed",
+    "PXLA_Comanche"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "O_OETXENO_Xeno_T26B_Revenant_01",
-    "O_OETXENO_Xeno_T26N_Revenant_01"
+    "O_OETXENO_Xeno_T26B_Revenant_01"
 ];
