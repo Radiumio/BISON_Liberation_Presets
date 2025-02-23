@@ -74,7 +74,7 @@ militia_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "O_OETXENO_Xeno_T46_Ghost_01"
+    "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_SPG"
 ];
