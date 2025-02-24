@@ -508,7 +508,7 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39) [DO NOT CHANGE]
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82) [DO NOT CHANGE]
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor [DO NOT CHANGE]
-    ["Box_NATO_AmmoVeh_F",0,20,0],                                      // Vehicle Ammo [NATO]
+    ["Box_XDF_AmmoVeh_F",0,20,0],                                       // Vehicle Ammo [NATO]
     ["FlexibleTank_01_forest_F",0,0,20],                                // Flexible Fuel Tank (Forest)
     ["XDF_Marauder_Fuel",0,0,50],
     ["XDF_Marauder_Repair",50,0,0],
