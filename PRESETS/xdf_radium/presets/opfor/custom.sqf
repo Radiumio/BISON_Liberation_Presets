@@ -57,8 +57,6 @@ militia_squad = [
     "O_PXLA_Grunt",
     "O_PXLA_Grunt",
     "O_PXLA_Grunt",
-    "O_PXLA_Grunt",
-    "O_PXLA_Grunt",
     "O_PXLA_HeavyGunner",
     "O_PXLA_Machinegunner",
     "O_PXLA_Marksman",
@@ -68,9 +66,7 @@ militia_squad = [
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
-militia_vehicles = [
-    "PXLA_Jeep_LMG"
-];
+militia_vehicles = [];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
@@ -83,20 +79,18 @@ opfor_vehicles = [
 opfor_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
-    "PXLA_Offroad_HMG",
     "PXLA_Offroad_HMG"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Annihilator_01",
-    "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T46_Ghost_01",
+    "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_SPG",
     "PXLA_Dementer",
-    "PXLA_Dementer",
-    "PXLA_Offroad_HMG",
+    "PXLA_Zamak_MRL",
     "PXLA_Offroad_HMG",
     "PXLA_Offroad_AT"
 ];
@@ -104,8 +98,10 @@ opfor_battlegroup_vehicles = [
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Offroad_AT",
     "PXLA_Offroad_HMG",
+    "PXLA_Jeep_LMG",
     "PXLA_Jeep_LMG"
 ];
 
@@ -113,7 +109,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
-    "PXLA_Hornet"
+    "PXLA_Zamak_Transport_Covered",
+    "PXLA_Cyclone_Covered"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
