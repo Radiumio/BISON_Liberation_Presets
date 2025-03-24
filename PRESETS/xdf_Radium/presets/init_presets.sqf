@@ -135,6 +135,15 @@ GRLIB_ignore_colisions_when_building = [
     "PortableHelipadLight_01_blue_F",
     "PortableHelipadLight_01_green_F",
     "PortableHelipadLight_01_red_F",
+    "Land_HBarrier_3_lxWS", 
+    "Land_HBarrier_5_lxWS", 
+    "Land_HBarrierBig_lxWS", 
+    "Land_HBarrier_1_lxWS", 
+    "Land_HBarrierWall_corridor_lxWS", 
+    "Land_HBarrierWall_corner_lxWS", 
+    "Land_HBarrierWall6_lxWS", 
+    "Land_HBarrierWall4_lxWS", 
+    "Land_HBarrierTower_lxWS",
     "Land_BagFence_Round_F",
     "Land_BagFence_Short_F",
     "Land_BagFence_Long_F",
@@ -158,6 +167,12 @@ GRLIB_ignore_colisions_when_building = [
     "Land_CncShelter_F",
     "Land_CncWall1_F",
     "Land_CncWall4_F",
+    "CargoPlaftorm_01_green_F", 
+    "StorageBladder_01_fuel_sand_F", 
+    "Land_ShellCrater_01_F", 
+    "OPTRE_FC_PlaceableWeapon_Plasma_Crater_Green", 
+    "Land_ShellCrater_02_small_F",
+    "CargoPlaftorm_01_green_F",
     "Land_Rail_ConcreteRamp_F",
     "Land_TentDome_F",
     "Land_PartyTent_01_F",
@@ -368,8 +383,8 @@ KPLIB_b_infantry_classes                    = KPLIB_b_infantry_classes          
 */
 KPLIB_o_squadStd    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_heavygunner, opfor_medic, opfor_marksman, opfor_grenadier, opfor_rpg];
 KPLIB_o_squadInf    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_heavygunner, opfor_heavygunner, opfor_marksman, opfor_sharpshooter, opfor_sniper];
-KPLIB_o_squadTank   = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rpg, opfor_rpg, opfor_at, opfor_at, opfor_at];
-KPLIB_o_squadAir    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rpg, opfor_rpg, opfor_aa, opfor_aa, opfor_aa];
+KPLIB_o_squadTank   = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rifleman, opfor_rpg, opfor_at];
+KPLIB_o_squadAir    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rifleman, opfor_rpg, opfor_aa];
 
 /*
     Liberation specific collections
