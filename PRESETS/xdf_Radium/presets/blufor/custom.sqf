@@ -617,6 +617,7 @@ elite_vehicles = [
     "XDF_Hurricane",
     "XDF_Caiman",
     "XDF_Comanche",
+    "XDF_Comanche_Pylons",
     "XDF_Gemini",
     "XDF_Typhon_VLS",
     "XDF_Scoria",
