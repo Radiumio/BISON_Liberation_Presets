@@ -72,7 +72,8 @@ militia_vehicles = [];
 opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
-    "PXLA_Jeep_SPG"
+    "PXLA_Jeep_SPG",
+    "PXLA_Mk6_Mortar"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -90,6 +91,8 @@ opfor_battlegroup_vehicles = [
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_SPG",
     "PXLA_Dementer",
+    "PXLA_Dementer",
+    "PXLA_Zamak_MRL",
     "PXLA_Zamak_MRL",
     "PXLA_Offroad_HMG",
     "PXLA_Offroad_AT"
@@ -102,7 +105,9 @@ opfor_battlegroup_vehicles_low_intensity = [
     "PXLA_Offroad_AT",
     "PXLA_Offroad_HMG",
     "PXLA_Jeep_LMG",
-    "PXLA_Jeep_LMG"
+    "PXLA_Jeep_LMG",
+    "PXLA_Zamak_MRL",
+    "PXLA_Dementer"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
