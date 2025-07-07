@@ -95,7 +95,10 @@ opfor_battlegroup_vehicles = [
     "PXLA_Zamak_MRL",
     "PXLA_Zamak_MRL",
     "PXLA_Offroad_HMG",
-    "PXLA_Offroad_AT"
+    "PXLA_Offroad_AT",
+    "PXLA_Basilisk",
+    "PXLA_Kodiak",
+    "PXLA_Odin"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -107,7 +110,8 @@ opfor_battlegroup_vehicles_low_intensity = [
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_LMG",
     "PXLA_Zamak_MRL",
-    "PXLA_Dementer"
+    "PXLA_Dementer",
+    "PXLA_Basilisk"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
@@ -115,6 +119,7 @@ If something in this array can't hold all 8 soldiers then buggy behaviours may o
 opfor_troup_transports = [
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "PXLA_Zamak_Transport_Covered",
+    "PXLA_Merlin",
     "PXLA_Cyclone_Covered"
 ];
 
@@ -127,5 +132,6 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "O_OETXENO_Xeno_T26B_Revenant_01"
+    "O_OETXENO_Xeno_T26B_Revenant_01",
+    "PXLA_Vulture"
 ];
