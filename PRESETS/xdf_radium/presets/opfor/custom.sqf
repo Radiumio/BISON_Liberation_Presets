@@ -73,14 +73,16 @@ opfor_vehicles = [
     "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_SPG",
-    "PXLA_Mk6_Mortar"
+    "PXLA_Mk6_Mortar",
+    "PXLA_Zamak_MRL"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
-    "PXLA_Offroad_HMG"
+    "PXLA_Offroad_HMG",
+    "PXLA_Dementer"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
