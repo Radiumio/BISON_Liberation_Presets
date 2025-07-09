@@ -482,8 +482,8 @@ buildings = [
 support_vehicles = [
     [Arsenal_typename,0,0,0],                                           // You can use this to adjust the price of an arsenal box.
     [(Respawn_truck_typename select 0),0,0,0],                          // You can use this to adjust the price of a respawn truck.
-    [FOB_box_typename,100,100,0],                                       // You can use this to adjust the price of a FOB Container.
-    [FOB_truck_typename,300,100,150],                                   // You can use this to adjust the price of a FOB Truck.
+    [FOB_box_typename,0,0,0],                                       // You can use this to adjust the price of a FOB Container.
+    [FOB_truck_typename,0,0,0],                                   // You can use this to adjust the price of a FOB Truck.
     [KP_liberation_small_storage_building,0,0,0],                       // You can use this to adjust the price of a small storage area. Generally free.
     [KP_liberation_large_storage_building,0,0,0],                       // You can use this to adjust the price of a large storage area. Generally free.
     [KP_liberation_recycle_building,0,0,0],                             // You can use this to adjust the price of a recycling/maintenance building. 
