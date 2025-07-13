@@ -148,8 +148,12 @@ heavy_vehicles = [
     ["XDF_Basilisk",150,125,100],
     ["XDF_Basilisk_LIC",175,150,100],
     ["XDF_Kodiak",250,200,125],
-    ["XDF_Minotaur",275,300,150],
+    ["XDF_Minotaur",250,250,150],
     ["XDF_Minotaur_CTWS",275,300,150],
+    ["qav_abramsx_XDF",300,350,200],
+    ["qav_abramsx_templar_XDF",300,350,200],
+    ["qav_abramsx_tusk_XDF",350,400,200],
+    ["qav_abramsx_zeus_XDF",500,500,250],
     ["XDF_Titan",500,500,250],
     ["XDF_Hurricane",300,800,100],
     ["XDF_Scoria",350,750,100]
@@ -621,8 +625,10 @@ elite_vehicles = [
     "XDF_Gemini",
     "XDF_Typhon_VLS",
     "XDF_Scoria",
-    "XDF_Minotaur",
     "XDF_Minotaur_CTWS",
+    "qav_abramsx_templar_XDF",
+    "qav_abramsx_tusk_XDF",
+    "qav_abramsx_zeus_XDF",
     "XDF_Python",
     "XDF_TwinMortar"
 ];

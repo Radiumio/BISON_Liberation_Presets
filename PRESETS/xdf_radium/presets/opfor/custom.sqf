@@ -87,6 +87,8 @@ opfor_vehicles_low_intensity = [
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Annihilator_01",
+    "O_OETXENO_Xeno_T26_Annihilator_01",
+    "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T46_Ghost_01",
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Jeep_LMG",
@@ -99,11 +101,13 @@ opfor_battlegroup_vehicles = [
     "PXLA_Basilisk",
     "PXLA_Kodiak",
     "PXLA_Odin",
+    "PXLA_Odin",
     "PXLA_Odin"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
+    "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Offroad_AT",
@@ -111,6 +115,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_LMG",
     "PXLA_Dementer",
+    "PXLA_Basilisk",
     "PXLA_Basilisk"
 ];
 
@@ -128,11 +133,13 @@ opfor_troup_transports = [
 opfor_choppers = [
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "PXLA_Hornet_Armed",
+    "PXLA_Comanche",
     "PXLA_Comanche"
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "O_OETXENO_Xeno_T26B_Revenant_01",
+    "PXLA_Vulture",
     "PXLA_Vulture"
 ];
