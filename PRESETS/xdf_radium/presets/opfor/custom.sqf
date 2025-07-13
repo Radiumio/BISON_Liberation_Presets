@@ -10,7 +10,7 @@
 opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
 opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
 opfor_team_leader = "O_PXLA_Defector";                      
-opfor_sentry = "O_PXLA_Grunt";                                 
+opfor_sentry = "WBK_HaloHunter_1_IF";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
 opfor_rpg = "O_ETXENO_Xeno_Slammer_01";                                       
 opfor_grenadier = "O_ETXENO_Xeno_Grenadier_01";                                
@@ -62,6 +62,11 @@ militia_squad = [
     "O_PXLA_Marksman",
     "O_PXLA_Rifleman",
     "O_PXLA_Rifleman",
+    "WBK_HaloHunter_2_IF",
+    "MAR_Skitterer_2",
+    "MAR_Stalker_1",
+    "MAR_Stalker_2",
+    "MAR_Skitterer_1",
     "O_PXLA_Medic"
 ];
 
