@@ -44,29 +44,24 @@ Therefore, adding the same value twice or three times means they are more likely
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
     "O_ETXENO_Xeno_Soldier_01",
+    "O_ETXENO_Xeno_Soldier_01",
+    "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Healer_01",
-    "O_ETXENO_Xeno_Soldier_01",
-    "O_ETXENO_Xeno_Soldier_01",
-    "O_ETXENO_Xeno_Soldier_01",
     "O_OETXENO_Xeno_Bulwark_01",
-    "O_ETXENO_Xeno_Soldier_01",
     "O_PXLA_Defector",
     "O_PXLA_Defector",
     "O_PXLA_Grenadier",
-    "O_PXLA_Grenadier",
-    "O_PXLA_Grunt",
     "O_PXLA_Grunt",
     "O_PXLA_Grunt",
     "O_PXLA_HeavyGunner",
     "O_PXLA_Machinegunner",
     "O_PXLA_Marksman",
     "O_PXLA_Rifleman",
-    "O_PXLA_Rifleman",
     "WBK_HaloHunter_2_IF",
+    "MAR_Skitterer_1",
     "MAR_Skitterer_2",
     "MAR_Stalker_1",
     "MAR_Stalker_2",
-    "MAR_Skitterer_1",
     "O_PXLA_Medic"
 ];
 
