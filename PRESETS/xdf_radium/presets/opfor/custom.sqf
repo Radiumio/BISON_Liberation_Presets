@@ -28,7 +28,7 @@ opfor_paratrooper = "O_PXLA_Rifleman";
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "O_OETXENO_Xeno_T46_Ghost_01";                                             
 opfor_mrap_armed = "O_OETXENO_Xeno_T46_Ghost_01";                                   
-opfor_transport_helo = "O_OETXENO_Xeno_T25_Shade_Dropship_01";                   
+opfor_transport_helo = "PXLA_Merlin";                   
 opfor_transport_truck = "B_Truck_01_transport_F";                         
 opfor_ammobox_transport = "B_Truck_01_transport_F";                     
 opfor_fuel_truck = "B_Truck_01_fuel_F";                                                  
@@ -78,7 +78,6 @@ opfor_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "O_OETXENO_Xeno_T46_Ghost_01",
     "PXLA_Jeep_LMG",
     "PXLA_Offroad_HMG",
     "PXLA_Dementer"
@@ -88,19 +87,16 @@ opfor_vehicles_low_intensity = [
 opfor_battlegroup_vehicles = [
     "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T26_Annihilator_01",
-    "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T46_Ghost_01",
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Jeep_LMG",
     "PXLA_Jeep_SPG",
-    "PXLA_Dementer",
     "PXLA_Dementer",
     "PXLA_Zamak_MRL",
     "PXLA_Offroad_HMG",
     "PXLA_Offroad_AT",
     "PXLA_Basilisk",
     "PXLA_Kodiak",
-    "PXLA_Odin",
     "PXLA_Odin",
     "PXLA_Odin"
 ];
@@ -113,7 +109,6 @@ opfor_battlegroup_vehicles_low_intensity = [
     "PXLA_Offroad_AT",
     "PXLA_Offroad_HMG",
     "PXLA_Jeep_LMG",
-    "PXLA_Jeep_LMG",
     "PXLA_Dementer",
     "PXLA_Basilisk",
     "PXLA_Basilisk"
@@ -125,7 +120,6 @@ opfor_troup_transports = [
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "PXLA_Zamak_Transport_Covered",
     "PXLA_Merlin",
-    "PXLA_Merlin",
     "PXLA_Cyclone_Covered"
 ];
 
@@ -133,7 +127,6 @@ opfor_troup_transports = [
 opfor_choppers = [
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "PXLA_Hornet_Armed",
-    "PXLA_Comanche",
     "PXLA_Comanche"
 ];
 
