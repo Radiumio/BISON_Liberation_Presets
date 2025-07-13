@@ -104,11 +104,14 @@ opfor_battlegroup_vehicles = [
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "O_OETXENO_Xeno_T46_Ghost_Ultra_01",
+    "O_OETXENO_Xeno_T26_Annihilator_01",
     "O_OETXENO_Xeno_T46_Ghost_Needler_01",
     "PXLA_Offroad_AT",
     "PXLA_Offroad_HMG",
     "PXLA_Jeep_LMG",
+    "PXLA_Zamak_MRL",
     "PXLA_Dementer",
+    "PXLA_Odin",
     "PXLA_Basilisk",
     "PXLA_Basilisk"
 ];
