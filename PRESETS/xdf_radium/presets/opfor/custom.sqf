@@ -8,7 +8,7 @@
 
 // Enemy infantry classes
 opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
-opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
+opfor_squad_leader = "MAR_Skitterer_1";                           
 opfor_team_leader = "O_PXLA_Defector";                      
 opfor_sentry = "WBK_HaloHunter_1_IF";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
@@ -22,7 +22,7 @@ opfor_sniper = "O_PXLA_Infiltrator";
 opfor_at = "O_PXLA_AT_Grunt";                                   
 opfor_aa = "O_PXLA_AA_Grunt";                                           
 opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
-opfor_engineer = "O_PXLA_Machinegunner";                                      
+opfor_engineer = "MAR_Stalker_1";                                      
 opfor_paratrooper = "O_PXLA_Rifleman";
 
 // Enemy vehicles used by secondary objectives.
