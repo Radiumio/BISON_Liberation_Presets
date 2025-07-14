@@ -29,7 +29,6 @@ opfor_skitterer = "MAR_Skitterer_1"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESET
 opfor_skitterer2 = "MAR_Skitterer_2"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
 opfor_hunter1 = "WBK_HaloHunter_1_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
 opfor_hunter2 = "WBK_HaloHunter_2_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
-opfor_hunter3 = "WBK_HaloHunter_3_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
 opfor_smasher = "WBK_SpecialZombie_Smasher_3"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
 opfor_paratrooper = "O_PXLA_Rifleman";
 
