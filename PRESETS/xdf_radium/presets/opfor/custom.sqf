@@ -8,9 +8,9 @@
 
 // Enemy infantry classes
 opfor_officer = "O_ETXENO_Xeno_Commander_01";                                
-opfor_squad_leader = "MAR_Skitterer_1";                           
+opfor_squad_leader = "O_ETXENO_Xeno_Soldier_01";                           
 opfor_team_leader = "O_PXLA_Defector";                      
-opfor_sentry = "WBK_HaloHunter_1_IF";                                 
+opfor_sentry = "O_PXLA_HeavyGunner";                                 
 opfor_rifleman = "O_ETXENO_Xeno_Soldier_01";                                 
 opfor_rpg = "O_ETXENO_Xeno_Slammer_01";                                       
 opfor_grenadier = "O_ETXENO_Xeno_Grenadier_01";                                
@@ -22,7 +22,15 @@ opfor_sniper = "O_PXLA_Infiltrator";
 opfor_at = "O_PXLA_AT_Grunt";                                   
 opfor_aa = "O_PXLA_AA_Grunt";                                           
 opfor_medic = "O_OETXENO_Xeno_Healer_01";                                         
-opfor_engineer = "MAR_Stalker_1";                                      
+opfor_engineer = "O_PXLA_Grenadier";
+opfor_stalker = "MAR_Stalker_1"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_stalker2 = "MAR_Stalker_2"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_skitterer = "MAR_Skitterer_1"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_skitterer2 = "MAR_Skitterer_2"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_hunter1 = "WBK_HaloHunter_1_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_hunter2 = "WBK_HaloHunter_2_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_hunter3 = "WBK_HaloHunter_3_IF"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
+opfor_smasher = "WBK_SpecialZombie_Smasher_3"; // CUSTOM FIELD NEEDS ADDING IN INIT PRESETS
 opfor_paratrooper = "O_PXLA_Rifleman";
 
 // Enemy vehicles used by secondary objectives.
@@ -57,11 +65,7 @@ militia_squad = [
     "O_PXLA_Machinegunner",
     "O_PXLA_Marksman",
     "O_PXLA_Rifleman",
-    "WBK_HaloHunter_2_IF",
     "MAR_Skitterer_1",
-    "MAR_Skitterer_2",
-    "MAR_Stalker_1",
-    "MAR_Stalker_2",
     "O_PXLA_Medic"
 ];
 
