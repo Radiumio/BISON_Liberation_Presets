@@ -453,7 +453,7 @@ KPLIB_o_allVeh_classes = KPLIB_o_allVeh_classes apply {toLower _x};
 KPLIB_o_allVeh_classes = KPLIB_o_allVeh_classes arrayIntersect KPLIB_o_allVeh_classes;
 
 // All regular opfor soldier classnames
-KPLIB_o_inf_classes = [opfor_sentry, opfor_rifleman, opfor_grenadier, opfor_squad_leader, opfor_team_leader, opfor_marksman, opfor_machinegunner, opfor_heavygunner, opfor_medic, opfor_rpg, opfor_at, opfor_aa, opfor_officer, opfor_sharpshooter, opfor_sniper,opfor_engineer,opfor_stalker,opfor_stalker2,opfor_skitterer,opfor_skitterer2,opfor_hunter1,opfor_hunter2,opfor_hunter3,opfor_smasher];
+KPLIB_o_inf_classes = [opfor_sentry, opfor_rifleman, opfor_grenadier, opfor_squad_leader, opfor_team_leader, opfor_marksman, opfor_machinegunner, opfor_heavygunner, opfor_medic, opfor_rpg, opfor_at, opfor_aa, opfor_officer, opfor_sharpshooter, opfor_sniper,opfor_engineer,opfor_stalker,opfor_stalker2,opfor_skitterer,opfor_skitterer2,opfor_hunter1,opfor_hunter2,opfor_smasher];
 KPLIB_o_inf_classes = KPLIB_o_inf_classes apply {toLower _x};
 
 /*
