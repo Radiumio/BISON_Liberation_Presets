@@ -123,9 +123,10 @@ opfor_battlegroup_vehicles_low_intensity = [
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
+    "PXLA_Merlin",
+    "PXLA_Merlin",
     "O_OETXENO_Xeno_T25_Shade_Dropship_01",
     "PXLA_Zamak_Transport_Covered",
-    "PXLA_Merlin",
     "PXLA_Cyclone_Covered"
 ];
 
